@@ -1,0 +1,2 @@
+# RecommenderSystem
+This project has been built as a part of Microsoft Intern Engage '22 mentorship program. Starting from scratch, I shall be studying different algorithms and techniques used in a movie recommender system by companies such as Netflix and Prime Video. I aim to implement the most optimized version of my recommender system via a web app. Each improvement shall be added as a new commit to this repo so as to facilitate easier tracking of the progress of this project.
