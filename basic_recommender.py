@@ -12,4 +12,4 @@ def best_average_rating(movies_cleaned_df):
     movies_sorted_ranking = movies_cleaned_df.sort_values(
         "weighted_average", ascending=False
     )
-    return movies_sorted_ranking[["original_title", "weighted_average"]].head(20)
+    return movies_sorted_ranking[["original_title", "weighted_average","link"]].head(20)

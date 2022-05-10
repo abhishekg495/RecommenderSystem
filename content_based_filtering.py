@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import sigmoid_kernel
 
 
-def give_rec(title, movies_cleaned_df):
+def get_similar_movies(title, movies_cleaned_df):
     tfv = TfidfVectorizer(
         min_df=3,
         max_features=None,
@@ -39,4 +39,4 @@ def give_rec(title, movies_cleaned_df):
     movie_indices = [i[0] for i in sig_scores]
 
     # Top 10 most similar movies
-    return movies_cleaned_df["original_title"].iloc[movie_indices]
+    return movies_cleaned_df[["original_title", "link"]].iloc[movie_indices]
