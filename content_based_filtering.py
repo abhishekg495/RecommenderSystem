@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import sigmoid_kernel
 
 
-def get_similar_movies(title, movies_cleaned_df):
+def content_based_filter(title, movies_cleaned_df):
     tfv = TfidfVectorizer(
         min_df=3,
         max_features=None,
