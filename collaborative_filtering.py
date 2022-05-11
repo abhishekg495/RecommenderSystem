@@ -4,57 +4,40 @@ from scipy.sparse import csr_matrix
 from sklearn.neighbors import NearestNeighbors
 
 
-class collaborative_filter:
+class item_item_collaborative_filter:
     def __init__(self):
-        self.movies_df = pd.read_csv(
-            "Datasets/movies.csv",
-            usecols=["movieId", "title"],
-            dtype={"movieId": "int32", "title": "str"},
-        )
-        self.ratings_df = pd.read_csv(
-            "Datasets/ratings.csv",
-            usecols=["userId", "movieId", "rating"],
-            dtype={"userId": "int32", "movieId": "int32", "rating": "float32"},
+        self.movies = pd.read_csv("Datasets/movies.csv")
+        self.ratings = pd.read_csv("Datasets/ratings.csv")
+
+        self.ratings = pd.merge(self.movies, self.ratings).drop(
+            ["genres", "timestamp"], axis=1
         )
 
-        ##COMBINING DATASETS
-        self.combine_movie_rating = pd.merge(
-            self.ratings_df, self.movies_df, on="movieId"
-        ).dropna(axis=0, subset=["title"])
-        self.movie_ratingCount = (
-            self.combine_movie_rating.groupby(by=["title"])["rating"]
-            .count()
-            .reset_index()
-            .rename(columns={"rating": "totalRatingCount"})[
-                ["title", "totalRatingCount"]
-            ]
+        self.user_ratings = self.ratings.pivot_table(
+            index=["title"], columns=["userId"], values="rating"
+        )
+        self.user_ratings = self.user_ratings.dropna(thresh=10, axis=1).fillna(
+            0, axis=1
         )
 
-        self.rating_with_totalRatingCount = self.combine_movie_rating.merge(
-            self.movie_ratingCount, left_on="title", right_on="title", how="left"
-        )
+        self.corr_matrix = self.user_ratings.T.corr(method="pearson")
 
-        self.popularity_threshold = 50
-        self.rating_popular_movie = self.rating_with_totalRatingCount.query(
-            "totalRatingCount >= @self.popularity_threshold"
-        )
-        self.movie_features_df = self.rating_popular_movie.pivot_table(
-            index="title", columns="userId", values="rating"
-        ).fillna(0)
-
-        self.movie_features_df_matrix = csr_matrix(self.movie_features_df.values)
+        self.user_ratings_matrix = csr_matrix(self.user_ratings.values)
         self.model_knn = NearestNeighbors(metric="cosine", algorithm="brute")
 
-    def fit_model(self):
-        self.model_knn.fit(self.movie_features_df_matrix)
+    def get_movies_list(self):
+        return self.user_ratings.index
 
-    def get_recommendation(self, query_index):
+    def fit_knn_model(self):
+        self.model_knn.fit(self.user_ratings_matrix)
+
+    def knn_recommendation(self, movie_name):
         distances, indices = self.model_knn.kneighbors(
-            self.movie_features_df.iloc[query_index, :].values.reshape(1, -1),
+            self.user_ratings.loc[movie_name, :].values.reshape(1, -1),
             n_neighbors=10,
         )
         recommendations = []
         for i in range(0, len(distances.flatten())):
-            recommendations.append(self.movie_features_df.index[indices.flatten()[i]])
+            recommendations.append(self.user_ratings.index[indices.flatten()[i]])
 
         return recommendations

@@ -3,15 +3,17 @@ import pandas as pd
 
 from content_based_filtering import content_based_filter
 from basic_recommender import best_average_rating
-from collaborative_filtering import collaborative_filter
+from collaborative_filtering import item_item_collaborative_filter
 from update_movies_links import update_movie_links
 
 credits = pd.read_csv("Datasets/tmdb_5000_credits.csv")
 credits.rename(columns={"movie_id": "id"}, inplace=True)
 
-if "collaborative_filter" not in st.session_state:
-    st.session_state["collaborative_filter"] = collaborative_filter()
-    st.session_state["collaborative_filter"].fit_model()
+if "item_item_collaborative_filter" not in st.session_state:
+    st.session_state[
+        "item_item_collaborative_filter"
+    ] = item_item_collaborative_filter()
+    st.session_state["item_item_collaborative_filter"].fit_knn_model()
 
 if "movies_summaries_merged" not in st.session_state:
     movies_summaries = pd.read_csv("Datasets/final_movies_data.csv")
@@ -41,19 +43,28 @@ st.write(
 ## Personalised Recommendations
 """
 )
-
-movie_name = st.selectbox("Select Movie", credits["title"])
-
 st.write(
     """
 ### Movies with a similar plot
 """
 )
-st.write(content_based_filter(movie_name, st.session_state["movies_summaries_merged"]))
+content_filter_movie_name = st.selectbox("Select Movie", credits["title"])
+st.write(
+    content_based_filter(
+        content_filter_movie_name, st.session_state["movies_summaries_merged"]
+    )
+)
 
 st.write(
     """
 ### Movies with similar ratings from users
 """
 )
-st.write(st.session_state["collaborative_filter"].get_recommendation(query_index=3))
+collab_filter_movie_name = st.selectbox(
+    "Select movie", st.session_state["item_item_collaborative_filter"].get_movies_list()
+)
+st.write(
+    st.session_state["item_item_collaborative_filter"].knn_recommendation(
+        collab_filter_movie_name
+    )
+)
