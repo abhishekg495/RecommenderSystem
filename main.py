@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 from content_based_filtering import content_based_filter
-from basic_recommender import best_average_rating
+from basic_recommender import basic_recommender
 from collaborative_filtering import (
     item_item_collaborative_filter,
     user_user_collaborative_filter,
@@ -12,6 +12,8 @@ from update_movies_links import update_movie_links
 credits = pd.read_csv("Datasets/tmdb_5000_credits.csv")
 credits.rename(columns={"movie_id": "id"}, inplace=True)
 
+if "basic_recommender" not in st.session_state:
+    st.session_state["basic_recommender"] = basic_recommender()
 if "user_user_collaborative_filter" not in st.session_state:
     st.session_state[
         "user_user_collaborative_filter"
@@ -46,11 +48,12 @@ st.write(
 ### What the world is watching
 """
 )
-st.write(
-    best_average_rating(st.session_state["movies_summaries_merged"]).set_index(
-        "original_title"
-    )
+genres = st.multiselect(
+    "Select your genres", st.session_state["basic_recommender"].get_genres()
 )
+st.write(st.session_state["basic_recommender"].recommend(genres))
+
+
 st.write(
     """
 ## Personalised Recommendations
