@@ -4,39 +4,57 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import sigmoid_kernel
 
 
-def content_based_filter(title, movies_cleaned_df):
-    tfv = TfidfVectorizer(
-        min_df=3,
-        max_features=None,
-        strip_accents="unicode",
-        analyzer="word",
-        token_pattern=r"\w{1,}",
-        ngram_range=(1, 3),
-        stop_words="english",
-    )
-    movies_cleaned_df["overview"] = movies_cleaned_df["overview"].fillna("")
+class content_based_filter:
+    def __init__(self):
+        self.credits = pd.read_csv("Datasets/tmdb_5000_credits.csv")
+        self.credits.rename(columns={"movie_id": "id"}, inplace=True)
+        self.movies_summaries = pd.read_csv("Datasets/tmdb_5000_movies.csv")
+        self.movies_summaries_merged = self.movies_summaries.merge(
+            self.credits, on="id"
+        )
 
-    tfv_matrix = tfv.fit_transform(movies_cleaned_df["overview"])
+        self.tfv = TfidfVectorizer(
+            min_df=3,
+            max_features=None,
+            strip_accents="unicode",
+            analyzer="word",
+            token_pattern=r"\w{1,}",
+            ngram_range=(1, 3),
+            stop_words="english",
+        )
+        self.movies_summaries_merged["overview"] = self.movies_summaries_merged[
+            "overview"
+        ].fillna("")
 
-    sig = sigmoid_kernel(tfv_matrix, tfv_matrix)
-    indices = pd.Series(
-        movies_cleaned_df.index, index=movies_cleaned_df["original_title"]
-    ).drop_duplicates()
+        self.tfv_matrix = self.tfv.fit_transform(
+            self.movies_summaries_merged["overview"]
+        )
 
-    # Get the index corresponding to original_title
-    idx = indices[title]
+        self.sig = sigmoid_kernel(self.tfv_matrix, self.tfv_matrix)
+        self.indices = pd.Series(
+            self.movies_summaries_merged.index,
+            index=self.movies_summaries_merged["original_title"],
+        ).drop_duplicates()
 
-    # Get the pairwsie similarity scores
-    sig_scores = list(enumerate(sig[idx]))
+    def get_movies_list(self):
+        return self.credits["title"]
 
-    # Sort the movies
-    sig_scores = sorted(sig_scores, key=lambda x: x[1], reverse=True)
+    def recommend(self, title):
 
-    # Scores of the 10 most similar movies
-    sig_scores = sig_scores[1:11]
+        # Get the index corresponding to original_title
+        self.idx = self.indices[title]
 
-    # Movie indices
-    movie_indices = [i[0] for i in sig_scores]
+        # Get the pairwsie similarity scores
+        self.sig_scores = list(enumerate(self.sig[self.idx]))
 
-    # Top 10 most similar movies
-    return movies_cleaned_df[["original_title", "link"]].iloc[movie_indices]
+        # Sort the movies
+        self.sig_scores = sorted(self.sig_scores, key=lambda x: x[1], reverse=True)
+
+        # Scores of the 10 most similar movies
+        self.sig_scores = self.sig_scores[1:11]
+
+        # Movie indices
+        self.movie_indices = [i[0] for i in self.sig_scores]
+
+        # Top 10 most similar movies
+        return self.movies_summaries_merged["original_title"].iloc[self.movie_indices]
