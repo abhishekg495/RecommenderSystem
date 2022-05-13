@@ -5,9 +5,9 @@ from sklearn.neighbors import NearestNeighbors
 
 
 class item_item_collaborative_filter:
-    def __init__(self):
-        self.movies = pd.read_csv("Datasets/movies.csv")
-        self.ratings = pd.read_csv("Datasets/ratings.csv")
+    def __init__(self, movies, ratings):
+        self.movies = movies
+        self.ratings = ratings
 
         self.ratings = pd.merge(self.movies, self.ratings).drop(
             ["genres", "timestamp"], axis=1
@@ -57,9 +57,9 @@ class item_item_collaborative_filter:
 
 
 class user_user_collaborative_filter:
-    def __init__(self):
-        self.movies = pd.read_csv("Datasets/movies.csv")
-        self.ratings = pd.read_csv("Datasets/ratings.csv")
+    def __init__(self, movies, ratings):
+        self.movies = movies
+        self.ratings = ratings
 
         self.ratings = pd.merge(self.movies, self.ratings).drop(
             ["genres", "timestamp"], axis=1

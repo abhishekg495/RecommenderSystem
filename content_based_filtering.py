@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import sigmoid_kernel
+import streamlit as st
 
 
 class content_based_filter:
@@ -35,6 +36,11 @@ class content_based_filter:
             self.movies_summaries_merged.index,
             index=self.movies_summaries_merged["original_title"],
         ).drop_duplicates()
+
+    def get_overview(self, movie_name):
+        return self.movies_summaries_merged.set_index("original_title").loc[movie_name][
+            "overview"
+        ]
 
     def get_movies_list(self):
         return self.credits["title"]

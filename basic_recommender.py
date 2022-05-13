@@ -3,9 +3,9 @@ import pandas as pd
 
 
 class basic_recommender:
-    def __init__(self):
-        self.ratings = pd.read_csv("Datasets/ratings.csv")
-        self.movies = pd.read_csv("Datasets/movies.csv")
+    def __init__(self, movies, ratings):
+        self.ratings = ratings
+        self.movies = movies
         self.movies["genres"] = self.movies["genres"].str.replace("|", " ")
         self.ratings = self.ratings.merge(self.movies)
         self.ratings.dropna(thresh=10, inplace=True, axis=1)
