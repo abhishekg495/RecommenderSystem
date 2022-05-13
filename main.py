@@ -29,18 +29,20 @@ def content_based_rec(movie_name):
 
 #################################################################################
 
+##################### List of algorithms ##################################
+recommenders = ["Weighted Averages", "Content-Based", "Collaborative"]
+collab_algorithms = ["User-User Collaborative", "Item-Item Collaborative"]
+###########################################################################
+
 # Initalizing datasets ##################################
 if "datasets" not in st.session_state:
     st.session_state["datasets"] = {
         "movies": pd.read_csv("Datasets/movies.csv"),
         "ratings": pd.read_csv("Datasets/ratings.csv"),
     }
+if "recommender_type" not in st.session_state:
+    st.session_state["recommender_type"] = recommenders[0]
 #########################################################
-
-##################### List of algorithms ##################################
-recommenders = ["Weighted Averages", "Content-Based", "Collaborative"]
-collab_algorithms = ["User-User Collaborative", "Item-Item Collaborative"]
-###########################################################################
 
 
 st.title("Looking for something to watch ?")
@@ -55,9 +57,12 @@ if recommender_type == recommenders[0]:
             st.session_state["datasets"]["movies"],
             st.session_state["datasets"]["ratings"],
         )
+
+    if st.session_state["recommender_type"] != recommender_type:
         st.session_state["genres_list"] = st.session_state[
             "basic_recommender"
         ].get_genres()
+        st.session_state["recommender_type"] = recommender_type
 
     genres = st.sidebar.multiselect(
         "Select your genres", st.session_state["genres_list"]
@@ -75,9 +80,12 @@ if recommender_type == recommenders[0]:
 elif recommender_type == recommenders[1]:
     if "content_based_recommender" not in st.session_state:
         st.session_state["content_based_recommender"] = content_based_filter()
+
+    if st.session_state["recommender_type"] != recommender_type:
         st.session_state["movies_list"] = st.session_state[
             "content_based_recommender"
         ].get_movies_list()
+        st.session_state["recommender_type"] = recommender_type
 
     st.write(
         """
@@ -120,9 +128,12 @@ elif recommender_type == recommenders[2]:
                     ["(500) Days of Summer (2009)", 5],
                 ]
             )
+
+        if st.session_state["recommender_type"] != collab_filter_type:
             st.session_state["movies_list"] = st.session_state[
                 "user_collaborative_recommender"
             ].get_movies_list()
+            st.session_state["recommender_type"] = collab_filter_type
 
         st.sidebar.write(
             """
@@ -154,9 +165,12 @@ elif recommender_type == recommenders[2]:
                 st.session_state["datasets"]["ratings"],
             )
             st.session_state["item_collaborative_recommender"].fit_knn_model()
+
+        if st.session_state["recommender_type"] != collab_filter_type:
             st.session_state["movies_list"] = st.session_state[
                 "item_collaborative_recommender"
             ].get_movies_list()
+            st.session_state["recommender_type"] = collab_filter_type
 
         collab_filter_movie = st.sidebar.selectbox(
             "Select movie",
