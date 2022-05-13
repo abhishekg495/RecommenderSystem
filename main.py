@@ -22,9 +22,12 @@ def get_movie_summary(movie_name):
     return st.session_state["content_based_recommender"].get_overview(movie_name)
 
 
-@st.cache
-def content_based_rec(movie_name):
+def content_based_rec(movie_name="User Movie"):
     return st.session_state["content_based_recommender"].recommend(movie_name)
+
+
+def update_content_model(custom_movie_summary):
+    st.session_state["content_based_recommender"].update_model(custom_movie_summary)
 
 
 #################################################################################
@@ -57,6 +60,9 @@ if recommender_type == recommenders[0]:
             st.session_state["datasets"]["movies"],
             st.session_state["datasets"]["ratings"],
         )
+        st.session_state["genres_list"] = st.session_state[
+            "basic_recommender"
+        ].get_genres()
 
     if st.session_state["recommender_type"] != recommender_type:
         st.session_state["genres_list"] = st.session_state[
@@ -80,12 +86,31 @@ if recommender_type == recommenders[0]:
 elif recommender_type == recommenders[1]:
     if "content_based_recommender" not in st.session_state:
         st.session_state["content_based_recommender"] = content_based_filter()
+        st.session_state["movies_list"] = st.session_state[
+            "content_based_recommender"
+        ].get_movies_list()
 
     if st.session_state["recommender_type"] != recommender_type:
         st.session_state["movies_list"] = st.session_state[
             "content_based_recommender"
         ].get_movies_list()
         st.session_state["recommender_type"] = recommender_type
+
+    # content_filter_movie_name = st.sidebar.selectbox(
+    #     "Select Movie", st.session_state["movies_list"]
+    # )
+    custom_movie_summary = st.sidebar.text_input(
+        "Enter some keywords from the movie plot"
+    )
+    # custom_content_recommend = st.button(
+    #     "Find movies with a similar plot",
+    #     on_click=st.session_state["content_based_recommender"].update_model,
+    #     args=(custom_movie_summary,),
+    # )
+
+    st.sidebar.write(
+        st.session_state["content_based_recommender"].update_model(custom_movie_summary)
+    )
 
     st.write(
         """
@@ -98,12 +123,8 @@ elif recommender_type == recommenders[1]:
         #### Movies with a similar plot
     """
     )
-    content_filter_movie_name = st.sidebar.selectbox(
-        "Select Movie", st.session_state["movies_list"]
-    )
 
-    st.sidebar.write(get_movie_summary(content_filter_movie_name))
-    st.write(content_based_rec(content_filter_movie_name))
+    st.write(st.session_state["content_based_recommender"].recommend())
 ##########################################################################
 
 
