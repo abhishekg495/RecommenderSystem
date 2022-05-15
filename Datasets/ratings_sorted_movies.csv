@@ -1,0 +1,2122 @@
+,movieId,title,genres,weighted average
+0,318,"Shawshank Redemption, The (1994)",Crime Drama,4.623325630675117
+1,356,Forrest Gump (1994),Comedy Drama Romance War,4.582066869300912
+2,296,Pulp Fiction (1994),Comedy Crime Drama Thriller,4.431360949674762
+3,2571,"Matrix, The (1999)",Action Sci-Fi Thriller,4.208685027661762
+4,593,"Silence of the Lambs, The (1991)",Crime Horror Thriller,4.200705951563879
+5,260,Star Wars: Episode IV - A New Hope (1977),Action Adventure Sci-Fi,4.022832681432325
+6,110,Braveheart (1995),Action Drama War,3.81673463891347
+7,2959,Fight Club (1999),Action Crime Drama Thriller,3.793002844315552
+8,527,Schindler's List (1993),Drama War,3.784232522796352
+9,1196,Star Wars: Episode V - The Empire Strikes Back (1980),Action Adventure Sci-Fi,3.711163370258863
+10,589,Terminator 2: Judgment Day (1991),Action Sci-Fi,3.68761873100304
+11,480,Jurassic Park (1993),Action Adventure Sci-Fi Thriller,3.683510638297872
+12,50,"Usual Suspects, The (1995)",Crime Mystery Thriller,3.6690245247034974
+13,1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),Action Adventure,3.623506838905775
+14,858,"Godfather, The (1972)",Crime Drama,3.603497815349544
+15,1,Toy Story (1995),Adventure Animation Children Comedy Fantasy,3.5942037181027784
+16,2858,American Beauty (1999),Drama Romance,3.5783382501936947
+17,1210,Star Wars: Episode VI - Return of the Jedi (1983),Action Adventure Sci-Fi,3.5582392531480678
+18,4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",Adventure Fantasy,3.5575895735470207
+19,47,Seven (a.k.a. Se7en) (1995),Mystery Thriller,3.530237920553401
+20,2028,Saving Private Ryan (1998),Action Drama War,3.501709726443769
+21,7153,"Lord of the Rings: The Return of the King, The (2003)",Action Adventure Drama Fantasy,3.4652345354473013
+22,150,Apollo 13 (1995),Adventure Drama IMAX,3.450241195239608
+23,457,"Fugitive, The (1993)",Thriller,3.4398216285394336
+24,5952,"Lord of the Rings: The Two Towers, The (2002)",Adventure Fantasy,3.439209726443769
+25,608,Fargo (1996),Comedy Crime Drama Thriller,3.4333909889334837
+26,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),Mystery Sci-Fi Thriller,3.3365102261604243
+27,1270,Back to the Future (1985),Adventure Comedy Sci-Fi,3.3183979452176544
+28,2762,"Sixth Sense, The (1999)",Drama Horror Mystery,3.307109745122345
+29,588,Aladdin (1992),Adventure Animation Children Comedy Musical,3.2867523709867625
+30,364,"Lion King, The (1994)",Adventure Animation Children Drama Musical IMAX,3.277921114017106
+31,4226,Memento (2000),Mystery Thriller,3.2695274416470723
+32,3578,Gladiator (2000),Action Adventure Drama,3.2609109601287325
+33,780,Independence Day (a.k.a. ID4) (1996),Action Adventure Sci-Fi Thriller,3.257726684522556
+34,58559,"Dark Knight, The (2008)",Action Crime Drama IMAX,3.251346361763326
+35,4306,Shrek (2001),Adventure Animation Children Comedy Fantasy Romance,3.2256168424816734
+36,1197,"Princess Bride, The (1987)",Action Adventure Comedy Fantasy Romance,3.195224538721692
+37,590,Dances with Wolves (1990),Adventure Drama Western,3.163883534732004
+38,592,Batman (1989),Action Crime Thriller,3.150455927051672
+39,79132,Inception (2010),Action Crime Drama Mystery Sci-Fi Thriller IMAX,3.1198429230344127
+40,1136,Monty Python and the Holy Grail (1975),Adventure Comedy Fantasy,3.114317003397104
+41,1193,One Flew Over the Cuckoo's Nest (1975),Drama,3.1121420572708365
+42,1704,Good Will Hunting (1997),Drama Romance,3.110435663627153
+43,1221,"Godfather: Part II, The (1974)",Crime Drama,3.1100881223345347
+44,380,True Lies (1994),Action Adventure Comedy Romance Thriller,3.1011790922441174
+45,1089,Reservoir Dogs (1992),Crime Mystery Thriller,3.0965857676512214
+46,1214,Alien (1979),Horror Sci-Fi,3.094011533497106
+47,2329,American History X (1998),Crime Drama,3.0887702928771708
+48,1291,Indiana Jones and the Last Crusade (1989),Action Adventure,3.0870440729483284
+49,1213,Goodfellas (1990),Crime Drama,3.0824468085106385
+50,7361,Eternal Sunshine of the Spotless Mind (2004),Drama Romance Sci-Fi,3.075593401239008
+51,377,Speed (1994),Action Romance Thriller,3.0640119803053736
+52,1265,Groundhog Day (1993),Comedy Fantasy Romance,3.058654111845601
+53,6377,Finding Nemo (2003),Adventure Animation Children Comedy,3.0519250253292807
+54,1036,Die Hard (1988),Action Crime Thriller,3.032858190965308
+55,6539,Pirates of the Caribbean: The Curse of the Black Pearl (2003),Action Adventure Comedy Fantasy,3.0214805899512456
+56,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action Crime Drama Thriller,3.020036794112942
+57,4973,"Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",Comedy Romance,3.003520770010132
+58,648,Mission: Impossible (1996),Action Adventure Mystery Thriller,2.999521558032196
+59,1580,Men in Black (a.k.a. MIB) (1997),Action Comedy Sci-Fi,2.9977387860366584
+60,595,Beauty and the Beast (1991),Animation Children Fantasy Musical Romance IMAX,2.994696465003956
+61,541,Blade Runner (1982),Action Sci-Fi Thriller,2.992652465928032
+62,6874,Kill Bill: Vol. 1 (2003),Action Crime Thriller,2.9763567600176337
+63,1240,"Terminator, The (1984)",Action Sci-Fi Thriller,2.9439140119260307
+64,1200,Aliens (1986),Action Adventure Horror Sci-Fi,2.939589665653496
+65,48516,"Departed, The (2006)",Crime Drama Thriller,2.9392381331136552
+66,4886,"Monsters, Inc. (2001)",Adventure Animation Children Comedy Fantasy,2.938645574283872
+67,4995,"Beautiful Mind, A (2001)",Drama Romance,2.934650455927052
+68,1208,Apocalypse Now (1979),Action Drama War,2.9228829929267395
+69,3147,"Green Mile, The (1999)",Crime Drama,2.9177893699170294
+70,1206,"Clockwork Orange, A (1971)",Crime Drama Sci-Fi Thriller,2.909770770010132
+71,912,Casablanca (1942),Drama Romance,2.879878419452888
+72,165,Die Hard: With a Vengeance (1995),Action Crime Thriller,2.872002701789936
+73,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy War,2.8711026854260018
+74,1258,"Shining, The (1980)",Horror,2.8695518808733724
+75,8961,"Incredibles, The (2004)",Action Adventure Animation Children Comedy,2.867848024316109
+76,3793,X-Men (2000),Action Adventure Sci-Fi,2.8602623580227164
+77,1682,"Truman Show, The (1998)",Comedy Drama Sci-Fi,2.855848024316109
+78,111,Taxi Driver (1976),Crime Drama Thriller,2.8431581716156185
+79,1073,Willy Wonka & the Chocolate Factory (1971),Children Comedy Fantasy Musical,2.8412301090649024
+80,5989,Catch Me If You Can (2002),Crime Drama,2.834729747588212
+81,4963,Ocean's Eleven (2001),Crime Thriller,2.826524226711961
+82,1222,Full Metal Jacket (1987),Drama War,2.8240955956850824
+83,60069,WALL·E (2008),Adventure Animation Children Romance Sci-Fi,2.819119710077157
+84,4878,Donnie Darko (2001),Drama Mystery Sci-Fi Thriller,2.819093165277042
+85,33794,Batman Begins (2005),Action Crime IMAX,2.8124934493239704
+86,1097,E.T. the Extra-Terrestrial (1982),Children Drama Sci-Fi,2.810248393043998
+87,68954,Up (2009),Adventure Animation Children Drama,2.8002532928064845
+88,2716,Ghostbusters (a.k.a. Ghost Busters) (1984),Action Comedy Sci-Fi,2.799354103343465
+89,34,Babe (1995),Children Drama,2.798816251899696
+90,778,Trainspotting (1996),Comedy Crime Drama,2.7946838309792
+91,500,Mrs. Doubtfire (1993),Comedy Drama,2.788669368456602
+92,367,"Mask, The (1994)",Action Comedy Crime Fantasy,2.7853658064391227
+93,4011,Snatch (2000),Comedy Crime Thriller,2.7846439193384973
+94,924,2001: A Space Odyssey (1968),Adventure Drama Sci-Fi,2.7755151836256657
+95,1721,Titanic (1997),Drama Romance,2.7709726443769
+96,7438,Kill Bill: Vol. 2 (2004),Action Drama Thriller,2.7699571704890853
+97,904,Rear Window (1954),Mystery Thriller,2.7692502532928067
+98,597,Pretty Woman (1990),Comedy Romance,2.768428458853991
+99,1617,L.A. Confidential (1997),Crime Film-Noir Mystery Thriller,2.768009901920847
+100,1732,"Big Lebowski, The (1998)",Comedy Crime,2.767735275563457
+101,5418,"Bourne Identity, The (2002)",Action Mystery Thriller,2.7595459726443767
+102,2502,Office Space (1999),Comedy Crime,2.759498480243161
+103,1527,"Fifth Element, The (1997)",Action Adventure Comedy Sci-Fi,2.754303794151556
+104,3996,"Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000)",Action Drama Romance,2.754048079579994
+105,316,Stargate (1994),Action Adventure Sci-Fi,2.7513297872340425
+106,10,GoldenEye (1995),Action Adventure Thriller,2.751145574283872
+107,6,Heat (1995),Action Crime Thriller,2.74811520352822
+108,1968,"Breakfast Club, The (1985)",Comedy Drama,2.748043144955214
+109,2918,Ferris Bueller's Day Off (1986),Comedy,2.747992247845849
+110,344,Ace Ventura: Pet Detective (1994),Comedy,2.7435905907228757
+111,2324,Life Is Beautiful (La Vita è bella) (1997),Comedy Drama Romance War,2.742556645482177
+112,733,"Rock, The (1996)",Action Adventure Thriller,2.7397008214222915
+113,5618,Spirited Away (Sen to Chihiro no kamikakushi) (2001),Adventure Animation Fantasy,2.738680431820564
+114,68157,Inglourious Basterds (2009),Action Drama War,2.736874827300359
+115,5445,Minority Report (2002),Action Crime Mystery Sci-Fi Thriller,2.730604103343465
+116,2997,Being John Malkovich (1999),Comedy Drama Fantasy,2.729552362531086
+117,223,Clerks (1994),Comedy,2.7181581716156185
+118,44191,V for Vendetta (2006),Action Sci-Fi Thriller IMAX,2.7023784194528875
+119,5349,Spider-Man (2002),Action Adventure Sci-Fi Thriller,2.6975434750112117
+120,1259,Stand by Me (1986),Adventure Drama,2.6942366144493803
+121,1387,Jaws (1975),Action Horror,2.6942366144493803
+122,4896,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Adventure Children Fantasy,2.6939110303099167
+123,3949,Requiem for a Dream (2000),Drama,2.690420782674772
+124,48780,"Prestige, The (2006)",Drama Mystery Sci-Fi Thriller,2.6866683552853767
+125,1225,Amadeus (1984),Drama,2.669612861942089
+126,3114,Toy Story 2 (1999),Adventure Animation Children Comedy Fantasy,2.6674944380033216
+127,8368,Harry Potter and the Prisoner of Azkaban (2004),Adventure Fantasy IMAX,2.6636761774030133
+128,1219,Psycho (1960),Crime Horror,2.648771377302523
+129,6016,City of God (Cidade de Deus) (2002),Action Adventure Crime Drama Thriller,2.643242147922999
+130,2115,Indiana Jones and the Temple of Doom (1984),Action Adventure Fantasy,2.640113137453563
+131,1080,Monty Python's Life of Brian (1979),Comedy,2.639774939380485
+132,919,"Wizard of Oz, The (1939)",Adventure Children Fantasy Musical,2.6393055372010044
+133,349,Clear and Present Danger (1994),Action Crime Drama Thriller,2.6381389886709035
+134,1923,There's Something About Mary (1998),Comedy Romance,2.63596757852077
+135,1246,Dead Poets Society (1989),Drama,2.633146603520181
+136,1961,Rain Man (1988),Drama,2.633129116008105
+137,1247,"Graduate, The (1967)",Comedy Drama Romance,2.6319495209880346
+138,1356,Star Trek: First Contact (1996),Action Adventure Sci-Fi Thriller,2.6310498012625674
+139,1653,Gattaca (1997),Drama Sci-Fi Thriller,2.630239626775995
+140,59315,Iron Man (2008),Action Adventure Sci-Fi,2.626519756838906
+141,1201,"Good, the Bad and the Ugly, The (Buono, il brutto, il cattivo, Il) (1966)",Action Adventure Western,2.620029128672745
+142,1610,"Hunt for Red October, The (1990)",Action Adventure Thriller,2.62000168861871
+143,4027,"O Brother, Where Art Thou? (2000)",Adventure Comedy Crime,2.6185410334346506
+144,2628,Star Wars: Episode I - The Phantom Menace (1999),Action Adventure Sci-Fi,2.617401215805472
+145,4022,Cast Away (2000),Drama,2.609878419452888
+146,161,Crimson Tide (1995),Drama Thriller War,2.600635937085018
+147,736,Twister (1996),Action Adventure Romance Thriller,2.5952195616181086
+148,587,Ghost (1990),Comedy Drama Fantasy Romance Thriller,2.591251486718647
+149,2791,Airplane! (1980),Comedy,2.589255144464242
+150,8874,Shaun of the Dead (2004),Comedy Horror,2.588353136225477
+151,49272,Casino Royale (2006),Action Adventure Thriller,2.5877237419790613
+152,2396,Shakespeare in Love (1998),Comedy Drama Romance,2.5876751024183955
+153,16,Casino (1995),Crime Drama,2.586514938097709
+154,6711,Lost in Translation (2003),Comedy Drama Romance,2.579201922287029
+155,1784,As Good as It Gets (1997),Comedy Drama Romance,2.578441616008105
+156,1307,When Harry Met Sally... (1989),Comedy Romance,2.5753084212408366
+157,91529,"Dark Knight Rises, The (2012)",Action Adventure Crime IMAX,2.574218125099984
+158,5816,Harry Potter and the Chamber of Secrets (2002),Adventure Fantasy,2.5740955956850824
+159,2692,Run Lola Run (Lola rennt) (1998),Action Crime,2.569908814589666
+160,1276,Cool Hand Luke (1967),Drama,2.5690956113688475
+161,32587,Sin City (2005),Action Crime Film-Noir Mystery Thriller,2.566869300911854
+162,3897,Almost Famous (2000),Drama,2.564434027904933
+163,253,Interview with the Vampire: The Vampire Chronicles (1994),Drama Horror,2.557625275368785
+164,1252,Chinatown (1974),Crime Film-Noir Mystery Thriller,2.554260470867034
+165,2,Jumanji (1995),Adventure Children Fantasy,2.551775352307267
+166,2797,Big (1988),Comedy Drama Fantasy Romance,2.551379471592237
+167,109487,Interstellar (2014),Sci-Fi IMAX,2.5512865886663616
+168,923,Citizen Kane (1941),Drama Mystery,2.5460552398572758
+169,1220,"Blues Brothers, The (1980)",Action Comedy Musical,2.5430597771023304
+170,357,Four Weddings and a Funeral (1994),Comedy Romance,2.542383509900552
+171,539,Sleepless in Seattle (1993),Comedy Drama Romance,2.5413201812238344
+172,231,Dumb & Dumber (Dumb and Dumber) (1994),Adventure Comedy,2.5407134858422653
+173,72998,Avatar (2009),Action Adventure Sci-Fi IMAX,2.5386284586218784
+174,1199,Brazil (1985),Fantasy Sci-Fi,2.537311318324661
+175,2542,"Lock, Stock & Two Smoking Barrels (1998)",Comedy Crime Thriller,2.535237944018509
+176,454,"Firm, The (1993)",Drama Thriller,2.534803936320684
+177,1517,Austin Powers: International Man of Mystery (1997),Action Adventure Comedy,2.527378419452888
+178,46578,Little Miss Sunshine (2006),Adventure Comedy Drama,2.526664824537165
+179,908,North by Northwest (1959),Action Adventure Mystery Romance Thriller,2.5252359622460405
+180,2987,Who Framed Roger Rabbit? (1988),Adventure Animation Children Comedy Crime Fantasy Mystery,2.523164541096105
+181,48394,"Pan's Labyrinth (Laberinto del fauno, El) (2006)",Drama Fantasy Thriller,2.5229089271642464
+182,1278,Young Frankenstein (1974),Comedy Fantasy,2.5206929210166957
+183,74458,Shutter Island (2010),Drama Mystery Thriller,2.5203125708841814
+184,2683,Austin Powers: The Spy Who Shagged Me (1999),Action Adventure Comedy,2.518626441257002
+185,329,Star Trek: Generations (1994),Adventure Drama Sci-Fi,2.517427952268378
+186,99114,Django Unchained (2012),Action Drama Western,2.511344663727044
+187,1288,This Is Spinal Tap (1984),Comedy,2.509095514414664
+188,2700,"South Park: Bigger, Longer and Uncut (1999)",Animation Comedy Musical,2.5084286514157736
+189,1203,12 Angry Men (1957),Drama,2.5076921025969177
+190,8636,Spider-Man 2 (2004),Action Adventure Sci-Fi IMAX,2.5022026855449964
+191,1207,To Kill a Mockingbird (1962),Drama,2.5010743108688818
+192,1079,"Fish Called Wanda, A (1988)",Comedy Crime,2.500781283445353
+193,153,Batman Forever (1995),Action Adventure Comedy Crime,2.499062631730748
+194,2916,Total Recall (1990),Action Adventure Sci-Fi Thriller,2.4953975545730867
+195,1204,Lawrence of Arabia (1962),Adventure Drama War,2.4919452887537994
+196,5218,Ice Age (2002),Adventure Animation Children Comedy,2.490014303593778
+197,8360,Shrek 2 (2004),Adventure Animation Children Comedy Musical Romance,2.4871316241575263
+198,551,"Nightmare Before Christmas, The (1993)",Animation Children Fantasy Musical,2.483568650521293
+199,1028,Mary Poppins (1964),Children Comedy Fantasy Musical,2.4831756496425363
+200,4034,Traffic (2000),Crime Drama Thriller,2.481914893617021
+201,50872,Ratatouille (2007),Animation Children Drama,2.4811402397838567
+202,292,Outbreak (1995),Action Drama Sci-Fi Thriller,2.4803484907761293
+203,339,While You Were Sleeping (1995),Comedy Romance,2.47937472861485
+204,4262,Scarface (1983),Action Crime Drama,2.475536451481196
+205,1234,"Sting, The (1973)",Comedy Crime,2.474603438449848
+206,112852,Guardians of the Galaxy (2014),Action Adventure Sci-Fi,2.473751996290763
+207,78499,Toy Story 3 (2010),Adventure Animation Children Comedy Fantasy IMAX,2.472478585244543
+208,2706,American Pie (1999),Comedy Romance,2.4719951603859887
+209,104,Happy Gilmore (1996),Comedy,2.471976604955328
+210,1090,Platoon (1986),Drama War,2.470786896318811
+211,903,Vertigo (1958),Drama Mystery Romance Thriller,2.468427051671733
+212,337,What's Eating Gilbert Grape (1993),Drama,2.4682232660956065
+213,54286,"Bourne Ultimatum, The (2007)",Action Crime Thriller,2.4642669518556044
+214,51255,Hot Fuzz (2007),Action Comedy Crime Mystery,2.4635258358662613
+215,8665,"Bourne Supremacy, The (2004)",Action Crime Thriller,2.463242147922999
+216,2194,"Untouchables, The (1987)",Action Crime Drama,2.463151741875146
+217,81845,"King's Speech, The (2010)",Drama,2.462281207420606
+218,62,Mr. Holland's Opus (1995),Drama,2.46102773556231
+219,89745,"Avengers, The (2012)",Action Adventure Sci-Fi IMAX,2.4590987181181445
+220,48774,Children of Men (2006),Action Adventure Drama Sci-Fi Thriller,2.458978438449848
+221,2019,Seven Samurai (Shichinin no samurai) (1954),Action Adventure Drama,2.458491641337386
+222,953,It's a Wonderful Life (1946),Children Drama Fantasy Romance,2.45797086259302
+223,2291,Edward Scissorhands (1990),Drama Fantasy Romance,2.45790273556231
+224,2355,"Bug's Life, A (1998)",Adventure Animation Children Comedy,2.4572403198097
+225,1035,"Sound of Music, The (1965)",Musical Romance,2.455072188449848
+226,1584,Contact (1997),Drama Sci-Fi,2.44931981614649
+227,51662,300 (2007),Action Fantasy War IMAX,2.44852773556231
+228,40815,Harry Potter and the Goblet of Fire (2005),Adventure Fantasy Thriller IMAX,2.4479643820369024
+229,63082,Slumdog Millionaire (2008),Crime Drama Romance,2.444443255276339
+230,1148,Wallace & Gromit: The Wrong Trousers (1993),Animation Children Comedy Crime,2.44338905775076
+231,1393,Jerry Maguire (1996),Drama Romance,2.4429554800643665
+232,1304,Butch Cassidy and the Sundance Kid (1969),Action Western,2.4428988136091774
+233,7147,Big Fish (2003),Drama Fantasy Romance,2.440982776089159
+234,6333,X2: X-Men United (2003),Action Adventure Sci-Fi Thriller,2.4393497040473524
+235,3671,Blazing Saddles (1974),Comedy Western,2.4388665555446614
+236,3275,"Boondock Saints, The (2000)",Action Crime Drama Thriller,2.437212836643812
+237,39,Clueless (1995),Comedy Romance,2.4369081716156185
+238,1394,Raising Arizona (1987),Comedy,2.4364191384550886
+239,1625,"Game, The (1997)",Drama Mystery Thriller,2.435755733628074
+240,55820,No Country for Old Men (2007),Crime Drama,2.435540938449848
+241,6502,28 Days Later (2002),Action Horror Sci-Fi,2.427798448799916
+242,2174,Beetlejuice (1988),Comedy Fantasy,2.427753097965864
+243,36,Dead Man Walking (1995),Crime Drama,2.427028988794629
+244,21,Get Shorty (1995),Comedy Crime Thriller,2.4234828045490246
+245,3052,Dogma (1999),Adventure Comedy Fantasy,2.4230887614943635
+246,7143,"Last Samurai, The (2003)",Action Adventure Drama War,2.422737523286597
+247,913,"Maltese Falcon, The (1941)",Film-Noir Mystery,2.4195737772865438
+248,2011,Back to the Future Part II (1989),Adventure Comedy Sci-Fi,2.413967788142403
+249,1233,"Boot, Das (Boat, The) (1981)",Action Drama War,2.410201367781155
+250,1215,Army of Darkness (1993),Action Adventure Comedy Fantasy Horror,2.4071458370582275
+251,2000,Lethal Weapon (1987),Action Comedy Crime Drama,2.406575481256332
+252,6365,"Matrix Reloaded, The (2003)",Action Adventure Sci-Fi Thriller IMAX,2.406566616008105
+253,2804,"Christmas Story, A (1983)",Children Comedy,2.4042967670627244
+254,5995,"Pianist, The (2002)",Drama War,2.4038918990352847
+255,3481,High Fidelity (2000),Comedy Drama Romance,2.403242147922999
+256,1250,"Bridge on the River Kwai, The (1957)",Adventure Drama War,2.4030563998649104
+257,553,Tombstone (1993),Action Drama Western,2.4016132803366848
+258,141,"Birdcage, The (1996)",Comedy,2.400588463985297
+259,1954,Rocky (1976),Drama,2.400384688449848
+260,3948,Meet the Parents (2000),Comedy,2.4002805704933365
+261,1228,Raging Bull (1980),Drama,2.397701367781155
+262,1266,Unforgiven (1992),Drama Western,2.397500844309355
+263,17,Sense and Sensibility (1995),Drama Romance,2.397178242525972
+264,1242,Glory (1989),Drama War,2.3969160056342207
+265,899,Singin' in the Rain (1952),Comedy Musical Romance,2.3943768996960486
+266,555,True Romance (1993),Crime Thriller,2.3939209726443766
+267,594,Snow White and the Seven Dwarfs (1937),Animation Children Drama Fantasy Musical,2.393547941420282
+268,69122,"Hangover, The (2009)",Comedy Crime,2.393297072468405
+269,57669,In Bruges (2008),Comedy Crime Drama Thriller,2.3908184446586107
+270,1262,"Great Escape, The (1963)",Action Adventure Drama War,2.390701208736835
+271,25,Leaving Las Vegas (1995),Drama Romance,2.3900075987841944
+272,116797,The Imitation Game (2014),Drama Thriller War,2.389939209726444
+273,1104,"Streetcar Named Desire, A (1951)",Drama,2.389475683890577
+274,910,Some Like It Hot (1959),Comedy Crime,2.3849392097264435
+275,69844,Harry Potter and the Half-Blood Prince (2009),Adventure Fantasy Mystery Romance IMAX,2.384695000524054
+276,70286,District 9 (2009),Mystery Sci-Fi Thriller,2.382382511105915
+277,68358,Star Trek (2009),Action Adventure Sci-Fi IMAX,2.380531657307712
+278,586,Home Alone (1990),Children Comedy,2.379303794151556
+279,1041,Secrets & Lies (1996),Drama,2.379041171594363
+280,56367,Juno (2007),Comedy Drama Romance,2.3785363572597613
+281,474,In the Line of Fire (1993),Action Thriller,2.378343465045593
+282,80463,"Social Network, The (2010)",Drama,2.376113155228497
+283,1230,Annie Hall (1977),Comedy Romance,2.3760743108688818
+284,898,"Philadelphia Story, The (1940)",Comedy Drama Romance,2.375537155434441
+285,300,Quiz Show (1994),Drama,2.374760779016098
+286,76093,How to Train Your Dragon (2010),Adventure Animation Children Fantasy IMAX,2.3744336755175777
+287,922,Sunset Blvd. (a.k.a. Sunset Boulevard) (1950),Drama Film-Noir Romance,2.371833839918946
+288,54001,Harry Potter and the Order of the Phoenix (2007),Adventure Drama Fantasy IMAX,2.3717639660412955
+289,235,Ed Wood (1994),Comedy Drama,2.3712006079027352
+290,185,"Net, The (1995)",Action Crime Thriller,2.37115311550152
+291,106782,"Wolf of Wall Street, The (2013)",Comedy Crime Drama,2.3686676798378925
+292,3751,Chicken Run (2000),Animation Children Comedy,2.3683461928142777
+293,11,"American President, The (1995)",Comedy Drama Romance,2.367629179331307
+294,73017,Sherlock Holmes (2009),Action Crime Mystery Thriller,2.367453621213709
+295,246,Hoop Dreams (1994),Documentary,2.3669164657792683
+296,134130,The Martian (2015),Adventure Drama Sci-Fi,2.364741641337386
+297,1178,Paths of Glory (1957),Drama War,2.36201874366768
+298,3175,Galaxy Quest (1999),Adventure Comedy Sci-Fi,2.359908814589666
+299,4979,"Royal Tenenbaums, The (2001)",Comedy Drama,2.358629089933846
+300,3451,Guess Who's Coming to Dinner (1967),Drama,2.35631389886709
+301,1374,Star Trek II: The Wrath of Khan (1982),Action Adventure Sci-Fi Thriller,2.3541891361898224
+302,2012,Back to the Future Part III (1990),Adventure Comedy Sci-Fi Western,2.353352100027632
+303,1267,"Manchurian Candidate, The (1962)",Crime Thriller War,2.3529635258358663
+304,81834,Harry Potter and the Deathly Hallows: Part 1 (2010),Action Adventure Fantasy IMAX,2.351823708206687
+305,440,Dave (1993),Comedy Romance,2.3505339145736683
+306,34405,Serenity (2005),Action Adventure Sci-Fi,2.349939209726444
+307,54503,Superbad (2007),Comedy,2.34975131251727
+308,3000,Princess Mononoke (Mononoke-hime) (1997),Action Adventure Animation Drama Fantasy,2.343908308004053
+309,3535,American Psycho (2000),Crime Horror Mystery Thriller,2.342396064087373
+310,6942,Love Actually (2003),Comedy Drama Romance,2.342396064087373
+311,1235,Harold and Maude (1971),Comedy Drama Romance,2.34179915828852
+312,31658,Howl's Moving Castle (Hauru no ugoku shiro) (2004),Adventure Animation Fantasy Romance,2.341451367781155
+313,71535,Zombieland (2009),Action Comedy Horror,2.341414807593049
+314,27773,Old Boy (2003),Mystery Thriller,2.341224378458421
+315,475,In the Name of the Father (1993),Drama,2.3399696048632217
+316,1172,Cinema Paradiso (Nuovo cinema Paradiso) (1989),Drama,2.3392410155551584
+317,35836,"40-Year-Old Virgin, The (2005)",Comedy Romance,2.3359586790437854
+318,92259,Intouchables (2011),Comedy Drama,2.3352090692516225
+319,88125,Harry Potter and the Deathly Hallows: Part 2 (2011),Action Adventure Drama Fantasy Mystery IMAX,2.334939209726444
+320,1673,Boogie Nights (1997),Drama,2.3348141220481646
+321,1884,Fear and Loathing in Las Vegas (1998),Adventure Comedy Drama,2.333239725122241
+322,1217,Ran (1985),Drama War,2.3306484295846
+323,208,Waterworld (1995),Action Adventure Sci-Fi,2.330381921501256
+324,168252,Logan (2017),Action Sci-Fi,2.329969604863222
+325,2160,Rosemary's Baby (1968),Drama Horror Thriller,2.329098594224924
+326,5669,Bowling for Columbine (2002),Documentary,2.3286605177654334
+327,2268,"Few Good Men, A (1992)",Crime Drama Thriller,2.327867541193409
+328,2529,Planet of the Apes (1968),Action Drama Sci-Fi,2.327317629179331
+329,122904,Deadpool (2016),Action Adventure Comedy Sci-Fi,2.327001013171226
+330,3471,Close Encounters of the Third Kind (1977),Adventure Drama Sci-Fi,2.3267603850050658
+331,3681,For a Few Dollars More (Per qualche dollaro in più) (1965),Action Drama Thriller Western,2.3265174541770284
+332,33166,Crash (2004),Crime Drama,2.324939209726444
+333,111759,Edge of Tomorrow (2014),Action Sci-Fi IMAX,2.322982868195634
+334,3703,"Road Warrior, The (Mad Max 2) (1981)",Action Adventure Sci-Fi Thriller,2.3227013677811548
+335,2947,Goldfinger (1964),Action Adventure Thriller,2.3225468830647475
+336,2076,Blue Velvet (1986),Drama Mystery Thriller,2.32237015990485
+337,5902,Adaptation (2002),Comedy Drama Romance,2.32237015990485
+338,64614,Gran Torino (2008),Crime Drama,2.32237015990485
+339,2761,"Iron Giant, The (1999)",Adventure Animation Children Drama Sci-Fi,2.321993609227652
+340,60684,Watchmen (2009),Action Drama Mystery Sci-Fi Thriller IMAX,2.3209337668763697
+341,2360,"Celebration, The (Festen) (1998)",Drama,2.320352077001013
+342,8641,Anchorman: The Legend of Ron Burgundy (2004),Comedy,2.319095611368848
+343,30707,Million Dollar Baby (2004),Drama,2.3182137011924246
+344,3421,Animal House (1978),Comedy,2.3178988136091774
+345,2078,"Jungle Book, The (1967)",Animation Children Comedy Musical,2.317829901932672
+346,44555,"Lives of Others, The (Das leben der Anderen) (2006)",Drama Romance Thriller,2.3171821920257463
+347,5060,M*A*S*H (a.k.a. MASH) (1970),Comedy Drama War,2.3169353772961543
+348,288,Natural Born Killers (1994),Action Crime Thriller,2.315935971983613
+349,745,Wallace & Gromit: A Close Shave (1995),Animation Children Comedy,2.312658308004053
+350,368,Maverick (1994),Adventure Comedy Western,2.3123100303951367
+351,1272,Patton (1970),Drama War,2.3113659390255137
+352,4848,Mulholland Drive (2001),Crime Drama Film-Noir Mystery Thriller,2.309106621371953
+353,2288,"Thing, The (1982)",Action Horror Sci-Fi Thriller,2.308611955420466
+354,3552,Caddyshack (1980),Comedy,2.30859831657704
+355,112552,Whiplash (2014),Drama,2.3084906414973605
+356,508,Philadelphia (1993),Drama,2.308337938657088
+357,33493,Star Wars: Episode III - Revenge of the Sith (2005),Action Adventure Sci-Fi,2.307448756916842
+358,4246,Bridget Jones's Diary (2001),Comedy Drama Romance,2.3054594341828385
+359,1641,"Full Monty, The (1997)",Comedy Drama,2.304996200607903
+360,1244,Manhattan (1979),Comedy Drama Romance,2.303790181449756
+361,1997,"Exorcist, The (1973)",Horror Mystery,2.303678958536445
+362,3468,"Hustler, The (1961)",Drama,2.303444782168186
+363,951,His Girl Friday (1940),Comedy Romance,2.302811550151976
+364,1249,"Femme Nikita, La (Nikita) (1990)",Action Crime Romance Thriller,2.301671732522796
+365,38061,Kiss Kiss Bang Bang (2005),Comedy Crime Mystery Thriller,2.301671732522796
+366,1084,Bonnie and Clyde (1967),Crime Drama,2.301671732522796
+367,45722,Pirates of the Caribbean: Dead Man's Chest (2006),Action Adventure Fantasy,2.3005846842283013
+368,926,All About Eve (1950),Drama,2.296954154002026
+369,1212,"Third Man, The (1949)",Film-Noir Mystery Thriller,2.296954154002026
+370,3408,Erin Brockovich (2000),Drama,2.2962006079027355
+371,29,"City of Lost Children, The (Cité des enfants perdus, La) (1995)",Adventure Drama Fantasy Mystery Sci-Fi,2.2953327467605185
+372,58,"Postman, The (Postino, Il) (1994)",Comedy Drama Romance,2.294668528711082
+373,3994,Unbreakable (2000),Drama Sci-Fi,2.294437273597868
+374,4239,Blow (2001),Crime Drama,2.294400739019012
+375,1282,Fantasia (1940),Animation Children Fantasy Musical,2.294244996272295
+376,353,"Crow, The (1994)",Action Crime Fantasy Thriller,2.291009688449848
+377,3435,Double Indemnity (1944),Crime Drama Film-Noir,2.290944037189344
+378,1209,Once Upon a Time in the West (C'era una volta il West) (1968),Action Drama Western,2.2895558932792976
+379,69481,"Hurt Locker, The (2008)",Action Drama Thriller War,2.287770427319864
+380,44195,Thank You for Smoking (2006),Comedy Drama,2.2874451198919283
+381,914,My Fair Lady (1964),Comedy Drama Musical Romance,2.2873860182370818
+382,96079,Skyfall (2012),Action Adventure Thriller IMAX,2.284939209726444
+383,5010,Black Hawk Down (2001),Action Drama War,2.284939209726444
+384,49530,Blood Diamond (2006),Action Adventure Crime Drama Thriller War,2.284811034008144
+385,434,Cliffhanger (1993),Action Adventure Thriller,2.284803936320684
+386,4776,Training Day (2001),Crime Drama Thriller,2.2845968174503843
+387,109374,"Grand Budapest Hotel, The (2014)",Comedy Drama,2.2845598550385784
+388,56782,There Will Be Blood (2007),Drama Western,2.28419452887538
+389,933,To Catch a Thief (1955),Crime Mystery Romance Thriller,2.283467688648077
+390,441,Dazed and Confused (1993),Comedy,2.283434650455927
+391,1921,Pi (1998),Drama Sci-Fi Thriller,2.282674772036474
+392,8950,The Machinist (2004),Drama Mystery Thriller,2.2821748520236764
+393,163,Desperado (1995),Action Romance Western,2.281822787141936
+394,1101,Top Gun (1986),Action Romance,2.281301497784451
+395,1261,Evil Dead II (Dead by Dawn) (1987),Action Comedy Fantasy Horror,2.280417486143393
+396,741,Ghost in the Shell (Kôkaku kidôtai) (1995),Animation Sci-Fi,2.279241247326353
+397,6807,Monty Python's The Meaning of Life (1983),Comedy,2.278951367781155
+398,5378,Star Wars: Episode II - Attack of the Clones (2002),Action Adventure Sci-Fi IMAX,2.277892493722744
+399,1358,Sling Blade (1996),Drama,2.277355623100304
+400,2580,Go (1999),Comedy Crime,2.277121814355857
+401,930,Notorious (1946),Film-Noir Romance Thriller,2.2769756838905777
+402,1748,Dark City (1998),Adventure Film-Noir Sci-Fi Thriller,2.2761999746707198
+403,1945,On the Waterfront (1954),Crime Drama,2.276120820668693
+404,1676,Starship Troopers (1997),Action Sci-Fi,2.27352773556231
+405,5903,Equilibrium (2002),Action Sci-Fi Thriller,2.2718465045592704
+406,1573,Face/Off (1997),Action Crime Drama Thriller,2.2701713180436585
+407,333,Tommy Boy (1995),Comedy,2.269939209726444
+408,905,It Happened One Night (1934),Comedy Romance,2.2670972644376897
+409,2640,Superman (1978),Action Adventure Sci-Fi,2.266804524390852
+410,122882,Mad Max: Fury Road (2015),Action Adventure Sci-Fi Thriller,2.2667173252279635
+411,119145,Kingsman: The Secret Service (2015),Action Adventure Comedy Crime,2.2666117865585957
+412,1466,Donnie Brasco (1997),Crime Drama,2.265329085807809
+413,1245,Miller's Crossing (1990),Crime Drama Film-Noir Thriller,2.264475683890577
+414,2951,"Fistful of Dollars, A (Per un pugno di dollari) (1964)",Action Western,2.264301301535344
+415,55247,Into the Wild (2007),Action Adventure Drama,2.262769664170806
+416,2289,"Player, The (1992)",Comedy Crime Drama,2.262438009918413
+417,3508,"Outlaw Josey Wales, The (1976)",Action Adventure Drama Thriller Western,2.26177811550152
+418,1248,Touch of Evil (1958),Crime Film-Noir Thriller,2.261532272483461
+419,5971,My Neighbor Totoro (Tonari no Totoro) (1988),Animation Children Drama Fantasy,2.2608847449272984
+420,30749,Hotel Rwanda (2004),Drama War,2.2605749746707198
+421,261,Little Women (1994),Drama,2.259625126646404
+422,2248,Say Anything... (1989),Comedy Drama Romance,2.2578910451250875
+423,6378,"Italian Job, The (2003)",Action Crime,2.257650301375509
+424,1223,"Grand Day Out with Wallace and Gromit, A (1989)",Adventure Animation Children Comedy Sci-Fi,2.257408814589666
+425,2599,Election (1999),Comedy,2.25588905775076
+426,3362,Dog Day Afternoon (1975),Crime Drama,2.255859062549992
+427,2353,Enemy of the State (1998),Action Thriller,2.2553871977498527
+428,3037,Little Big Man (1970),Western,2.25528748733536
+429,3499,Misery (1990),Drama Horror Thriller,2.254801050013816
+430,3527,Predator (1987),Action Sci-Fi Thriller,2.2545094424236383
+431,1500,Grosse Pointe Blank (1997),Comedy Crime Romance,2.2534130132399155
+432,7156,"Fog of War: Eleven Lessons from the Life of Robert S. McNamara, The (2003)",Documentary War,2.252630348375029
+433,176,Living in Oblivion (1995),Comedy,2.252630348375029
+434,720,Wallace & Gromit: The Best of Aardman Animation (1996),Adventure Animation Comedy,2.251463469548576
+435,3363,American Graffiti (1973),Comedy Drama,2.2511663250159044
+436,3160,Magnolia (1999),Drama,2.2509060088847326
+437,6870,Mystic River (2003),Crime Drama Mystery,2.2509060088847326
+438,1283,High Noon (1952),Drama Western,2.2496400575907853
+439,7090,Hero (Ying xiong) (2002),Action Adventure Drama,2.249280115181571
+440,1237,"Seventh Seal, The (Sjunde inseglet, Det) (1957)",Drama,2.2478892266126307
+441,3911,Best in Show (2000),Comedy,2.24707518495154
+442,1719,"Sweet Hereafter, The (1997)",Drama,2.246580547112462
+443,47099,"Pursuit of Happyness, The (2006)",Drama,2.246283203383111
+444,969,"African Queen, The (1951)",Adventure Comedy Romance War,2.2436527802610406
+445,529,Searching for Bobby Fischer (1993),Drama,2.241451367781155
+446,3753,"Patriot, The (2000)",Action Drama War,2.240982031110317
+447,1086,Dial M for Murder (1954),Crime Mystery Thriller,2.2399696048632216
+448,2788,Monty Python's And Now for Something Completely Different (1971),Comedy,2.239551671732523
+449,1263,"Deer Hunter, The (1978)",Drama War,2.23953841803916
+450,122886,Star Wars: Episode VII - The Force Awakens (2015),Action Adventure Fantasy Sci-Fi IMAX,2.238379420268367
+451,115617,Big Hero 6 (2014),Action Animation Comedy,2.238379420268367
+452,80906,Inside Job (2010),Documentary,2.23701874366768
+453,2300,"Producers, The (1968)",Comedy,2.235608363267937
+454,5991,Chicago (2002),Comedy Crime Drama Musical,2.2345853234910984
+455,509,"Piano, The (1993)",Drama Romance,2.23401763914495
+456,55765,American Gangster (2007),Crime Drama Thriller,2.233857717900271
+457,134853,Inside Out (2015),Adventure Animation Children Comedy Drama Fantasy,2.233724464550788
+458,497,Much Ado About Nothing (1993),Comedy Romance,2.233724464550788
+459,1953,"French Connection, The (1971)",Action Crime Thriller,2.232250019484062
+460,162,Crumb (1994),Documentary,2.232120507777579
+461,3730,"Conversation, The (1974)",Drama Mystery,2.232120507777579
+462,4720,"Others, The (2001)",Drama Horror Mystery Thriller,2.231569494335452
+463,2067,Doctor Zhivago (1965),Drama Romance War,2.231003039513678
+464,306,Three Colors: Red (Trois couleurs: Rouge) (1994),Drama,2.230955547112462
+465,1967,Labyrinth (1986),Adventure Fantasy Musical,2.2298632218844987
+466,1275,Highlander (1986),Action Adventure Fantasy,2.2293249746707198
+467,1287,Ben-Hur (1959),Action Adventure Drama,2.2289468979080995
+468,3448,"Good Morning, Vietnam (1987)",Comedy Drama War,2.227910511062416
+469,68237,Moon (2009),Drama Mystery Sci-Fi Thriller,2.227536094224924
+470,2944,"Dirty Dozen, The (1967)",Action Drama War,2.227536094224924
+471,88163,"Crazy, Stupid, Love. (2011)",Comedy Drama Romance,2.227497793901363
+472,916,Roman Holiday (1953),Comedy Drama Romance,2.2264145429039046
+473,1917,Armageddon (1998),Action Romance Sci-Fi Thriller,2.2262620589401347
+474,3424,Do the Right Thing (1989),Drama,2.223685691770798
+475,800,Lone Star (1996),Drama Mystery Western,2.2233242681171013
+476,3083,All About My Mother (Todo sobre mi madre) (1999),Drama,2.2233242681171013
+477,142488,Spotlight (2015),Thriller,2.2233242681171013
+478,87232,X-Men: First Class (2011),Action Adventure Sci-Fi Thriller War,2.222096557574044
+479,52973,Knocked Up (2007),Comedy Drama Romance,2.2220598550385784
+480,2081,"Little Mermaid, The (1989)",Animation Children Comedy Musical Romance,2.221805108197614
+481,1299,"Killing Fields, The (1984)",Drama War,2.22169452887538
+482,2617,"Mummy, The (1999)",Action Adventure Comedy Fantasy Horror Thriller,2.221439052510219
+483,265,Like Water for Chocolate (Como agua para chocolate) (1992),Drama Fantasy Romance,2.220456848116423
+484,928,Rebecca (1940),Drama Mystery Romance Thriller,2.220111448834853
+485,115569,Nightcrawler (2014),Crime Drama Thriller,2.220111448834853
+486,54997,3:10 to Yuma (2007),Action Crime Drama Western,2.2199696048632216
+487,1370,Die Hard 2 (1990),Action Adventure Thriller,2.2189232075809047
+488,8784,Garden State (2004),Comedy Drama Romance,2.218908308004053
+489,2005,"Goonies, The (1985)",Action Adventure Children Comedy Fantasy,2.218218418386392
+490,2985,RoboCop (1987),Action Crime Drama Sci-Fi Thriller,2.2176291793313068
+491,317,"Santa Clause, The (1994)",Comedy Drama Fantasy,2.2173533716086906
+492,44665,Lucky Number Slevin (2006),Crime Drama Mystery,2.216385378339466
+493,47610,"Illusionist, The (2006)",Drama Fantasy Mystery Romance,2.216282604085672
+494,3429,Creature Comforts (1989),Animation Comedy,2.2161854103343464
+495,266,Legends of the Fall (1994),Drama Romance War Western,2.215246736992669
+496,8798,Collateral (2004),Action Crime Drama Thriller,2.2150283227410887
+497,6787,All the President's Men (1976),Drama Thriller,2.2144264325115386
+498,3030,Yojimbo (1961),Action Adventure,2.214168809913491
+499,1729,Jackie Brown (1997),Crime Drama Thriller,2.2136999746707198
+500,6350,Laputa: Castle in the Sky (Tenkû no shiro Rapyuta) (1986),Action Adventure Animation Children Fantasy Sci-Fi,2.213620820668693
+501,4144,In the Mood For Love (Fa yeung nin wa) (2000),Drama Romance,2.2135258358662613
+502,4308,Moulin Rouge (2001),Drama Musical Romance,2.213387676153633
+503,56174,I Am Legend (2007),Action Horror Sci-Fi Thriller IMAX,2.213060103931758
+504,1408,"Last of the Mohicans, The (1992)",Action Romance War Western,2.213019250253293
+505,98809,"Hobbit: An Unexpected Journey, The (2012)",Adventure Fantasy IMAX,2.210201367781155
+506,8644,"I, Robot (2004)",Action Adventure Sci-Fi Thriller,2.209427475210524
+507,1127,"Abyss, The (1989)",Action Adventure Sci-Fi Thriller,2.209027845867242
+508,3081,Sleepy Hollow (1999),Fantasy Horror Mystery Romance,2.209027845867242
+509,3967,Billy Elliot (2000),Drama,2.206830690873244
+510,2321,Pleasantville (1998),Comedy Drama Fantasy,2.205329114554786
+511,2231,Rounders (1998),Drama,2.2041117865585957
+512,44199,Inside Man (2006),Crime Drama Thriller,2.203951367781155
+513,97304,Argo (2012),Drama Thriller,2.203837386018237
+514,215,Before Sunrise (1995),Drama Romance,2.203204154002026
+515,84152,Limitless (2011),Sci-Fi Thriller,2.2029635258358664
+516,6863,School of Rock (2003),Comedy Musical,2.202277332596481
+517,3253,Wayne's World (1992),Comedy,2.2012307538990483
+518,1391,Mars Attacks! (1996),Action Comedy Sci-Fi,2.2000070686364603
+519,104879,Prisoners (2013),Drama Mystery Thriller,2.199705547112462
+520,122926,Untitled Spider-Man Reboot (2017),Action Adventure Fantasy,2.199705547112462
+521,5690,Grave of the Fireflies (Hotaru no haka) (1988),Animation Drama War,2.199705547112462
+522,6373,Bruce Almighty (2003),Comedy Drama Fantasy Romance,2.1979643820369024
+523,2395,Rushmore (1998),Comedy Drama,2.1978533434650456
+524,1183,"English Patient, The (1996)",Drama Romance War,2.197500844309355
+525,2890,Three Kings (1999),Action Adventure Comedy Drama War,2.197500844309355
+526,3246,Malcolm X (1992),Drama,2.197315096251266
+527,28,Persuasion (1995),Drama Romance,2.197222989776181
+528,902,Breakfast at Tiffany's (1961),Drama Romance,2.1971673421141507
+529,34162,Wedding Crashers (2005),Comedy Romance,2.195039828110261
+530,4967,No Man's Land (2001),Drama War,2.1949380406827217
+531,7022,Battle Royale (Batoru rowaiaru) (2000),Action Drama Horror Thriller,2.1946301925025327
+532,41566,"Chronicles of Narnia: The Lion, the Witch and the Wardrobe, The (2005)",Adventure Children Fantasy,2.1928988136091774
+533,5377,About a Boy (2002),Comedy Drama Romance,2.192301050013816
+534,4571,Bill & Ted's Excellent Adventure (1989),Adventure Comedy Sci-Fi,2.1919452887538
+535,2020,Dangerous Liaisons (1988),Drama Romance,2.189969604863222
+536,3033,Spaceballs (1987),Comedy Sci-Fi,2.189853691206017
+537,410,Addams Family Values (1993),Children Comedy Fantasy,2.1888931104356635
+538,152081,Zootopia (2016),Action Adventure Animation Children Comedy,2.188473594224924
+539,431,Carlito's Way (1993),Crime Drama,2.188196555217832
+540,164179,Arrival (2016),Sci-Fi,2.1879530044423663
+541,2763,"Thomas Crown Affair, The (1999)",Action Mystery,2.187658308004053
+542,139385,The Revenant (2015),Adventure Drama,2.187175213256201
+543,909,"Apartment, The (1960)",Comedy Drama Romance,2.186648654733761
+544,79702,Scott Pilgrim vs. the World (2010),Action Comedy Fantasy Musical Romance,2.186619231831998
+545,838,Emma (1996),Comedy Drama Romance,2.1862968591692
+546,1302,Field of Dreams (1989),Children Drama Fantasy,2.1844604863221884
+547,3089,Bicycle Thieves (a.k.a. The Bicycle Thief) (a.k.a. The Bicycle Thieves) (Ladri di biciclette) (1948),Drama,2.184080547112462
+548,2318,Happiness (1998),Comedy Drama,2.184080547112462
+549,3972,"Legend of Drunken Master, The (Jui kuen II) (1994)",Action Comedy,2.184080547112462
+550,4499,Dirty Rotten Scoundrels (1988),Comedy,2.184080547112462
+551,1639,Chasing Amy (1997),Comedy Drama Romance,2.18359831657704
+552,3916,Remember the Titans (2000),Drama,2.1835013714878797
+553,105504,Captain Phillips (2013),Adventure Drama Thriller IMAX,2.18338399189463
+554,1357,Shine (1996),Drama Romance,2.182370820668693
+555,58998,Forgetting Sarah Marshall (2008),Comedy Romance,2.180967968202011
+556,46976,Stranger than Fiction (2006),Comedy Drama Fantasy Romance,2.18093741365018
+557,596,Pinocchio (1940),Animation Children Fantasy Musical,2.1809270516717327
+558,1281,"Great Dictator, The (1940)",Comedy Drama War,2.1806484295846
+559,3836,Kelly's Heroes (1970),Action Comedy War,2.1806484295846
+560,2186,Strangers on a Train (1951),Crime Drama Film-Noir Thriller,2.179969604863222
+561,3504,Network (1976),Comedy Drama,2.178536888643272
+562,93840,"Cabin in the Woods, The (2012)",Comedy Horror Sci-Fi Thriller,2.178536888643272
+563,72226,Fantastic Mr. Fox (2009),Adventure Animation Children Comedy Crime,2.178444782168186
+564,954,Mr. Smith Goes to Washington (1939),Drama,2.178444782168186
+565,148626,"Big Short, The (2015)",Drama,2.1783376198269817
+566,2871,Deliverance (1972),Adventure Drama Thriller,2.177963525835866
+567,1284,"Big Sleep, The (1946)",Crime Film-Noir Mystery,2.177811550151976
+568,1285,Heathers (1989),Comedy,2.1774038105122693
+569,2968,Time Bandits (1981),Adventure Comedy Fantasy Sci-Fi,2.1774038105122693
+570,5956,Gangs of New York (2002),Crime Drama,2.1770240397899974
+571,3108,"Fisher King, The (1991)",Comedy Drama Fantasy Romance,2.176334008780817
+572,6934,"Matrix Revolutions, The (2003)",Action Adventure Sci-Fi Thriller IMAX,2.176253318456389
+573,866,Bound (1996),Crime Drama Romance Thriller,2.174772036474164
+574,7099,Nausicaä of the Valley of the Wind (Kaze no tani no Naushika) (1984),Adventure Animation Drama Fantasy Sci-Fi,2.174772036474164
+575,7451,Mean Girls (2004),Comedy,2.1745577117917545
+576,40819,Walk the Line (2005),Drama Musical Romance,2.1745577117917545
+577,2565,"King and I, The (1956)",Drama Musical Romance,2.17451874366768
+578,994,Big Night (1996),Comedy Drama,2.1744957170489085
+579,1950,In the Heat of the Night (1967),Drama Mystery,2.1744957170489085
+580,4642,Hedwig and the Angry Inch (2000),Comedy Drama Musical,2.1744957170489085
+581,55442,Persepolis (2007),Animation Drama,2.1744957170489085
+582,2921,High Plains Drifter (1973),Western,2.1744957170489085
+583,2572,10 Things I Hate About You (1999),Comedy Romance,2.1742232353934483
+584,2144,Sixteen Candles (1984),Comedy Romance,2.17336083369518
+585,33660,Cinderella Man (2005),Drama Romance,2.1732969783658143
+586,1912,Out of Sight (1998),Comedy Crime Drama Romance Thriller,2.172848594224924
+587,70,From Dusk Till Dawn (1996),Action Comedy Horror Thriller,2.172478585244543
+588,108932,The Lego Movie (2014),Action Adventure Animation Children Comedy Fantasy,2.171046180998137
+589,3328,Ghost Dog: The Way of the Samurai (1999),Crime Drama,2.1706926891697327
+590,91542,Sherlock Holmes: A Game of Shadows (2011),Action Adventure Comedy Crime Mystery Thriller,2.1703327467605185
+591,8949,Sideways (2004),Comedy Drama Romance,2.168147455381498
+592,1274,Akira (1988),Action Adventure Animation Sci-Fi,2.168147455381498
+593,122918,Guardians of the Galaxy 2 (2017),Action Adventure Sci-Fi,2.1681301362152428
+594,166528,Rogue One: A Star Wars Story (2016),Action Adventure Fantasy Sci-Fi,2.1681301362152428
+595,115713,Ex Machina (2015),Drama Sci-Fi Thriller,2.1681231003039514
+596,48385,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006),Comedy,2.1669978957213
+597,4816,Zoolander (2001),Comedy,2.164963976134189
+598,7254,The Butterfly Effect (2004),Drama Sci-Fi Thriller,2.164761464252676
+599,7371,Dogville (2003),Drama Mystery Thriller,2.164475683890578
+600,122916,Thor: Ragnarok (2017),Action Adventure Sci-Fi,2.164475683890578
+601,308,Three Colors: White (Trzy kolory: Bialy) (1994),Comedy Drama,2.164475683890578
+602,225,Disclosure (1994),Drama Thriller,2.164367547346271
+603,920,Gone with the Wind (1939),Drama Romance War,2.164167510976021
+604,1103,Rebel Without a Cause (1955),Drama,2.163981762917933
+605,442,Demolition Man (1993),Action Adventure Sci-Fi,2.1617978160531357
+606,3039,Trading Places (1983),Comedy,2.1617371989712417
+607,1269,Arsenic and Old Lace (1944),Comedy Mystery Thriller,2.1600199140551304
+608,67255,"Girl with the Dragon Tattoo, The (Män som hatar kvinnor) (2009)",Crime Drama Mystery Thriller,2.159969604863222
+609,98961,Zero Dark Thirty (2012),Action Drama Thriller,2.1599544072948325
+610,54272,"Simpsons Movie, The (2007)",Animation Comedy,2.1593266816439805
+611,2150,"Gods Must Be Crazy, The (1980)",Adventure Comedy,2.15919452887538
+612,26662,Kiki's Delivery Service (Majo no takkyûbin) (1989),Adventure Animation Children Drama Fantasy,2.158591096012873
+613,2398,Miracle on 34th Street (1947),Comedy Drama,2.158591096012873
+614,55118,Eastern Promises (2007),Crime Drama Thriller,2.15753479443289
+615,2686,"Red Violin, The (Violon rouge, Le) (1998)",Drama Mystery,2.15753479443289
+616,5064,The Count of Monte Cristo (2002),Action Adventure Drama Thriller,2.157223594224924
+617,3213,Batman: Mask of the Phantasm (1993),Animation Children,2.156476502221183
+618,1663,Stripes (1981),Comedy War,2.155417486143393
+619,2064,Roger & Me (1989),Documentary,2.1549171487400725
+620,1277,Cyrano de Bergerac (1990),Comedy Drama Romance,2.1536854103343464
+621,2671,Notting Hill (1999),Comedy Romance,2.1532104863221884
+622,1227,Once Upon a Time in America (1984),Crime Drama,2.152830547112462
+623,69757,(500) Days of Summer (2009),Comedy Drama Romance,2.152482269503546
+624,76251,Kick-Ass (2010),Action Comedy,2.1523291157135787
+625,106918,"Secret Life of Walter Mitty, The (2013)",Adventure Comedy Drama,2.1519756838905777
+626,64716,Seven Pounds (2008),Drama,2.151768444321636
+627,95,Broken Arrow (1996),Action Adventure Thriller,2.150202634245187
+628,106920,Her (2013),Drama Romance Sci-Fi,2.1499696048632218
+629,2657,"Rocky Horror Picture Show, The (1975)",Comedy Horror Musical Sci-Fi,2.14935832489024
+630,2948,From Russia with Love (1963),Action Adventure Thriller,2.1485562310030395
+631,3507,"Odd Couple, The (1968)",Comedy,2.1473150962512664
+632,111362,X-Men: Days of Future Past (2014),Action Adventure Sci-Fi,2.144630192502533
+633,80489,"Town, The (2010)",Crime Drama Thriller,2.1444459795523625
+634,1952,Midnight Cowboy (1969),Drama,2.1444459795523625
+635,3683,Blood Simple (1984),Crime Drama Film-Noir,2.1443768996960486
+636,1224,Henry V (1989),Action Drama Romance War,2.1443768996960486
+637,53125,Pirates of the Caribbean: At World's End (2007),Action Adventure Comedy Fantasy,2.144281914893617
+638,51540,Zodiac (2007),Crime Drama Thriller,2.1440169572868344
+639,2313,"Elephant Man, The (1980)",Drama,2.143885213659932
+640,1303,"Man Who Would Be King, The (1975)",Adventure Drama,2.143885213659932
+641,115149,John Wick (2014),Action Thriller,2.1427785347447856
+642,6936,Elf (2003),Children Comedy Fantasy,2.142506429740473
+643,4235,Amores Perros (Love's a Bitch) (2000),Drama Thriller,2.1421633408219902
+644,1251,8 1/2 (8½) (1963),Drama Fantasy,2.1420972644376897
+645,3740,Big Trouble in Little China (1986),Action Adventure Comedy Fantasy,2.141337386018237
+646,81847,Tangled (2010),Animation Children Comedy Fantasy Musical Romance IMAX,2.140704154002026
+647,66934,Dr. Horrible's Sing-Along Blog (2008),Comedy Drama Musical Sci-Fi,2.140704154002026
+648,5617,Secretary (2002),Comedy Drama Romance,2.139969604863222
+649,89492,Moneyball (2011),Drama,2.139876081365443
+650,48738,"Last King of Scotland, The (2006)",Drama Thriller,2.139475683890577
+651,7387,Dawn of the Dead (1978),Action Drama Horror,2.139475683890577
+652,3910,Dancer in the Dark (2000),Drama Musical,2.139475683890577
+653,175,Kids (1995),Drama,2.139475683890577
+654,112556,Gone Girl (2014),Drama Thriller,2.1392631233056765
+655,4016,"Emperor's New Groove, The (2000)",Adventure Animation Children Comedy Fantasy,2.1392631233056765
+656,280,Murder in the First (1995),Drama Thriller,2.1372457329904138
+657,2406,Romancing the Stone (1984),Action Adventure Comedy Romance,2.137186198356411
+658,5225,And Your Mother Too (Y tu mamá también) (2001),Drama Romance,2.1357649442755826
+659,1333,"Birds, The (1963)",Horror Thriller,2.135482868195634
+660,1777,"Wedding Singer, The (1998)",Comedy Romance,2.1353533434650456
+661,8464,Super Size Me (2004),Comedy Documentary Drama,2.1349392097264435
+662,708,"Truth About Cats & Dogs, The (1996)",Comedy Romance,2.134695000524054
+663,1059,William Shakespeare's Romeo + Juliet (1996),Drama Romance,2.1346673421141507
+664,81591,Black Swan (2010),Drama Thriller,2.134625126646404
+665,2712,Eyes Wide Shut (1999),Drama Mystery Thriller,2.1338676377817283
+666,7293,50 First Dates (2004),Comedy Romance,2.1337386018237083
+667,3100,"River Runs Through It, A (1992)",Drama,2.1330823431887262
+668,59784,Kung Fu Panda (2008),Action Animation Children Comedy IMAX,2.132556568726782
+669,5464,Road to Perdition (2002),Crime Drama,2.132544507164568
+670,1407,Scream (1996),Comedy Horror Mystery Thriller,2.1319148936170214
+671,4002,"Planes, Trains & Automobiles (1987)",Comedy,2.1310930991782056
+672,79091,Despicable Me (2010),Animation Children Comedy Crime,2.130859062549992
+673,307,Three Colors: Blue (Trois couleurs: Bleu) (1993),Drama,2.13028748733536
+674,93510,21 Jump Street (2012),Action Comedy Crime,2.1302606967500584
+675,3503,Solaris (Solyaris) (1972),Drama Mystery Sci-Fi,2.129041171594363
+676,3359,Breaking Away (1979),Comedy Drama,2.129041171594363
+677,3741,Badlands (1973),Crime Drama Thriller,2.129041171594363
+678,1131,Jean de Florette (1986),Drama Mystery,2.129041171594363
+679,1674,Witness (1985),Drama Romance Thriller,2.128951367781155
+680,59369,Taken (2008),Action Crime Drama Thriller,2.1286727456940224
+681,91500,The Hunger Games (2012),Action Adventure Drama Sci-Fi Thriller,2.127926939097152
+682,1292,Being There (1979),Comedy Drama,2.126975683890578
+683,350,"Client, The (1994)",Drama Mystery Thriller,2.126113155228497
+684,64839,"Wrestler, The (2008)",Drama,2.126005721437511
+685,88129,Drive (2011),Crime Drama Film-Noir Thriller,2.125973594224924
+686,5444,Lilo & Stitch (2002),Adventure Animation Children Sci-Fi,2.125537155434441
+687,1907,Mulan (1998),Adventure Animation Children Comedy Drama Musical Romance,2.1252786220871327
+688,6440,Barton Fink (1991),Drama Thriller,2.124240121580547
+689,5878,Talk to Her (Hable con Ella) (2002),Drama Romance,2.124240121580547
+690,290,Once Were Warriors (1994),Crime Drama,2.124240121580547
+691,247,Heavenly Creatures (1994),Crime Drama,2.1238601823708207
+692,36529,Lord of War (2005),Action Crime Drama Thriller War,2.123100303951368
+693,1293,Gandhi (1982),Drama,2.1218338399189465
+694,2167,Blade (1998),Action Horror Thriller,2.1217639660412955
+695,1411,Hamlet (1996),Crime Drama Romance,2.121580547112462
+696,112,Rumble in the Bronx (Hont faan kui) (1995),Action Adventure Comedy Crime,2.121283203383111
+697,1060,Swingers (1996),Comedy Drama,2.120778453225262
+698,51935,Shooter (2007),Action Drama Thriller,2.119969604863222
+699,1449,Waiting for Guffman (1996),Comedy,2.119870820668693
+700,6708,Matchstick Men (2003),Comedy Crime Drama,2.1186527802610406
+701,77455,Exit Through the Gift Shop (2010),Comedy Documentary,2.1180149637596446
+702,7482,Enter the Dragon (1973),Action Crime,2.1180149637596446
+703,1957,Chariots of Fire (1981),Drama,2.1180149637596446
+704,2080,Lady and the Tramp (1955),Animation Children Comedy Romance,2.1179331306990883
+705,4014,Chocolat (2000),Drama Romance,2.117781155015197
+706,2161,"NeverEnding Story, The (1984)",Adventure Children Fantasy,2.1174453947833465
+707,66097,Coraline (2009),Animation Fantasy Thriller,2.115957446808511
+708,272,"Madness of King George, The (1994)",Comedy Drama,2.1145945680949114
+709,106100,Dallas Buyers Club (2013),Drama,2.1144734489540498
+710,1608,Air Force One (1997),Action Thriller,2.113143276386123
+711,77561,Iron Man 2 (2010),Action Adventure Sci-Fi Thriller IMAX,2.112462006079028
+712,262,"Little Princess, A (1995)",Children Drama,2.111955420466059
+713,915,Sabrina (1954),Comedy Romance,2.1112968591692
+714,224,Don Juan DeMarco (1995),Comedy Drama Romance,2.110201367781155
+715,2352,"Big Chill, The (1983)",Comedy Drama,2.1099696048632217
+716,116823,The Hunger Games: Mockingjay - Part 1 (2014),Adventure Sci-Fi Thriller,2.1095546451698164
+717,37741,Capote (2005),Crime Drama,2.1095546451698164
+718,5291,Rashomon (Rashômon) (1950),Crime Drama Mystery,2.1090003377237423
+719,94959,Moonrise Kingdom (2012),Comedy Drama Romance,2.108295776124096
+720,151,Rob Roy (1995),Action Drama Romance War,2.1070737772865438
+721,2949,Dr. No (1962),Action Adventure Thriller,2.1068204844800587
+722,3006,"Insider, The (1999)",Drama Thriller,2.106530051965879
+723,110102,Captain America: The Winter Soldier (2014),Action Adventure Sci-Fi IMAX,2.106530051965879
+724,54190,Across the Universe (2007),Drama Fantasy Musical Romance,2.10631389886709
+725,89904,The Artist (2011),Comedy Drama Romance,2.10631389886709
+726,965,"39 Steps, The (1935)",Drama Mystery Thriller,2.10631389886709
+727,1273,Down by Law (1986),Comedy Drama Film-Noir,2.10631389886709
+728,1243,Rosencrantz and Guildenstern Are Dead (1990),Comedy Drama,2.105955547112462
+729,80549,Easy A (2010),Comedy Romance,2.103315321400428
+730,8873,"Motorcycle Diaries, The (Diarios de motocicleta) (2004)",Adventure Drama,2.103315321400428
+731,2501,October Sky (1999),Drama,2.1029635258358663
+732,72011,Up in the Air (2009),Drama Romance,2.102536094224924
+733,6283,Cowboy Bebop: The Movie (Cowboy Bebop: Tengoku no Tobira) (2001),Action Animation Sci-Fi Thriller,2.101975683890577
+734,3361,Bull Durham (1988),Comedy Drama Romance,2.1016717325227963
+735,37729,Corpse Bride (2005),Animation Comedy Fantasy Musical Romance,2.101391959104725
+736,1253,"Day the Earth Stood Still, The (1951)",Drama Sci-Fi Thriller,2.099969604863222
+737,2600,eXistenZ (1999),Action Sci-Fi Thriller,2.098991434097817
+738,1231,"Right Stuff, The (1983)",Drama,2.098991434097817
+739,122912,Avengers: Infinity War - Part I (2018),Action Adventure Sci-Fi,2.0987841945288754
+740,2087,Peter Pan (1953),Animation Children Fantasy Musical,2.0981355178293426
+741,714,Dead Man (1995),Drama Mystery Western,2.0973150962512666
+742,1845,Zero Effect (1998),Comedy Mystery Thriller,2.0973150962512666
+743,86,White Squall (1996),Action Adventure Drama,2.0973150962512666
+744,661,James and the Giant Peach (1996),Adventure Animation Children Fantasy Musical,2.0968302214502823
+745,4370,A.I. Artificial Intelligence (2001),Adventure Drama Sci-Fi,2.0951747720364744
+746,83134,Tucker & Dale vs Evil (2010),Comedy Horror,2.095111448834853
+747,2973,Crimes and Misdemeanors (1989),Comedy Crime Drama,2.095111448834853
+748,552,"Three Musketeers, The (1993)",Action Adventure Comedy Romance,2.094673376849868
+749,805,"Time to Kill, A (1996)",Drama Thriller,2.094528875379939
+750,1645,The Devil's Advocate (1997),Drama Mystery Thriller,2.093420346862149
+751,6947,Master and Commander: The Far Side of the World (2003),Adventure Drama War,2.093000675447484
+752,3260,Howards End (1992),Drama,2.0911854103343464
+753,1956,Ordinary People (1980),Drama,2.0911854103343464
+754,27801,Ong-Bak: The Thai Warrior (Ong Bak) (2003),Action Thriller,2.0911854103343464
+755,2731,"400 Blows, The (Les quatre cents coups) (1959)",Crime Drama,2.0911854103343464
+756,48,Pocahontas (1995),Animation Children Drama Musical Romance,2.090246736992669
+757,520,Robin Hood: Men in Tights (1993),Comedy,2.0895335007268403
+758,31410,"Downfall (Untergang, Der) (2004)",Drama War,2.0894756838905777
+759,5299,My Big Fat Greek Wedding (2002),Comedy Romance,2.089260385005066
+760,1396,Sneakers (1992),Action Comedy Crime Drama Sci-Fi,2.088674507730937
+761,1344,Cape Fear (1962),Crime Drama Thriller,2.0885258358662613
+762,2278,Ronin (1998),Action Crime Thriller,2.088375627341486
+763,33679,Mr. & Mrs. Smith (2005),Action Adventure Comedy Romance,2.08815877595178
+764,2010,Metropolis (1927),Drama Sci-Fi,2.088145896656535
+765,968,Night of the Living Dead (1968),Horror Sci-Fi Thriller,2.0877659574468086
+766,82459,True Grit (2010),Western,2.0877659574468086
+767,1077,Sleeper (1973),Comedy Sci-Fi,2.0877659574468086
+768,5954,25th Hour (2002),Crime Drama,2.087627797734181
+769,628,Primal Fear (1996),Crime Drama Mystery Thriller,2.087386018237082
+770,1380,Grease (1978),Comedy Musical Romance,2.086570266404434
+771,56757,Sweeney Todd: The Demon Barber of Fleet Street (2007),Drama Horror Musical Thriller,2.0862968591692
+772,97921,Silver Linings Playbook (2012),Comedy Drama,2.0862968591692
+773,61240,Let the Right One In (Låt den rätte komma in) (2008),Drama Fantasy Horror Romance,2.085061684248167
+774,55276,Michael Clayton (2007),Drama Thriller,2.085061684248167
+775,1834,"Spanish Prisoner, The (1997)",Crime Drama Mystery Thriller,2.0835866261398177
+776,1189,"Thin Blue Line, The (1988)",Documentary,2.0835866261398177
+777,1218,"Killer, The (Die xue shuang xiong) (1989)",Action Crime Drama Thriller,2.0835866261398177
+778,91077,"Descendants, The (2011)",Comedy Drama,2.0835866261398177
+779,3062,"Longest Day, The (1962)",Action Drama War,2.0835866261398177
+780,65261,Ponyo (Gake no ue no Ponyo) (2008),Adventure Animation Children Fantasy,2.0835866261398177
+781,3556,"Virgin Suicides, The (1999)",Drama Romance,2.0821837736731355
+782,3489,Hook (1991),Adventure Comedy Fantasy,2.081980845328898
+783,3301,"Whole Nine Yards, The (2000)",Comedy Crime,2.0810536980749745
+784,236,French Kiss (1995),Action Comedy Romance,2.0808341776426884
+785,104374,About Time (2013),Drama Fantasy Romance,2.0806484295845995
+786,7445,Man on Fire (2004),Action Crime Drama Mystery Thriller,2.080243161094225
+787,1343,Cape Fear (1991),Thriller,2.079969604863222
+788,2302,My Cousin Vinny (1992),Comedy,2.0796841996805937
+789,5072,Metropolis (2001),Animation Sci-Fi,2.0795534252981063
+790,1485,Liar Liar (1997),Comedy,2.079201922287029
+791,471,"Hudsucker Proxy, The (1994)",Comedy,2.078951367781155
+792,5782,"Professional, The (Le professionnel) (1981)",Action Drama Thriller,2.078587426011838
+793,64957,"Curious Case of Benjamin Button, The (2008)",Drama Fantasy Mystery Romance,2.078452312494866
+794,3300,Pitch Black (2000),Horror Sci-Fi Thriller,2.078403865637908
+795,7458,Troy (2004),Action Adventure Drama War,2.078283308004053
+796,7323,"Good bye, Lenin! (2003)",Comedy Drama,2.0769459495176426
+797,1256,Duck Soup (1933),Comedy Musical War,2.0769459495176426
+798,4105,"Evil Dead, The (1981)",Fantasy Horror Thriller,2.0762641613705446
+799,1350,"Omen, The (1976)",Horror Mystery Thriller,2.0762641613705446
+800,88810,"Help, The (2011)",Drama,2.0762411347517733
+801,1175,Delicatessen (1991),Comedy Drama Romance,2.0762411347517733
+802,3255,"League of Their Own, A (1992)",Comedy Drama,2.075278622087133
+803,7360,Dawn of the Dead (2004),Action Drama Horror Thriller,2.074705547112462
+804,72641,"Blind Side, The  (2009)",Drama,2.07427198744975
+805,61024,Pineapple Express (2008),Action Comedy Crime,2.07427198744975
+806,3717,Gone in 60 Seconds (2000),Action Crime,2.0741815735711797
+807,45499,X-Men: The Last Stand (2006),Action Sci-Fi Thriller,2.0730213935001167
+808,3148,"Cider House Rules, The (1999)",Drama,2.072568389057751
+809,345,"Adventures of Priscilla, Queen of the Desert, The (1994)",Comedy Drama,2.0721673421141507
+810,8528,Dodgeball: A True Underdog Story (2004),Comedy,2.071993609227652
+811,2908,Boys Don't Cry (1999),Drama,2.071993609227652
+812,2420,"Karate Kid, The (1984)",Drama,2.0716485362342025
+813,8533,"Notebook, The (2004)",Drama Romance,2.0716485362342025
+814,3198,Papillon (1973),Crime Drama,2.0706686930091185
+815,2966,"Straight Story, The (1999)",Adventure Drama,2.0706686930091185
+816,1635,"Ice Storm, The (1997)",Drama,2.070355801895226
+817,8370,"Blind Swordsman: Zatoichi, The (Zatôichi) (2003)",Action Comedy Crime Drama,2.0703520770010133
+818,4019,Finding Forrester (2000),Drama,2.069908814589666
+819,1994,Poltergeist (1982),Horror Thriller,2.069908814589666
+820,955,Bringing Up Baby (1938),Comedy Romance,2.0673336710570758
+821,64969,Yes Man (2008),Comedy,2.0671821920257463
+822,122900,Ant-Man (2015),Action Adventure Sci-Fi,2.0662782843633907
+823,1982,Halloween (1978),Horror,2.0662782843633907
+824,101,Bottle Rocket (1996),Adventure Comedy Crime Romance,2.066076384300251
+825,1376,Star Trek IV: The Voyage Home (1986),Adventure Comedy Sci-Fi,2.065119813387997
+826,2391,"Simple Plan, A (1998)",Crime Drama Thriller,2.064900525006908
+827,1958,Terms of Endearment (1983),Comedy Drama,2.064900525006908
+828,54995,Planet Terror (2007),Action Horror Sci-Fi,2.064900525006908
+829,96821,"Perks of Being a Wallflower, The (2012)",Drama Romance,2.064475683890578
+830,4447,Legally Blonde (2001),Comedy Romance,2.064447188449848
+831,41997,Munich (2005),Action Crime Drama Thriller,2.064336372847011
+832,96610,Looper (2012),Action Crime Sci-Fi,2.063473594224924
+833,1022,Cinderella (1950),Animation Children Fantasy Musical Romance,2.063196555217832
+834,91658,"Girl with the Dragon Tattoo, The (2011)",Drama Thriller,2.063196555217832
+835,5502,Signs (2002),Horror Sci-Fi Thriller,2.0620567375886525
+836,5673,Punch-Drunk Love (2002),Comedy Drama Romance,2.0613659390255137
+837,1944,From Here to Eternity (1953),Drama Romance War,2.060859353412545
+838,3783,Croupier (1998),Crime Drama,2.060859353412545
+839,59387,"Fall, The (2006)",Adventure Drama Fantasy,2.060859353412545
+840,4033,Thirteen Days (2000),Drama Thriller War,2.0603226560673367
+841,6331,Spellbound (2002),Documentary,2.0603226560673367
+842,4223,Enemy at the Gates (2001),Drama War,2.060201367781155
+843,85414,Source Code (2011),Action Drama Mystery Sci-Fi Thriller,2.059829250849276
+844,1947,West Side Story (1961),Drama Musical Romance,2.059829250849276
+845,54259,Stardust (2007),Adventure Comedy Fantasy Romance,2.059829250849276
+846,103141,Monsters University (2013),Adventure Animation Comedy,2.059080547112462
+847,3210,Fast Times at Ridgemont High (1982),Comedy Drama Romance,2.057244174265451
+848,5013,Gosford Park (2001),Comedy Drama Mystery,2.057019025104132
+849,1061,Sleepers (1996),Thriller,2.056571638193061
+850,81932,"Fighter, The (2010)",Drama,2.05520681908286
+851,1298,Pink Floyd: The Wall (1982),Drama Musical,2.05520681908286
+852,1569,My Best Friend's Wedding (1997),Comedy Romance,2.053951367781155
+853,252,I.Q. (1994),Comedy Romance,2.0534919064112533
+854,14,Nixon (1995),Drama,2.0534447821681865
+855,6620,American Splendor (2003),Comedy Drama,2.0534447821681865
+856,81562,127 Hours (2010),Adventure Drama Thriller,2.0534447821681865
+857,4128,"Lost Boys, The (1987)",Comedy Horror Thriller,2.0533376198269817
+858,2490,Payback (1999),Action Thriller,2.0530563998649103
+859,232,Eat Drink Man Woman (Yin shi nan nu) (1994),Comedy Drama Romance,2.052811550151976
+860,1955,Kramer vs. Kramer (1979),Drama,2.052811550151976
+861,26776,Porco Rosso (Crimson Pig) (Kurenai no buta) (1992),Adventure Animation Comedy Fantasy Romance,2.052811550151976
+862,2912,"Limey, The (1999)",Crime Drama Thriller,2.052811550151976
+863,8366,Saved! (2004),Comedy Drama,2.052811550151976
+864,6188,Old School (2003),Comedy,2.0527628399968827
+865,27611,Battlestar Galactica (2003),Drama Sci-Fi War,2.052271636538154
+866,27831,Layer Cake (2004),Crime Drama Thriller,2.052271636538154
+867,4085,Beverly Hills Cop (1984),Action Comedy Crime Drama,2.050631029470068
+868,2085,101 Dalmatians (One Hundred and One Dalmatians) (1961),Adventure Animation Children,2.050255595468361
+869,97938,Life of Pi (2012),Adventure Drama IMAX,2.050078439062653
+870,3462,Modern Times (1936),Comedy Drama Romance,2.049969604863222
+871,2105,Tron (1982),Action Adventure Sci-Fi,2.0499392097264435
+872,54881,"King of Kong, The (2007)",Documentary,2.04951874366768
+873,2739,"Color Purple, The (1985)",Drama,2.04951874366768
+874,8970,Finding Neverland (2004),Drama,2.047848594224924
+875,1257,Better Off Dead... (1985),Comedy Romance,2.047759765844872
+876,102445,Star Trek Into Darkness (2013),Action Adventure Sci-Fi IMAX,2.047759765844872
+877,616,"Aristocats, The (1970)",Animation Children,2.0475008443093548
+878,3060,"Commitments, The (1991)",Comedy Drama Musical,2.0473150962512663
+879,3396,"Muppet Movie, The (1979)",Adventure Children Comedy Musical,2.046214423873998
+880,38038,Wallace & Gromit in The Curse of the Were-Rabbit (2005),Adventure Animation Children Comedy,2.0446301925025328
+881,33004,"Hitchhiker's Guide to the Galaxy, The (2005)",Adventure Comedy Sci-Fi,2.0445737772865438
+882,4975,Vanilla Sky (2001),Mystery Romance Sci-Fi Thriller,2.0445737772865438
+883,1962,Driving Miss Daisy (1989),Drama,2.0443372538654687
+884,1960,"Last Emperor, The (1987)",Drama,2.043722235211597
+885,3418,Thelma & Louise (1991),Adventure Crime Drama,2.0432574690488545
+886,97913,Wreck-It Ralph (2012),Animation Comedy,2.0421732522796354
+887,45728,Clerks II (2006),Comedy,2.0410918868365675
+888,1211,"Wings of Desire (Himmel über Berlin, Der) (1987)",Drama Fantasy Romance,2.0410918868365675
+889,786,Eraser (1996),Action Drama Thriller,2.041009688449848
+890,112290,Boyhood (2014),Drama,2.040944037189344
+891,6618,Shaolin Soccer (Siu lam juk kau) (2001),Action Comedy,2.040944037189344
+892,3176,"Talented Mr. Ripley, The (1999)",Drama Mystery Thriller,2.0407077724706904
+893,86833,Bridesmaids (2011),Comedy,2.0405268490374877
+894,653,Dragonheart (1996),Action Adventure Fantasy,2.040074818798223
+895,61323,Burn After Reading (2008),Comedy Crime Drama,2.03994232717637
+896,3174,Man on the Moon (1999),Comedy Drama,2.03994232717637
+897,176371,Blade Runner 2049 (2017),Sci-Fi,2.0395558932792976
+898,57640,Hellboy II: The Golden Army (2008),Action Adventure Fantasy Sci-Fi,2.0395558932792976
+899,4855,Dirty Harry (1971),Action Crime Thriller,2.039475683890577
+900,69,Friday (1995),Comedy,2.039475683890577
+901,39292,"Good Night, and Good Luck. (2005)",Crime Drama,2.039475683890577
+902,2915,Risky Business (1983),Comedy,2.039387031408308
+903,1094,"Crying Game, The (1992)",Drama Romance Thriller,2.039387031408308
+904,1909,"X-Files: Fight the Future, The (1998)",Action Crime Mystery Sci-Fi Thriller,2.039387031408308
+905,2648,Frankenstein (1931),Drama Horror Sci-Fi,2.0381320806852723
+906,3053,"Messenger: The Story of Joan of Arc, The (1999)",Drama War,2.0381320806852723
+907,3831,Saving Grace (2000),Comedy,2.0381320806852723
+908,27815,"Chorus, The (Choristes, Les) (2004)",Drama,2.0381320806852723
+909,45720,"Devil Wears Prada, The (2006)",Comedy Drama,2.037770427319864
+910,39183,Brokeback Mountain (2005),Drama Romance,2.037770427319864
+911,216,Billy Madison (1995),Comedy,2.035605731654364
+912,2359,Waking Ned Devine (a.k.a. Waking Ned) (1998),Comedy,2.034106850596212
+913,19,Ace Ventura: When Nature Calls (1995),Comedy,2.032329372754905
+914,104841,Gravity (2013),Action Sci-Fi IMAX,2.032223594224924
+915,3702,Mad Max (1979),Action Adventure Sci-Fi,2.0321748520236764
+916,106696,Frozen (2013),Adventure Animation Comedy Fantasy Musical Romance,2.030709569227544
+917,158238,The Nice Guys (2016),Crime Mystery Thriller,2.0306484295846
+918,3159,Fantasia 2000 (1999),Animation Children Musical IMAX,2.0306484295846
+919,3034,Robin Hood (1973),Adventure Animation Children Comedy Musical,2.030500675447484
+920,2140,"Dark Crystal, The (1982)",Adventure Fantasy,2.030417486143393
+921,30812,"Aviator, The (2004)",Drama,2.0302431610942246
+922,44761,Brick (2005),Crime Drama Film-Noir Mystery,2.0286854103343464
+923,187593,Deadpool 2 (2018),Action Comedy Sci-Fi,2.0286854103343464
+924,2583,Cookie's Fortune (1999),Comedy Drama,2.0286854103343464
+925,154,Beauty of the Day (Belle de jour) (1967),Drama,2.0286854103343464
+926,4029,State and Main (2000),Comedy Drama,2.0286854103343464
+927,104211,We're the Millers (2013),Comedy Crime,2.0286220871327254
+928,69951,"Imaginarium of Doctor Parnassus, The (2009)",Drama Fantasy,2.027830547112462
+929,4007,Wall Street (1987),Drama,2.0269756838905777
+930,3735,Serpico (1973),Crime Drama,2.0262381548364026
+931,8914,Primer (2004),Drama Sci-Fi,2.0262381548364026
+932,1125,"Return of the Pink Panther, The (1975)",Comedy Crime,2.026120820668693
+933,3,Grumpier Old Men (1995),Comedy Romance,2.024944470423194
+934,2795,National Lampoon's Vacation (1983),Comedy,2.0244914659808275
+935,102125,Iron Man 3 (2013),Action Sci-Fi Thriller IMAX,2.024411094224924
+936,30810,"Life Aquatic with Steve Zissou, The (2004)",Adventure Comedy Fantasy,2.024398258440812
+937,8622,Fahrenheit 9/11 (2004),Documentary,2.024398258440812
+938,610,Heavy Metal (1981),Action Adventure Animation Horror Sci-Fi,2.0234871511467256
+939,362,"Jungle Book, The (1994)",Adventure Children Romance,2.023064544966923
+940,2991,Live and Let Die (1973),Action Adventure Thriller,2.022598123430686
+941,3168,Easy Rider (1969),Adventure Drama,2.022088879572372
+942,783,"Hunchback of Notre Dame, The (1996)",Animation Children Drama Musical Romance,2.0220364741641337
+943,3307,City Lights (1931),Comedy Drama Romance,2.0218611176057983
+944,3868,"Naked Gun: From the Files of Police Squad!, The (1988)",Action Comedy Crime Romance,2.021529888551165
+945,2470,Crocodile Dundee (1986),Adventure Comedy,2.02084999733376
+946,1129,Escape from New York (1981),Action Adventure Sci-Fi Thriller,2.0207115579456008
+947,1179,"Grifters, The (1990)",Crime Drama Film-Noir,2.0199819880670944
+948,2023,"Godfather: Part III, The (1990)",Crime Drama Mystery Thriller,2.019723066531577
+949,348,Bullets Over Broadway (1994),Comedy,2.019630192502533
+950,6773,"Triplets of Belleville, The (Les triplettes de Belleville) (2003)",Animation Comedy Fantasy,2.0194459795523625
+951,3360,Hoosiers (a.k.a. Best Shot) (1986),Drama Romance,2.0194459795523625
+952,122922,Doctor Strange (2016),Action Adventure Sci-Fi,2.0194459795523625
+953,2455,"Fly, The (1986)",Drama Horror Sci-Fi Thriller,2.0186081854810207
+954,802,Phenomenon (1996),Drama Romance,2.018022333817893
+955,5026,"Brotherhood of the Wolf (Pacte des loups, Le) (2001)",Action Mystery Thriller,2.01709726443769
+956,3298,Boiler Room (2000),Crime Drama Thriller,2.0167173252279635
+957,8529,"Terminal, The (2004)",Comedy Drama Romance,2.0167173252279635
+958,671,Mystery Science Theater 3000: The Movie (1996),Comedy Sci-Fi,2.0166117865585957
+959,88140,Captain America: The First Avenger (2011),Action Adventure Sci-Fi Thriller War,2.016598594224924
+960,86332,Thor (2011),Action Adventure Drama Fantasy IMAX,2.0157116037904523
+961,48082,"Science of Sleep, The (La science des rêves) (2006)",Comedy Drama Fantasy Romance,2.015404807958
+962,5294,Frailty (2001),Crime Drama Thriller,2.015404807958
+963,1289,Koyaanisqatsi (a.k.a. Koyaanisqatsi: Life Out of Balance) (1983),Documentary,2.015404807958
+964,5812,Far from Heaven (2002),Drama Romance,2.015404807958
+965,5608,"Das Experiment (Experiment, The) (2001)",Drama Thriller,2.015404807958
+966,106487,The Hunger Games: Catching Fire (2013),Action Adventure Sci-Fi IMAX,2.014876081365443
+967,114662,American Sniper (2014),Action War,2.013981762917933
+968,4025,Miss Congeniality (2000),Comedy Crime,2.013665938449848
+969,97752,Cloud Atlas (2012),Drama Sci-Fi IMAX,2.012797952327628
+970,2083,"Muppet Christmas Carol, The (1992)",Children Comedy Musical,2.012797952327628
+971,5791,Frida (2002),Drama Romance,2.012205547112462
+972,2467,"Name of the Rose, The (Name der Rose, Der) (1986)",Crime Drama Mystery Thriller,2.01177811550152
+973,90866,Hugo (2011),Children Drama Mystery,2.01177811550152
+974,128360,The Hateful Eight (2015),Western,2.01177811550152
+975,58803,21 (2008),Crime Drama Romance Thriller,2.01177811550152
+976,2336,Elizabeth (1998),Drama,2.0117285582132944
+977,5014,I Am Sam (2001),Drama,2.011532272483461
+978,2423,Christmas Vacation (National Lampoon's Christmas Vacation) (1989),Comedy,2.0112968591691995
+979,145,Bad Boys (1995),Action Comedy Crime Drama Thriller,2.010087013528816
+980,2366,King Kong (1933),Action Adventure Fantasy Horror,2.009969604863222
+981,2872,Excalibur (1981),Adventure Fantasy,2.009969604863222
+982,4641,Ghost World (2001),Comedy Drama,2.0083586626139818
+983,3105,Awakenings (1990),Drama Mystery,2.0080823431887262
+984,6323,Identity (2003),Crime Horror Mystery Thriller,2.0080823431887262
+985,5135,Monsoon Wedding (2001),Comedy Romance,2.0078520770010133
+986,2312,Children of a Lesser God (1986),Drama,2.0078520770010133
+987,3088,Harvey (1950),Comedy Fantasy,2.0078520770010133
+988,7569,You Only Live Twice (1967),Action Adventure Sci-Fi Thriller,2.0078520770010133
+989,45186,Mission: Impossible III (2006),Action Adventure Thriller,2.007408814589666
+990,2006,"Mask of Zorro, The (1998)",Action Comedy Romance,2.0059270516717325
+991,3098,"Natural, The (1984)",Drama,2.00528748733536
+992,41569,King Kong (2005),Action Adventure Drama Fantasy Thriller,2.003951367781155
+993,1088,Dirty Dancing (1987),Drama Musical Romance,2.0036727456940224
+994,785,Kingpin (1996),Comedy,2.0036727456940224
+995,2403,First Blood (Rambo: First Blood) (1982),Action Adventure Drama Thriller,2.0029635258358662
+996,7,Sabrina (1995),Comedy Romance,2.002926939097152
+997,1301,Forbidden Planet (1956),Drama Sci-Fi,2.002630348375029
+998,1537,Shall We Dance? (Shall We Dansu?) (1996),Comedy Drama Romance,2.002630348375029
+999,911,Charade (1963),Comedy Crime Mystery Romance Thriller,2.002630348375029
+1000,18,Four Rooms (1995),Comedy,2.001975683890578
+1001,27660,"Animatrix, The (2003)",Action Animation Drama Sci-Fi,2.001975683890578
+1002,31696,Constantine (2005),Action Fantasy Horror Thriller,2.001671732522796
+1003,3252,Scent of a Woman (1992),Drama,2.001463469548576
+1004,524,Rudy (1993),Drama,2.001005721437511
+1005,61132,Tropic Thunder (2008),Action Adventure Comedy War,2.000759878419453
+1006,6754,Underworld (2003),Action Fantasy Horror,2.000759878419453
+1007,45517,Cars (2006),Animation Children Comedy,2.0005745422195864
+1008,494,Executive Decision (1996),Action Adventure Thriller,2.0005745422195864
+1009,7373,Hellboy (2004),Action Adventure Fantasy Horror,2.0005745422195864
+1010,2003,Gremlins (1984),Comedy Horror,2.0005745422195864
+1011,281,Nobody's Fool (1994),Comedy Drama Romance,1.999240121580547
+1012,6796,Boyz N the Hood (1991),Crime Drama,1.997889226612631
+1013,428,"Bronx Tale, A (1993)",Drama,1.997889226612631
+1014,249,Immortal Beloved (1994),Drama Romance,1.997889226612631
+1015,47997,Idiocracy (2006),Adventure Comedy Sci-Fi Thriller,1.997889226612631
+1016,2021,Dune (1984),Adventure Sci-Fi,1.9973712314137848
+1017,112175,How to Train Your Dragon 2 (2014),Action Adventure Animation,1.9973150962512665
+1018,4881,"Man Who Wasn't There, The (2001)",Crime Drama,1.9968263901305203
+1019,91630,Mission: Impossible - Ghost Protocol (2011),Action Adventure Thriller IMAX,1.9967187068250896
+1020,1188,Strictly Ballroom (1992),Comedy Romance,1.9967187068250896
+1021,3317,Wonder Boys (2000),Comedy Drama,1.9967187068250896
+1022,222,Circle of Friends (1995),Drama Romance,1.996580547112462
+1023,2819,Three Days of the Condor (3 Days of the Condor) (1975),Drama Mystery Romance Thriller,1.996580547112462
+1024,314,"Secret of Roan Inish, The (1994)",Children Drama Fantasy Mystery,1.996580547112462
+1025,63113,Quantum of Solace (2008),Action Adventure Thriller,1.9945288753799395
+1026,3256,Patriot Games (1992),Action Crime Drama Thriller,1.9936268261594277
+1027,4874,K-PAX (2001),Drama Fantasy Mystery Sci-Fi,1.9931841208436956
+1028,53322,Ocean's Thirteen (2007),Crime Thriller,1.9931841208436956
+1029,599,"Wild Bunch, The (1969)",Adventure Western,1.9926775352307269
+1030,3035,Mister Roberts (1955),Comedy Drama War,1.9926775352307269
+1031,104913,Rush (2013),Action Drama,1.9926775352307269
+1032,381,When a Man Loves a Woman (1994),Drama Romance,1.9926775352307269
+1033,1372,Star Trek VI: The Undiscovered Country (1991),Action Mystery Sci-Fi,1.9917679837892608
+1034,1032,Alice in Wonderland (1951),Adventure Animation Children Fantasy Musical,1.991451367781155
+1035,33615,Madagascar (2005),Adventure Animation Children Comedy,1.991451367781155
+1036,1680,Sliding Doors (1998),Drama Romance,1.989969604863222
+1037,60756,Step Brothers (2008),Comedy,1.9895516717325228
+1038,1297,Real Genius (1985),Comedy,1.9894756838905772
+1039,788,"Nutty Professor, The (1996)",Comedy Fantasy Romance Sci-Fi,1.9889539624879533
+1040,98243,Rise of the Guardians (2012),Adventure Animation Children Fantasy IMAX,1.98701874366768
+1041,2596,SLC Punk! (1998),Comedy Drama,1.98701874366768
+1042,4873,Waking Life (2001),Animation Drama Fantasy,1.9864821628539435
+1043,8958,Ray (2004),Drama,1.9864821628539435
+1044,112138,22 Jump Street (2014),Action Comedy Crime,1.9864821628539435
+1045,8807,Harold and Kumar Go to White Castle (2004),Adventure Comedy,1.98629983908457
+1046,46723,Babel (2006),Drama Thriller,1.9855623100303952
+1047,3386,JFK (1991),Drama Mystery Thriller,1.9855623100303952
+1048,3104,Midnight Run (1988),Action Comedy Crime Thriller,1.985355070461453
+1049,515,"Remains of the Day, The (1993)",Drama Romance,1.9844541540020264
+1050,5110,Super Troopers (2001),Comedy Crime Mystery,1.9844541540020264
+1051,6565,Seabiscuit (2003),Drama,1.984000337723742
+1052,1093,"Doors, The (1991)",Drama,1.983857717900271
+1053,115210,Fury (2014),Action Drama War,1.98339957914426
+1054,3654,"Guns of Navarone, The (1961)",Action Adventure Drama War,1.98339957914426
+1055,3044,Dead Again (1991),Mystery Romance Thriller,1.98339957914426
+1056,4467,"Adventures of Baron Munchausen, The (1988)",Adventure Comedy Fantasy,1.98339957914426
+1057,6857,Ninja Scroll (Jûbei ninpûchô) (1995),Action Adventure Animation Fantasy,1.98339957914426
+1058,2664,Invasion of the Body Snatchers (1956),Horror Sci-Fi Thriller,1.98339957914426
+1059,62849,RocknRolla (2008),Action Crime,1.98339957914426
+1060,6993,Hannah and Her Sisters (1986),Comedy Drama Romance,1.98339957914426
+1061,3072,Moonstruck (1987),Comedy Romance,1.9829449510300572
+1062,40629,Pride & Prejudice (2005),Drama Romance,1.9829449510300572
+1063,4299,"Knight's Tale, A (2001)",Action Comedy Romance,1.982281859292757
+1064,117176,The Theory of Everything (2014),Drama Romance,1.9821205077775792
+1065,50068,Letters from Iwo Jima (2006),Drama War,1.9821205077775792
+1066,1296,"Room with a View, A (1986)",Drama Romance,1.9821205077775792
+1067,3510,Frequency (2000),Drama Thriller,1.9818895643363728
+1068,3543,Diner (1982),Comedy Drama,1.9813829787234043
+1069,6296,"Mighty Wind, A (2003)",Comedy Musical,1.9813829787234043
+1070,6385,Whale Rider (2002),Drama,1.9813829787234043
+1071,492,Manhattan Murder Mystery (1993),Comedy Mystery,1.9813829787234043
+1072,8981,Closer (2004),Drama Romance,1.980955547112462
+1073,2114,"Outsiders, The (1983)",Drama,1.980955547112462
+1074,1260,M (1931),Crime Film-Noir Thriller,1.9806484295846
+1075,2118,"Dead Zone, The (1983)",Thriller,1.9806484295846
+1076,106489,"Hobbit: The Desolation of Smaug, The (2013)",Adventure Fantasy IMAX,1.9799696048632216
+1077,1025,"Sword in the Stone, The (1963)",Animation Children Fantasy Musical,1.9799696048632216
+1078,4018,What Women Want (2000),Comedy Romance,1.979778790949004
+1079,1271,Fried Green Tomatoes (1991),Comedy Crime Drama,1.9779635258358663
+1080,8917,Team America: World Police (2004),Action Adventure Animation Comedy,1.977536094224924
+1081,4865,From Hell (2001),Crime Horror Mystery Thriller,1.9769756838905772
+1082,3476,Jacob's Ladder (1990),Horror Mystery,1.9764145429039048
+1083,180,Mallrats (1995),Comedy Romance,1.9749451198919283
+1084,122920,Captain America: Civil War (2016),Action Sci-Fi Thriller,1.973991434097817
+1085,27904,"Scanner Darkly, A (2006)",Animation Drama Mystery Sci-Fi Thriller,1.973991434097817
+1086,1120,"People vs. Larry Flynt, The (1996)",Comedy Drama,1.9736856917707983
+1087,2018,Bambi (1942),Animation Children Drama,1.9729643257078864
+1088,2193,Willow (1988),Action Adventure Fantasy,1.972701367781155
+1089,282,Nell (1994),Drama,1.972701367781155
+1090,8984,Ocean's Twelve (2004),Action Comedy Crime Thriller,1.972096557574044
+1091,370,Naked Gun 33 1/3: The Final Insult (1994),Action Comedy,1.970901897075778
+1092,194,Smoke (1995),Comedy Drama,1.970111448834853
+1093,543,So I Married an Axe Murderer (1993),Comedy Romance Thriller,1.9700867373415372
+1094,86882,Midnight in Paris (2011),Comedy Fantasy Romance,1.969969604863222
+1095,62374,Body of Lies (2008),Action Drama Thriller,1.9699502625034544
+1096,2135,Doctor Dolittle (1967),Adventure Children Musical,1.9699502625034544
+1097,53996,Transformers (2007),Action Sci-Fi Thriller IMAX,1.9694295066635488
+1098,2125,Ever After: A Cinderella Story (1998),Comedy Drama Romance,1.969098277608916
+1099,1377,Batman Returns (1992),Action Crime,1.9684270516717324
+1100,1186,"Sex, Lies, and Videotape (1989)",Drama,1.9682502973437288
+1101,56152,Enchanted (2007),Adventure Animation Children Comedy Fantasy Musical Romance,1.9674146254246376
+1102,40278,Jarhead (2005),Action Drama War,1.9674146254246376
+1103,3271,Of Mice and Men (1992),Drama,1.9674146254246376
+1104,1476,Private Parts (1997),Comedy Drama,1.96679915828852
+1105,2476,Heartbreak Ridge (1986),Action War,1.9661854103343464
+1106,72737,"Princess and the Frog, The (2009)",Animation Children Fantasy Musical Romance,1.9661854103343464
+1107,134368,Spy (2015),Action Comedy Crime,1.965330547112462
+1108,1552,Con Air (1997),Action Adventure Thriller,1.9652774200195764
+1109,96588,Pitch Perfect (2012),Comedy Musical,1.9644756838905773
+1110,63131,Role Models (2008),Comedy,1.9644756838905773
+1111,122892,Avengers: Age of Ultron (2015),Action Adventure Sci-Fi,1.964426432511539
+1112,7265,"Dreamers, The (2003)",Drama,1.9641688099134909
+1113,47629,The Queen (2006),Drama,1.9641688099134909
+1114,2065,"Purple Rose of Cairo, The (1985)",Comedy Drama Fantasy Romance,1.9641688099134909
+1115,2294,Antz (1998),Adventure Animation Children Comedy Fantasy,1.9641675109760215
+1116,8638,Before Sunset (2004),Drama Romance,1.9639817629179328
+1117,3526,Parenthood (1989),Comedy Drama,1.9639817629179328
+1118,5992,"Hours, The (2002)",Drama Romance,1.9639817629179328
+1119,41,Richard III (1995),Drama War,1.9639817629179328
+1120,2694,Big Daddy (1999),Comedy,1.9636999746707196
+1121,2117,1984 (Nineteen Eighty-Four) (1984),Drama Sci-Fi,1.9635258358662613
+1122,96737,Dredd (2012),Action Sci-Fi,1.9635258358662613
+1123,4378,Sexy Beast (2000),Crime Drama,1.9635258358662613
+1124,53894,Sicko (2007),Documentary Drama,1.9635258358662613
+1125,30793,Charlie and the Chocolate Factory (2005),Adventure Children Comedy Fantasy IMAX,1.9635258358662613
+1126,2746,Little Shop of Horrors (1986),Comedy Horror Musical,1.9630192502532928
+1127,3082,"World Is Not Enough, The (1999)",Action Adventure Thriller,1.9630192502532928
+1128,3555,U-571 (2000),Action Thriller War,1.962881090540665
+1129,1566,Hercules (1997),Adventure Animation Children Comedy Musical,1.9613687616432984
+1130,95167,Brave (2012),Action Adventure Animation Children,1.9612968591692
+1131,2407,Cocoon (1985),Comedy Sci-Fi,1.9604686505973
+1132,89864,50/50 (2011),Comedy Drama,1.9601663733802592
+1133,1029,Dumbo (1941),Animation Children Drama Musical,1.9588145896656532
+1134,5679,"Ring, The (2002)",Horror Mystery Thriller,1.9582066869300911
+1135,5810,8 Mile (2002),Drama,1.9578916153903176
+1136,53000,28 Weeks Later (2007),Horror Sci-Fi Thriller,1.957193515704154
+1137,87306,Super 8 (2011),Mystery Sci-Fi Thriller IMAX,1.957193515704154
+1138,5574,"Transporter, The (2002)",Action Crime,1.9571837736731357
+1139,1042,That Thing You Do! (1996),Comedy Drama,1.9560536980749743
+1140,37733,"History of Violence, A (2005)",Action Crime Drama Thriller,1.95516717325228
+1141,34048,War of the Worlds (2005),Action Adventure Sci-Fi Thriller,1.954939209726444
+1142,4361,Tootsie (1982),Comedy Romance,1.954098594224924
+1143,6218,Bend It Like Beckham (2002),Comedy Drama Romance,1.9539513677811549
+1144,5630,Red Dragon (2002),Crime Mystery Thriller,1.9533042455142664
+1145,1339,Dracula (Bram Stoker's Dracula) (1992),Fantasy Horror Romance Thriller,1.9531233623309927
+1146,1092,Basic Instinct (1992),Crime Mystery Thriller,1.952887537993921
+1147,111781,Mission: Impossible - Rogue Nation (2015),Action Adventure Thriller,1.9527087430716967
+1148,7149,Something's Gotta Give (2003),Comedy Drama Romance,1.9527087430716967
+1149,168,First Knight (1995),Action Drama Romance,1.952001013171226
+1150,319,Shallow Grave (1994),Comedy Drama Thriller,1.9519756838905773
+1151,81564,Megamind (2010),Action Animation Children Comedy Sci-Fi IMAX,1.9519756838905773
+1152,1375,Star Trek III: The Search for Spock (1984),Action Adventure Sci-Fi,1.9501013171225936
+1153,2273,Rush Hour (1998),Action Comedy Crime Thriller,1.9501013171225936
+1154,832,Ransom (1996),Crime Thriller,1.9500739341164872
+1155,8983,House of Flying Daggers (Shi mian mai fu) (2004),Action Drama Romance,1.949969604863222
+1156,1254,"Treasure of the Sierra Madre, The (1948)",Action Adventure Drama Western,1.949705547112462
+1157,2001,Lethal Weapon 2 (1989),Action Comedy Crime Drama,1.9475683890577509
+1158,1959,Out of Africa (1985),Drama Romance,1.9473150962512664
+1159,1095,Glengarry Glen Ross (1992),Drama,1.9473150962512664
+1160,3668,Romeo and Juliet (1968),Drama Romance,1.9473150962512664
+1161,89774,Warrior (2011),Drama,1.9472229897761808
+1162,122906,Black Panther (2017),Action Adventure Sci-Fi,1.9472229897761808
+1163,1345,Carrie (1976),Drama Fantasy Horror Thriller,1.9471673421141509
+1164,48304,Apocalypto (2006),Adventure Drama Thriller,1.947008478643417
+1165,562,Welcome to the Dollhouse (1995),Comedy Drama,1.9465111669089468
+1166,2100,Splash (1984),Comedy Fantasy Romance,1.9463615233327372
+1167,53972,Live Free or Die Hard (2007),Action Adventure Crime Thriller,1.946286094224924
+1168,4901,Spy Game (2001),Action Crime Drama Thriller,1.9459079139930204
+1169,135143,Fantastic Beasts and Where to Find Them (2016),Fantasy,1.9456686930091185
+1170,152077,10 Cloverfield Lane (2016),Thriller,1.9456686930091185
+1171,89470,Contagion (2011),Sci-Fi Thriller IMAX,1.945352077001013
+1172,36708,Family Guy Presents Stewie Griffin: The Untold Story (2005),Adventure Animation Comedy,1.945352077001013
+1173,3244,"Goodbye Girl, The (1977)",Comedy Romance,1.945352077001013
+1174,900,"American in Paris, An (1951)",Musical Romance,1.945352077001013
+1175,417,Barcelona (1994),Comedy Romance,1.9449380406827217
+1176,62999,Madagascar: Escape 2 Africa (2008),Action Adventure Animation Children Comedy IMAX,1.9449380406827217
+1177,52,Mighty Aphrodite (1995),Comedy Drama Romance,1.9449088145896656
+1178,3186,"Girl, Interrupted (1999)",Drama,1.9449088145896656
+1179,8376,Napoleon Dynamite (2004),Comedy,1.9433171773597304
+1180,5459,Men in Black II (a.k.a. MIIB) (a.k.a. MIB 2) (2002),Action Comedy Sci-Fi,1.943034032587573
+1181,3623,Mission: Impossible II (2000),Action Adventure Thriller,1.9422492401215807
+1182,1801,"Man in the Iron Mask, The (1998)",Action Adventure Drama,1.9399696048632216
+1183,2394,"Prince of Egypt, The (1998)",Animation Musical,1.9399696048632216
+1184,2424,You've Got Mail (1998),Comedy Romance,1.939939209726444
+1185,1033,"Fox and the Hound, The (1981)",Animation Children Drama,1.9394756838905776
+1186,1429,First Strike (Police Story 4: First Strike) (Ging chaat goo si 4: Ji gaan daan yam mo) (1996),Action Adventure Comedy Thriller,1.9394756838905776
+1187,4623,Major League (1989),Comedy,1.9394756838905776
+1188,84944,Rango (2011),Action Adventure Animation Children Comedy Western,1.938002860718756
+1189,8228,"Maltese Falcon, The (a.k.a. Dangerous Female) (1931)",Mystery,1.938002860718756
+1190,88744,Rise of the Planet of the Apes (2011),Action Drama Sci-Fi Thriller,1.936648654733761
+1191,2301,History of the World: Part I (1981),Comedy Musical,1.934080547112462
+1192,105844,12 Years a Slave (2013),Drama,1.934080547112462
+1193,103335,Despicable Me 2 (2013),Animation Children Comedy IMAX,1.933850583906575
+1194,31878,Kung Fu Hustle (Gong fu) (2004),Action Comedy,1.933850583906575
+1195,45447,"Da Vinci Code, The (2006)",Drama Mystery Thriller,1.9335649153278331
+1196,2124,"Addams Family, The (1991)",Children Comedy Fantasy,1.9334906414973605
+1197,3070,"Adventures of Buckaroo Banzai Across the 8th Dimension, The (1984)",Adventure Comedy Sci-Fi,1.93338399189463
+1198,2137,Charlotte's Web (1973),Animation Children,1.93338399189463
+1199,2989,For Your Eyes Only (1981),Action Adventure Thriller,1.93338399189463
+1200,1320,Alien³ (a.k.a. Alien 3) (1992),Action Horror Sci-Fi Thriller,1.93161094224924
+1201,168250,Get Out (2017),Horror,1.9306484295846
+1202,376,"River Wild, The (1994)",Action Thriller,1.928951367781155
+1203,3639,"Man with the Golden Gun, The (1974)",Action Adventure Thriller,1.9284447821681865
+1204,4041,"Officer and a Gentleman, An (1982)",Drama Romance,1.927811550151976
+1205,52328,Sunshine (2007),Adventure Drama Sci-Fi Thriller,1.927811550151976
+1206,2297,What Dreams May Come (1998),Adventure Drama Fantasy Romance,1.927811550151976
+1207,71057,9 (2009),Adventure Animation Sci-Fi,1.927811550151976
+1208,3745,Titan A.E. (2000),Action Adventure Animation Children Sci-Fi,1.9272612933654756
+1209,2243,Broadcast News (1987),Comedy Drama Romance,1.9270516717325228
+1210,4448,"Score, The (2001)",Action Drama,1.9269756838905772
+1211,140110,The Intern (2015),Comedy,1.9257072714519523
+1212,1124,On Golden Pond (1981),Drama,1.9257072714519523
+1213,31685,Hitch (2005),Comedy Romance,1.9252786220871327
+1214,2094,"Rocketeer, The (1991)",Action Adventure Sci-Fi,1.9245577117917545
+1215,5577,Igby Goes Down (2002),Comedy Drama,1.92451874366768
+1216,493,Menace II Society (1993),Action Crime Drama,1.92451874366768
+1217,52604,Fracture (2007),Crime Drama Mystery Thriller,1.92451874366768
+1218,70183,"Ugly Truth, The (2009)",Comedy Drama Romance,1.92451874366768
+1219,2311,2010: The Year We Make Contact (1984),Sci-Fi,1.9232969783658145
+1220,2993,Thunderball (1965),Action Adventure Thriller,1.9219541540020264
+1221,1031,Bedknobs and Broomsticks (1971),Adventure Children Musical,1.9219541540020264
+1222,2108,L.A. Story (1991),Comedy Romance,1.9219541540020264
+1223,62434,Zack and Miri Make a Porno (2008),Comedy Drama Romance,1.921479229989868
+1224,4321,City Slickers (1991),Comedy Western,1.9210461809981367
+1225,4701,Rush Hour 2 (2001),Action Comedy,1.9210461809981367
+1226,8972,National Treasure (2004),Action Adventure Drama Mystery Thriller,1.9203327467605185
+1227,3755,"Perfect Storm, The (2000)",Drama Thriller,1.9195737772865435
+1228,3969,Pay It Forward (2000),Drama,1.918722235211597
+1229,4327,"Magnificent Seven, The (1960)",Adventure Western,1.918455547112462
+1230,1753,Half Baked (1998),Comedy,1.918455547112462
+1231,2232,Cube (1997),Horror Mystery Sci-Fi Thriller,1.9181301362152428
+1232,52281,Grindhouse (2007),Action Crime Horror Sci-Fi Thriller,1.9181301362152428
+1233,5481,Austin Powers in Goldmember (2002),Comedy,1.9169978957213
+1234,2541,Cruel Intentions (1999),Drama,1.916451367781155
+1235,2427,"Thin Red Line, The (1998)",Action Drama War,1.9159574468085103
+1236,3267,"Mariachi, El (1992)",Action Crime Thriller Western,1.9145558932792972
+1237,34072,"March of the Penguins (Marche de l'empereur, La) (2005)",Documentary,1.9145558932792972
+1238,6003,Confessions of a Dangerous Mind (2002),Comedy Crime Drama Thriller,1.9139817629179328
+1239,852,Tin Cup (1996),Comedy Drama Romance,1.9139570226903229
+1240,4446,Final Fantasy: The Spirits Within (2001),Adventure Animation Fantasy Sci-Fi,1.912981664869105
+1241,34319,"Island, The (2005)",Action Sci-Fi Thriller,1.912981664869105
+1242,4489,Coming to America (1988),Comedy Romance,1.91153748733536
+1243,2687,Tarzan (1999),Adventure Animation Children Drama,1.91153748733536
+1244,103228,Pacific Rim (2013),Action Adventure Sci-Fi IMAX,1.909954407294833
+1245,534,Shadowlands (1993),Drama Romance,1.909954407294833
+1246,1047,"Long Kiss Goodnight, The (1996)",Action Drama Thriller,1.909850787510362
+1247,3984,Diamonds Are Forever (1971),Action Adventure Thriller,1.9095744680851063
+1248,3869,"Naked Gun 2 1/2: The Smell of Fear, The (1991)",Comedy,1.909106850596212
+1249,94677,"Dictator, The (2012)",Comedy,1.9085910960128727
+1250,3977,Charlie's Angels (2000),Action Comedy,1.9082235731171904
+1251,5,Father of the Bride Part II (1995),Comedy,1.9080547112462007
+1252,58295,"Bank Job, The (2008)",Action Crime Thriller,1.9064765022211831
+1253,1023,Winnie the Pooh and the Blustery Day (1968),Animation Children Musical,1.9064765022211831
+1254,2539,Analyze This (1999),Comedy,1.905015197568389
+1255,8361,"Day After Tomorrow, The (2004)",Action Adventure Drama Sci-Fi Thriller,1.904939209726444
+1256,1747,Wag the Dog (1997),Comedy,1.904917148740073
+1257,952,Around the World in 80 Days (1956),Adventure Comedy,1.9036854103343464
+1258,6552,Dirty Pretty Things (2002),Crime Drama Thriller,1.9036854103343464
+1259,799,"Frighteners, The (1996)",Comedy Horror Thriller,1.9030329060393811
+1260,2058,"Negotiator, The (1998)",Action Crime Drama Mystery Thriller,1.9029635258358664
+1261,3624,Shanghai Noon (2000),Action Adventure Comedy Western,1.9023291157135789
+1262,5388,Insomnia (2002),Action Crime Drama Mystery Thriller,1.9022750299346043
+1263,81229,Red (2010),Action Comedy,1.9019756838905773
+1264,117590,Horrible Bosses 2 (2014),Comedy Crime,1.901768444321636
+1265,137857,The Jungle Book (2016),Adventure Drama Fantasy,1.901768444321636
+1266,373,Red Rock West (1992),Thriller,1.901768444321636
+1267,159093,Now You See Me 2 (2016),Action Comedy Thriller,1.901768444321636
+1268,4954,Ocean's Eleven (a.k.a. Ocean's 11) (1960),Comedy Crime,1.901768444321636
+1269,3809,What About Bob? (1991),Comedy,1.9016717325227963
+1270,87869,Horrible Bosses (2011),Comedy Crime,1.901120820668693
+1271,5103,"Sandlot, The (1993)",Children Comedy Drama,1.901120820668693
+1272,2841,Stir of Echoes (1999),Horror Mystery Thriller,1.9006670043904088
+1273,277,Miracle on 34th Street (1994),Drama,1.9005959046552552
+1274,45,To Die For (1995),Comedy Drama Thriller,1.899411094224924
+1275,2139,"Secret of NIMH, The (1982)",Adventure Animation Children Drama,1.8976697061803445
+1276,34437,Broken Flowers (2005),Comedy Drama,1.8976697061803445
+1277,1049,"Ghost and the Darkness, The (1996)",Action Adventure,1.8976697061803445
+1278,2054,"Honey, I Shrunk the Kids (1989)",Adventure Children Comedy Fantasy Sci-Fi,1.8953937958161988
+1279,1693,Amistad (1997),Drama Mystery,1.8943768996960488
+1280,1367,101 Dalmatians (1996),Adventure Children Comedy,1.8943768996960488
+1281,67087,"I Love You, Man (2009)",Comedy,1.893885213659932
+1282,7160,Monster (2003),Crime Drama,1.893885213659932
+1283,3020,Falling Down (1993),Action Drama,1.893885213659932
+1284,71264,Cloudy with a Chance of Meatballs (2009),Animation Children Fantasy IMAX,1.893885213659932
+1285,3752,"Me, Myself & Irene (2000)",Adventure Comedy,1.8930223338178933
+1286,609,Homeward Bound II: Lost in San Francisco (1996),Adventure Children,1.89209726443769
+1287,2431,Patch Adams (1998),Comedy Drama,1.8903523584374649
+1288,2109,"Jerk, The (1979)",Comedy,1.8903523584374649
+1289,466,Hot Shots! Part Deux (1993),Action Comedy War,1.8892603850050655
+1290,45950,"Inconvenient Truth, An (2006)",Documentary,1.887245732990414
+1291,2728,Spartacus (1960),Action Drama Romance War,1.887245732990414
+1292,157296,Finding Dory (2016),Adventure Animation Comedy,1.887245732990414
+1293,40583,Syriana (2005),Drama Thriller,1.887205547112462
+1294,1348,"Nosferatu (Nosferatu, eine Symphonie des Grauens) (1922)",Horror,1.887205547112462
+1295,3178,"Hurricane, The (1999)",Drama,1.887205547112462
+1296,837,Matilda (1996),Children Comedy Fantasy,1.8871235147830892
+1297,342,Muriel's Wedding (1994),Comedy,1.8871235147830892
+1298,4270,"Mummy Returns, The (2001)",Action Adventure Comedy Thriller,1.886389733198244
+1299,1544,"Lost World: Jurassic Park, The (1997)",Action Adventure Sci-Fi Thriller,1.8859842126752255
+1300,3536,Keeping the Faith (2000),Comedy Drama Romance,1.8857649442755824
+1301,8910,I Heart Huckabees (2004),Comedy,1.8857649442755824
+1302,2710,"Blair Witch Project, The (1999)",Drama Horror Thriller,1.884759688449848
+1303,22,Copycat (1995),Crime Drama Horror Mystery Thriller,1.8846673421141509
+1304,647,Courage Under Fire (1996),Action Crime Drama War,1.8841578450896133
+1305,203,"To Wong Foo, Thanks for Everything! Julie Newmar (1995)",Comedy,1.883082343188726
+1306,2867,Fright Night (1985),Comedy Horror Thriller,1.882852077001013
+1307,41571,Memoirs of a Geisha (2005),Drama Romance,1.882852077001013
+1308,125,Flirting With Disaster (1996),Comedy,1.882852077001013
+1309,538,Six Degrees of Separation (1993),Drama,1.882852077001013
+1310,6867,"Station Agent, The (2003)",Comedy Drama,1.882852077001013
+1311,2641,Superman II (1980),Action Sci-Fi,1.882544507164568
+1312,1321,"American Werewolf in London, An (1981)",Comedy Horror Thriller,1.8812937756045989
+1313,5528,One Hour Photo (2002),Drama Thriller,1.8812190049592064
+1314,2863,"Hard Day's Night, A (1964)",Adventure Comedy Musical,1.8812190049592064
+1315,1441,Benny & Joon (1993),Comedy Romance,1.8812190049592064
+1316,2009,Soylent Green (1973),Drama Mystery Sci-Fi Thriller,1.8812190049592064
+1317,57368,Cloverfield (2008),Action Mystery Sci-Fi Thriller,1.8810930991782056
+1318,31,Dangerous Minds (1995),Drama,1.880859062549992
+1319,230,Dolores Claiborne (1995),Drama Thriller,1.88028748733536
+1320,6957,Bad Santa (2003),Comedy Crime,1.8802606967500584
+1321,170,Hackers (1995),Action Adventure Crime Thriller,1.880243161094225
+1322,5785,Jackass: The Movie (2002),Action Comedy Documentary,1.8791793313069909
+1323,33162,Kingdom of Heaven (2005),Action Drama Romance War,1.8791793313069909
+1324,52435,How the Grinch Stole Christmas! (1966),Animation Comedy Fantasy Musical,1.8790411715943631
+1325,5049,48 Hrs. (1982),Action Comedy Crime Drama,1.8790411715943631
+1326,1194,Cheech and Chong's Up in Smoke (1978),Comedy,1.8790411715943631
+1327,4326,Mississippi Burning (1988),Crime Drama Thriller,1.8790411715943631
+1328,55290,Gone Baby Gone (2007),Crime Drama Mystery,1.8769756838905776
+1329,60,"Indian in the Cupboard, The (1995)",Adventure Children Fantasy,1.8760057214375112
+1330,1722,Tomorrow Never Dies (1997),Action Adventure Thriller,1.875278622087133
+1331,4369,"Fast and the Furious, The (2001)",Action Crime Thriller,1.875278622087133
+1332,4718,American Pie 2 (2001),Comedy,1.875278622087133
+1333,158,Casper (1995),Adventure Children,1.8743504265124036
+1334,4017,Pollock (2000),Drama,1.874240121580547
+1335,207,"Walk in the Clouds, A (1995)",Drama Romance,1.8738601823708203
+1336,107406,Snowpiercer (2013),Action Drama Sci-Fi,1.8738601823708203
+1337,55269,"Darjeeling Limited, The (2007)",Adventure Comedy Drama,1.8738601823708203
+1338,138036,The Man from U.N.C.L.E. (2015),Action Adventure Comedy,1.872889226612631
+1339,2145,Pretty in Pink (1986),Comedy Drama Romance,1.871971999631574
+1340,160,Congo (1995),Action Adventure Mystery Sci-Fi,1.871727190316216
+1341,2096,Sleeping Beauty (1959),Animation Children Musical,1.8717187068250896
+1342,102903,Now You See Me (2013),Crime Mystery Thriller,1.8717187068250896
+1343,140,Up Close and Personal (1996),Drama Romance,1.871580547112462
+1344,69406,"Proposal, The (2009)",Comedy Romance,1.871580547112462
+1345,112183,Birdman: Or (The Unexpected Virtue of Ignorance) (2014),Comedy Drama,1.8706453121346736
+1346,485,Last Action Hero (1993),Action Adventure Comedy Fantasy,1.869716694385502
+1347,3698,"Running Man, The (1987)",Action Sci-Fi,1.8686527802610409
+1348,55052,Atonement (2007),Drama Romance War,1.8680149637596448
+1349,4008,Born on the Fourth of July (1989),Drama War,1.8680149637596448
+1350,986,Fly Away Home (1996),Adventure Children,1.8680149637596448
+1351,892,Twelfth Night (1996),Comedy Drama Romance,1.8680149637596448
+1352,177765,Coco (2017),Adventure Animation Children,1.8680149637596448
+1353,3450,Grumpy Old Men (1993),Comedy,1.8669164657792685
+1354,1587,Conan the Barbarian (1982),Action Adventure Fantasy,1.8645945680949116
+1355,6297,Holes (2003),Adventure Children Comedy Mystery,1.8644756838905772
+1356,1019,"20,000 Leagues Under the Sea (1954)",Adventure Drama Sci-Fi,1.8644734489540495
+1357,1371,Star Trek: The Motion Picture (1979),Adventure Sci-Fi,1.8641675109760216
+1358,3863,"Cell, The (2000)",Drama Horror Thriller,1.8641675109760216
+1359,6537,Terminator 3: Rise of the Machines (2003),Action Adventure Sci-Fi,1.8641675109760216
+1360,1754,Fallen (1998),Crime Drama Fantasy Thriller,1.8639817629179327
+1361,52975,Hairspray (2007),Comedy Drama Musical,1.8639817629179327
+1362,412,"Age of Innocence, The (1993)",Drama,1.8639817629179327
+1363,2952,Sydney (Hard Eight) (1996),Crime Drama Thriller,1.86201874366768
+1364,3618,Small Time Crooks (2000),Comedy Crime,1.86201874366768
+1365,59501,"Chronicles of Narnia: Prince Caspian, The (2008)",Adventure Children Fantasy,1.86201874366768
+1366,1081,Victor/Victoria (1982),Comedy Musical Romance,1.86201874366768
+1367,1876,Deep Impact (1998),Drama Sci-Fi Thriller,1.8616314412949744
+1368,5254,Blade II (2002),Action Horror Thriller,1.86129983908457
+1369,107,Muppet Treasure Island (1996),Adventure Children Comedy Musical,1.8610299275192888
+1370,3635,"Spy Who Loved Me, The (1977)",Action Adventure Thriller,1.859000337723742
+1371,6155,How to Lose a Guy in 10 Days (2003),Comedy Romance,1.858295776124096
+1372,2717,Ghostbusters II (1989),Comedy Fantasy Sci-Fi,1.8571428571428568
+1373,257,Just Cause (1995),Mystery Thriller,1.8563829787234043
+1374,48043,"Fountain, The (2006)",Drama Fantasy Romance,1.8563829787234043
+1375,5066,"Walk to Remember, A (2002)",Drama Romance,1.8563829787234043
+1376,7439,"Punisher, The (2004)",Action Crime Thriller,1.8563829787234043
+1377,99007,Warm Bodies (2013),Comedy Horror Romance,1.8563829787234043
+1378,40732,"Descent, The (2005)",Adventure Drama Horror Thriller,1.8563138988670904
+1379,52287,Meet the Robinsons (2007),Action Adventure Animation Children Comedy Sci-Fi,1.8563138988670904
+1380,63876,Milk (2008),Drama,1.8563138988670904
+1381,3189,My Dog Skip (1999),Children Drama,1.8563138988670904
+1382,139644,Sicario (2015),Crime Drama Mystery,1.8563138988670904
+1383,5650,Strange Brew (1983),Comedy,1.8563138988670904
+1384,60126,Get Smart (2008),Action Comedy,1.855955547112462
+1385,3617,Road Trip (2000),Comedy,1.854233078804952
+1386,94864,Prometheus (2012),Action Horror Sci-Fi IMAX,1.853315321400428
+1387,3254,Wayne's World 2 (1993),Comedy,1.853315321400428
+1388,95510,"Amazing Spider-Man, The (2012)",Action Adventure Sci-Fi IMAX,1.8529635258358663
+1389,60040,"Incredible Hulk, The (2008)",Action Sci-Fi,1.8516717325227965
+1390,1965,Repo Man (1984),Comedy Sci-Fi,1.8500506585612968
+1391,41285,Match Point (2005),Crime Drama Romance,1.8497675666011089
+1392,6879,Runaway Jury (2003),Drama Thriller,1.8497675666011089
+1393,26,Othello (1995),Drama,1.8487841945288757
+1394,2474,"Color of Money, The (1986)",Drama,1.8487841945288757
+1395,6944,Father of the Bride (1991),Comedy,1.8487841945288757
+1396,4161,"Mexican, The (2001)",Action Comedy,1.848685079952425
+1397,147,"Basketball Diaries, The (1995)",Drama,1.8473150962512663
+1398,1057,Everyone Says I Love You (1996),Comedy Musical Romance,1.8473150962512663
+1399,135569,Star Trek Beyond (2016),Action Adventure Sci-Fi,1.8473150962512663
+1400,97306,Seven Psychopaths (2012),Comedy Crime,1.8473150962512663
+1401,118696,The Hobbit: The Battle of the Five Armies (2014),Adventure Fantasy,1.845111448834853
+1402,514,"Ref, The (1994)",Comedy,1.845111448834853
+1403,103341,"World's End, The (2013)",Action Comedy Sci-Fi,1.845111448834853
+1404,2527,Westworld (1973),Action Sci-Fi Thriller Western,1.845111448834853
+1405,8957,Saw (2004),Horror Mystery Thriller,1.841668969328544
+1406,2723,Mystery Men (1999),Action Comedy Fantasy,1.841224378458421
+1407,44974,Hard Candy (2005),Drama Thriller,1.8411854103343464
+1408,233,Exotica (1994),Drama,1.8411854103343464
+1409,6753,Secondhand Lions (2003),Children Comedy Drama,1.8411854103343464
+1410,90746,"Adventures of Tintin, The (2011)",Action Animation Mystery IMAX,1.8411854103343464
+1411,2387,Very Bad Things (1998),Comedy Crime,1.840330547112462
+1412,6659,Tremors (1990),Comedy Horror Sci-Fi,1.840330547112462
+1413,106002,Ender's Game (2013),Action Adventure Sci-Fi IMAX,1.840330547112462
+1414,3534,28 Days (2000),Drama,1.8399696048632217
+1415,6953,21 Grams (2003),Crime Drama Mystery Romance Thriller,1.8399696048632217
+1416,3785,Scary Movie (2000),Comedy Horror,1.839939209726444
+1417,102407,"Great Gatsby, The (2013)",Drama,1.8394756838905773
+1418,4734,Jay and Silent Bob Strike Back (2001),Adventure Comedy,1.8392410155551584
+1419,198,Strange Days (1995),Action Crime Drama Mystery Sci-Fi Thriller,1.8377659574468088
+1420,46970,Talladega Nights: The Ballad of Ricky Bobby (2006),Action Comedy,1.8377659574468088
+1421,237,Forget Paris (1995),Comedy Romance,1.8376277977341808
+1422,1479,"Saint, The (1997)",Action Romance Sci-Fi Thriller,1.8362968591692
+1423,52722,Spider-Man 3 (2007),Action Adventure Sci-Fi Thriller IMAX,1.8343465045592704
+1424,1810,Primary Colors (1998),Comedy Drama,1.8335866261398177
+1425,63859,Bolt (2008),Action Adventure Animation Children Comedy,1.831222559945964
+1426,2413,Clue (1985),Comedy Crime Mystery Thriller,1.831222559945964
+1427,112623,Dawn of the Planet of the Apes (2014),Sci-Fi,1.8306484295846
+1428,36517,"Constant Gardener, The (2005)",Drama Thriller,1.8295534252981065
+1429,3551,Marathon Man (1976),Crime Drama Thriller,1.8295534252981065
+1430,73,"Misérables, Les (1995)",Drama War,1.8295534252981065
+1431,315,"Specialist, The (1994)",Action Drama Thriller,1.8282274836026235
+1432,1688,Anastasia (1997),Adventure Animation Children Drama Musical,1.8269756838905773
+1433,8371,"Chronicles of Riddick, The (2004)",Action Sci-Fi Thriller,1.8269459495176423
+1434,3107,Backdraft (1991),Action Drama,1.8269459495176423
+1435,2393,Star Trek: Insurrection (1998),Action Drama Romance Sci-Fi,1.8265174541770288
+1436,3101,Fatal Attraction (1987),Drama Thriller,1.8221673421141509
+1437,1020,Cool Runnings (1993),Comedy,1.821695555738109
+1438,2605,Entrapment (1999),Crime Thriller,1.8209337668763697
+1439,45431,Over the Hedge (2006),Adventure Animation Children Comedy,1.8206686930091185
+1440,47200,Crank (2006),Action Thriller,1.8206686930091185
+1441,58047,"Definitely, Maybe (2008)",Comedy Drama Romance,1.8206686930091185
+1442,218,Boys on the Side (1995),Comedy Drama,1.8206686930091185
+1443,56145,"Mist, The (2007)",Horror Sci-Fi,1.8206686930091185
+1444,1619,Seven Years in Tibet (1997),Adventure Drama War,1.8206686930091185
+1445,3441,Red Dawn (1984),Action Drama War,1.8206686930091185
+1446,1835,City of Angels (1998),Drama Fantasy Romance,1.8203558018952264
+1447,477,What's Love Got to Do with It? (1993),Drama Musical,1.8203558018952264
+1448,3812,Everything You Always Wanted to Know About Sex * But Were Afraid to Ask (1972),Comedy,1.820352077001013
+1449,188,"Prophecy, The (1995)",Fantasy Horror Mystery,1.820352077001013
+1450,119141,The Interview (2014),Action Comedy,1.820352077001013
+1451,54999,Shoot 'Em Up (2007),Action Comedy Crime,1.820352077001013
+1452,1883,Bulworth (1998),Comedy Drama Romance,1.81778748733536
+1453,3704,Mad Max Beyond Thunderdome (1985),Action Adventure Sci-Fi,1.81778748733536
+1454,2002,Lethal Weapon 3 (1992),Action Comedy Crime Drama,1.8169353772961545
+1455,105,"Bridges of Madison County, The (1995)",Drama Romance,1.816076384300251
+1456,3893,Nurse Betty (2000),Comedy Crime Drama Romance Thriller,1.815429531274996
+1457,4366,Atlantis: The Lost Empire (2001),Adventure Animation Children Fantasy,1.815429531274996
+1458,103042,Man of Steel (2013),Action Adventure Fantasy Sci-Fi IMAX,1.814900525006908
+1459,2990,Licence to Kill (1989),Action Adventure Thriller,1.8144756838905776
+1460,2133,Adventures in Babysitting (1987),Adventure Comedy,1.8144756838905776
+1461,371,"Paper, The (1994)",Comedy Drama,1.814336372847011
+1462,106072,Thor: The Dark World (2013),Action Adventure Fantasy IMAX,1.814336372847011
+1463,6979,WarGames (1983),Drama Sci-Fi Thriller,1.814336372847011
+1464,76,Screamers (1995),Action Sci-Fi Thriller,1.813981762917933
+1465,2702,Summer of Sam (1999),Drama,1.813981762917933
+1466,6281,Phone Booth (2002),Drama Thriller,1.813473594224924
+1467,784,"Cable Guy, The (1996)",Comedy Thriller,1.813112124282337
+1468,6662,"Pink Panther, The (1963)",Comedy Crime,1.810859353412545
+1469,30822,In Good Company (2004),Comedy Drama,1.810859353412545
+1470,104241,Kick-Ass 2 (2013),Action Comedy Crime,1.810859353412545
+1471,54004,I Now Pronounce You Chuck and Larry (2007),Comedy Romance,1.810859353412545
+1472,1216,"Big Blue, The (Grand bleu, Le) (1988)",Adventure Drama Romance,1.810859353412545
+1473,7247,Chitty Chitty Bang Bang (1968),Adventure Children Comedy Fantasy Musical,1.810859353412545
+1474,48783,Flags of Our Fathers (2006),Drama War,1.810859353412545
+1475,6242,Ringu (Ring) (1998),Horror Mystery Thriller,1.810859353412545
+1476,3397,"Great Muppet Caper, The (1981)",Children Comedy,1.810859353412545
+1477,1799,Suicide Kings (1997),Comedy Crime Drama Mystery Thriller,1.8103226560673369
+1478,174055,Dunkirk (2017),Action Drama Thriller War,1.8103226560673369
+1479,4344,Swordfish (2001),Action Crime Drama,1.809829250849276
+1480,4310,Pearl Harbor (2001),Action Drama Romance War,1.8093058598996252
+1481,103772,"Wolverine, The (2013)",Action Adventure Fantasy Sci-Fi,1.809080547112462
+1482,420,Beverly Hills Cop III (1994),Action Comedy Crime Thriller,1.8084977590026277
+1483,2699,Arachnophobia (1990),Comedy Horror,1.808395939668521
+1484,531,"Secret Garden, The (1993)",Children Drama,1.807370820668693
+1485,173,Judge Dredd (1995),Action Crime Sci-Fi,1.805802039415629
+1486,6059,"Recruit, The (2003)",Action Thriller,1.805649919542285
+1487,1171,Bob Roberts (1992),Comedy,1.805649919542285
+1488,117529,Jurassic World (2015),Action Adventure Drama Sci-Fi Thriller,1.80520681908286
+1489,30825,Meet the Fockers (2004),Comedy,1.803790181449756
+1490,2707,Arlington Road (1999),Thriller,1.803536888643272
+1491,3479,Ladyhawke (1985),Adventure Fantasy Romance,1.8034447821681865
+1492,5152,We Were Soldiers (2002),Action Drama War,1.8034447821681865
+1493,1690,Alien: Resurrection (1997),Action Horror Sci-Fi,1.8030563998649105
+1494,3980,Men of Honor (2000),Drama,1.802811550151976
+1495,90405,In Time (2011),Crime Sci-Fi Thriller,1.802811550151976
+1496,95441,Ted (2012),Comedy Fantasy,1.802431610942249
+1497,7325,Starsky & Hutch (2004),Action Comedy Crime Thriller,1.802431610942249
+1498,2335,"Waterboy, The (1998)",Comedy,1.8020516717325228
+1499,49278,Déjà Vu (Deja Vu) (2006),Action Sci-Fi Thriller,1.8019756838905772
+1500,101864,Oblivion (2013),Action Adventure Sci-Fi IMAX,1.8019756838905772
+1501,56949,27 Dresses (2008),Comedy Romance,1.8019756838905772
+1502,1916,Buffalo '66 (a.k.a. Buffalo 66) (1998),Drama Romance,1.7995187436676798
+1503,99112,Jack Reacher (2012),Action Crime Thriller,1.7995187436676798
+1504,1416,Evita (1996),Drama Musical,1.7995187436676798
+1505,1597,Conspiracy Theory (1997),Drama Mystery Romance Thriller,1.7976779529228812
+1506,3917,Hellraiser (1987),Horror,1.7973150962512665
+1507,2528,Logan's Run (1976),Action Adventure Sci-Fi,1.7969541540020262
+1508,86880,Pirates of the Caribbean: On Stranger Tides (2011),Action Adventure Fantasy IMAX,1.7969541540020262
+1509,849,Escape from L.A. (1996),Action Adventure Sci-Fi Thriller,1.794573777286543
+1510,46972,Night at the Museum (2006),Action Comedy Fantasy IMAX,1.7943372538654685
+1511,8783,"Village, The (2004)",Drama Mystery Thriller,1.7937222352115971
+1512,2409,Rocky II (1979),Action Drama,1.7937222352115971
+1513,276,Milk Money (1994),Comedy Romance,1.7921732522796352
+1514,3852,"Tao of Steve, The (2000)",Comedy,1.7910918868365675
+1515,3477,Empire Records (1995),Comedy Drama,1.7910918868365675
+1516,2454,"Fly, The (1958)",Horror Mystery Sci-Fi,1.7910918868365675
+1517,507,"Perfect World, A (1993)",Crime Drama Thriller,1.7910918868365675
+1518,87222,Kung Fu Panda 2 (2011),Action Adventure Animation Children Comedy IMAX,1.790944037189344
+1519,79592,"Other Guys, The (2010)",Action Comedy,1.7905268490374873
+1520,3798,What Lies Beneath (2000),Drama Horror Mystery,1.789969604863222
+1521,5015,Monster's Ball (2001),Drama Romance,1.7895558932792974
+1522,2110,Dead Men Don't Wear Plaid (1982),Comedy Crime Thriller,1.7895558932792974
+1523,4545,Short Circuit (1986),Comedy Sci-Fi,1.7894756838905774
+1524,97225,Hotel Transylvania (2012),Animation Children Comedy,1.7881320806852723
+1525,1078,Bananas (1971),Comedy War,1.7881320806852723
+1526,3262,Twin Peaks: Fire Walk with Me (1992),Crime Drama Mystery Thriller,1.7881320806852723
+1527,64983,Valkyrie (2008),Drama Thriller War,1.7881320806852723
+1528,6287,Anger Management (2003),Comedy,1.787770427319864
+1529,3247,Sister Act (1992),Comedy Crime,1.7874451198919283
+1530,2046,Flight of the Navigator (1986),Adventure Children Sci-Fi,1.7865374873353597
+1531,49286,"Holiday, The (2006)",Comedy Romance,1.7865374873353597
+1532,6593,Freaky Friday (2003),Children Comedy Fantasy,1.7865374873353597
+1533,5945,About Schmidt (2002),Comedy Drama,1.784106850596212
+1534,44022,Ice Age 2: The Meltdown (2006),Adventure Animation Children Comedy,1.7834676886480771
+1535,5266,Panic Room (2002),Thriller,1.7811550151975684
+1536,3398,"Muppets Take Manhattan, The (1984)",Children Comedy Musical,1.7806484295846
+1537,1895,Can't Hardly Wait (1998),Comedy Drama Romance,1.7806484295846
+1538,67734,Adventureland (2009),Comedy Drama,1.7806484295846
+1539,2004,Gremlins 2: The New Batch (1990),Comedy Horror,1.7806484295846
+1540,1672,"Rainmaker, The (1997)",Drama,1.7786854103343466
+1541,7151,Girl with a Pearl Earring (2003),Drama Romance,1.7786854103343466
+1542,3274,Single White Female (1992),Drama Thriller,1.7786854103343466
+1543,103253,Elysium (2013),Action Drama Sci-Fi IMAX,1.777830547112462
+1544,4958,Behind Enemy Lines (2001),Action Drama War,1.7769756838905777
+1545,491,"Man Without a Face, The (1993)",Drama,1.7762381548364026
+1546,186,Nine Months (1995),Comedy Romance,1.776199974670719
+1547,5957,Two Weeks Notice (2002),Comedy Romance,1.7759558470644696
+1548,94777,Men in Black III (M.III.B.) (M.I.B.³) (2012),Action Comedy Sci-Fi IMAX,1.7756670043904086
+1549,24,Powder (1995),Drama Sci-Fi,1.7752659574468086
+1550,3285,"Beach, The (2000)",Adventure Drama,1.774411094224924
+1551,3988,How the Grinch Stole Christmas (a.k.a. The Grinch) (2000),Children Comedy Fantasy,1.7734871511467256
+1552,637,Sgt. Bilko (1996),Comedy,1.7734871511467256
+1553,1518,Breakdown (1997),Action Thriller,1.7718611176057986
+1554,27706,Lemony Snicket's A Series of Unfortunate Events (2004),Adventure Children Comedy Fantasy,1.769969604863222
+1555,53953,1408 (2007),Drama Horror Thriller,1.769969604863222
+1556,5219,Resident Evil (2002),Action Horror Sci-Fi Thriller,1.769630192502533
+1557,2245,Working Girl (1988),Comedy Drama Romance,1.7694459795523625
+1558,468,"Englishman Who Went Up a Hill But Came Down a Mountain, The (1995)",Comedy Romance,1.7694459795523625
+1559,2770,Bowfinger (1999),Comedy,1.7690169572868342
+1560,49651,Rocky Balboa (2006),Action Drama,1.76709726443769
+1561,2463,Ruthless People (1986),Comedy,1.76709726443769
+1562,6595,S.W.A.T. (2003),Action Thriller,1.76709726443769
+1563,164,Devil in a Blue Dress (1995),Crime Film-Noir Mystery Thriller,1.76709726443769
+1564,6755,Bubba Ho-tep (2002),Comedy Horror,1.76709726443769
+1565,2376,"View to a Kill, A (1985)",Action Adventure Thriller,1.7667173252279635
+1566,3087,Scrooged (1988),Comedy Fantasy Romance,1.7657041540020262
+1567,1963,Take the Money and Run (1969),Comedy Crime,1.7654048079579996
+1568,1480,Smilla's Sense of Snow (1997),Drama Thriller,1.7654048079579996
+1569,2414,Young Sherlock Holmes (1985),Action Adventure Children Fantasy Mystery Thriller,1.7654048079579996
+1570,107348,Anchorman 2: The Legend Continues (2013),Comedy,1.7654048079579996
+1571,65088,Bedtime Stories (2008),Adventure Children Comedy,1.7654048079579996
+1572,27808,Spanglish (2004),Comedy Drama Romance,1.7654048079579996
+1573,3638,Moonraker (1979),Action Adventure Sci-Fi Thriller,1.764876081365443
+1574,53519,Death Proof (2007),Action Adventure Crime Horror Thriller,1.764876081365443
+1575,2478,¡Three Amigos! (1986),Comedy Western,1.764876081365443
+1576,4148,Hannibal (2001),Horror Thriller,1.764301301535344
+1577,7347,Secret Window (2004),Mystery Thriller,1.763981762917933
+1578,76077,Hot Tub Time Machine (2010),Comedy Sci-Fi,1.763981762917933
+1579,82461,Tron: Legacy (2010),Action Adventure Sci-Fi IMAX,1.7627979523276276
+1580,1589,Cop Land (1997),Action Crime Drama Thriller,1.762205547112462
+1581,73321,"Book of Eli, The (2010)",Action Adventure Drama,1.762205547112462
+1582,1892,"Perfect Murder, A (1998)",Thriller,1.762205547112462
+1583,68791,Terminator Salvation (2009),Action Adventure Sci-Fi Thriller,1.7617781155015195
+1584,68554,Angels & Demons (2009),Crime Drama Mystery Thriller,1.7615322724834614
+1585,3633,On Her Majesty's Secret Service (1969),Action Adventure Romance Thriller,1.7615322724834614
+1586,1464,Lost Highway (1997),Crime Drama Fantasy Film-Noir Mystery Romance,1.7615322724834614
+1587,4823,Serendipity (2001),Comedy Romance,1.759969604863222
+1588,144,"Brothers McMullen, The (1995)",Comedy,1.757852077001013
+1589,673,Space Jam (1996),Adventure Animation Children Comedy Fantasy Sci-Fi,1.7565091472156908
+1590,7444,13 Going on 30 (2004),Comedy Fantasy Romance,1.7548125633232017
+1591,4367,Lara Croft: Tomb Raider (2001),Action Adventure,1.753951367781155
+1592,2581,Never Been Kissed (1999),Comedy Romance,1.7527228976697062
+1593,143355,Wonder Woman (2017),Action Adventure Fantasy,1.7526303483750292
+1594,59022,Harold & Kumar Escape from Guantanamo Bay (2008),Adventure Comedy,1.7526303483750292
+1595,4890,Shallow Hal (2001),Comedy Fantasy Romance,1.7516913422884597
+1596,724,"Craft, The (1996)",Drama Fantasy Horror Thriller,1.7516913422884597
+1597,6156,Shanghai Knights (2003),Action Adventure Comedy,1.7496400575907856
+1598,2857,Yellow Submarine (1968),Adventure Animation Comedy Fantasy Musical,1.749240121580547
+1599,1687,"Jackal, The (1997)",Action Thriller,1.747889226612631
+1600,86911,"Hangover Part II, The (2011)",Comedy,1.7473150962512665
+1601,535,Short Cuts (1993),Drama,1.7473150962512665
+1602,2447,Varsity Blues (1999),Comedy Drama,1.7473150962512665
+1603,60072,Wanted (2008),Action Thriller,1.7467187068250898
+1604,106916,American Hustle (2013),Crime Drama,1.746580547112462
+1605,4351,Point Break (1991),Action Crime Thriller,1.746580547112462
+1606,4643,Planet of the Apes (2001),Action Adventure Drama Sci-Fi,1.7447894051237516
+1607,1805,Wild Things (1998),Crime Drama Mystery Thriller,1.7436268261594274
+1608,84954,"Adjustment Bureau, The (2011)",Romance Sci-Fi Thriller,1.7429078014184396
+1609,5265,Death to Smoochy (2002),Comedy Crime Drama,1.7426775352307269
+1610,86190,Hanna (2011),Action Adventure Mystery Thriller,1.7426775352307269
+1611,2926,Hairspray (1988),Comedy Drama,1.7426775352307269
+1612,7324,Hidalgo (2004),Adventure Drama,1.7426775352307269
+1613,5693,Saturday Night Fever (1977),Comedy Drama Romance,1.7426775352307269
+1614,76293,Date Night (2010),Action Comedy Romance,1.7426775352307269
+1615,991,Michael Collins (1996),Drama,1.7426775352307269
+1616,1735,Great Expectations (1998),Drama Romance,1.7426775352307269
+1617,172,Johnny Mnemonic (1995),Action Sci-Fi Thriller,1.7423582038194645
+1618,3968,Bedazzled (2000),Comedy,1.7422042102893167
+1619,432,City Slickers II: The Legend of Curly's Gold (1994),Adventure Comedy Western,1.7406604034263609
+1620,4023,"Family Man, The (2000)",Comedy Drama Romance,1.739989427778512
+1621,1378,Young Guns (1988),Action Comedy Western,1.739969604863222
+1622,5620,Sweet Home Alabama (2002),Comedy Romance,1.7395516717325228
+1623,6873,Intolerable Cruelty (2003),Comedy Romance,1.7394756838905774
+1624,60074,Hancock (2008),Action Adventure Comedy Crime Fantasy,1.7376061209516822
+1625,4005,"Living Daylights, The (1987)",Action Adventure Thriller,1.7370187436676798
+1626,7162,Cold Mountain (2003),Drama Romance War,1.7370187436676798
+1627,111113,Neighbors (2014),Comedy,1.7370187436676798
+1628,5267,"Rookie, The (2002)",Drama,1.7370187436676798
+1629,663,Kids in the Hall: Brain Candy (1996),Comedy,1.7370187436676798
+1630,2792,Airplane II: The Sequel (1982),Comedy,1.7364821628539433
+1631,2724,Runaway Bride (1999),Comedy Romance,1.7358156028368796
+1632,1711,Midnight in the Garden of Good and Evil (1997),Crime Drama Mystery,1.7344541540020262
+1633,2459,"Texas Chainsaw Massacre, The (1974)",Horror,1.73339957914426
+1634,37384,Waiting... (2005),Comedy,1.73339957914426
+1635,2779,Heaven Can Wait (1978),Comedy,1.73339957914426
+1636,4992,Kate & Leopold (2001),Comedy Romance,1.7321205077775792
+1637,36519,Transporter 2 (2005),Action Crime Thriller,1.730955547112462
+1638,3763,F/X (1986),Action Crime Thriller,1.730955547112462
+1639,2146,St. Elmo's Fire (1985),Drama Romance,1.730955547112462
+1640,3409,Final Destination (2000),Drama Thriller,1.7302431610942248
+1641,46530,Superman Returns (2006),Action Adventure Sci-Fi IMAX,1.7299696048632218
+1642,2496,Blast from the Past (1999),Comedy Romance,1.7291198625611206
+1643,2371,Fletch (1985),Comedy Crime Mystery,1.7240374873353597
+1644,2134,Weird Science (1985),Comedy Fantasy Sci-Fi,1.723991434097817
+1645,748,"Arrival, The (1996)",Action Sci-Fi Thriller,1.723991434097817
+1646,4700,"Princess Diaries, The (2001)",Children Comedy Romance,1.7236856917707983
+1647,4343,Evolution (2001),Comedy Sci-Fi,1.7236856917707983
+1648,765,Jack (1996),Comedy Drama,1.7233242681171013
+1649,481,Kalifornia (1993),Drama Thriller,1.7233242681171013
+1650,1027,Robin Hood: Prince of Thieves (1991),Adventure Drama,1.72169452887538
+1651,2141,"American Tail, An (1986)",Adventure Animation Children Comedy,1.720111448834853
+1652,8623,Roxanne (1987),Comedy Romance,1.7199502625034542
+1653,303,"Quick and the Dead, The (1995)",Action Thriller Western,1.719723594224924
+1654,248,Houseguest (1994),Comedy,1.717414625424638
+1655,351,"Corrina, Corrina (1994)",Comedy Drama Romance,1.717414625424638
+1656,2072,"'burbs, The (1989)",Comedy,1.717414625424638
+1657,80219,Machete (2010),Action Adventure Comedy Crime Thriller,1.7161854103343466
+1658,934,Father of the Bride (1950),Comedy,1.7161854103343466
+1659,3791,Footloose (1984),Drama,1.715330547112462
+1660,7346,"Girl Next Door, The (2004)",Comedy Romance,1.7144756838905777
+1661,56587,"Bucket List, The (2007)",Comedy Drama,1.7141688099134909
+1662,84772,Paul (2011),Adventure Comedy Sci-Fi,1.7139817629179332
+1663,3355,"Ninth Gate, The (1999)",Fantasy Horror Mystery Thriller,1.7139817629179332
+1664,6709,Once Upon a Time in Mexico (2003),Action Adventure Crime Thriller,1.7135258358662615
+1665,102123,This Is the End (2013),Action Comedy,1.7135258358662615
+1666,59615,Indiana Jones and the Kingdom of the Crystal Skull (2008),Action Adventure Comedy Sci-Fi,1.7130192502532928
+1667,135,Down Periscope (1996),Comedy,1.7113687616432984
+1668,2013,"Poseidon Adventure, The (1972)",Action Adventure Drama,1.707193515704154
+1669,383,Wyatt Earp (1994),Western,1.707193515704154
+1670,91535,"Bourne Legacy, The (2012)",Action Adventure Drama Thriller IMAX,1.7062225599459642
+1671,1347,"Nightmare on Elm Street, A (1984)",Horror Thriller,1.7051671732522795
+1672,1405,Beavis and Butt-Head Do America (1996),Adventure Animation Comedy Crime,1.7033042455142662
+1673,7173,Along Came Polly (2004),Comedy Romance,1.7032041540020262
+1674,56775,National Treasure: Book of Secrets (2007),Action Adventure,1.7032041540020262
+1675,1513,Romy and Michele's High School Reunion (1997),Comedy,1.7031233623309927
+1676,4238,Along Came a Spider (2001),Action Crime Mystery Thriller,1.7027087430716967
+1677,78469,"A-Team, The (2010)",Action Comedy Thriller,1.7027087430716967
+1678,6764,"Rundown, The (2003)",Action Adventure Comedy,1.7027087430716967
+1679,382,Wolf (1994),Drama Horror Romance Thriller,1.699705547112462
+1680,88,Black Sheep (1996),Comedy,1.699705547112462
+1681,135887,Minions (2015),Adventure Animation Children Comedy,1.6973150962512664
+1682,1295,"Unbearable Lightness of Being, The (1988)",Drama,1.6972229897761812
+1683,71464,"Serious Man, A (2009)",Comedy Drama,1.6972229897761812
+1684,4638,Jurassic Park III (2001),Action Adventure Sci-Fi Thriller,1.6971673421141509
+1685,5944,Star Trek: Nemesis (2002),Action Drama Sci-Fi Thriller,1.697008478643417
+1686,5505,"Good Girl, The (2002)",Comedy Drama,1.695352077001013
+1687,421,Black Beauty (1994),Adventure Children Drama,1.695352077001013
+1688,1013,"Parent Trap, The (1961)",Children Comedy Romance,1.695352077001013
+1689,830,"First Wives Club, The (1996)",Comedy,1.695288753799392
+1690,1717,Scream 2 (1997),Comedy Horror Mystery Thriller,1.695239729385234
+1691,2090,"Rescuers, The (1977)",Adventure Animation Children Crime Drama,1.6949380406827217
+1692,45880,Marie Antoinette (2006),Drama Romance,1.6949380406827217
+1693,3219,Pacific Heights (1990),Mystery Thriller,1.6949380406827217
+1694,56171,"Golden Compass, The (2007)",Adventure Children Fantasy,1.692333671057075
+1695,3438,Teenage Mutant Ninja Turtles (1990),Action Children Comedy Fantasy Sci-Fi,1.6899696048632218
+1696,3263,White Men Can't Jump (1992),Comedy Drama,1.689900525006908
+1697,4980,Bill & Ted's Bogus Journey (1991),Adventure Comedy Fantasy Sci-Fi,1.6894756838905776
+1698,1588,George of the Jungle (1997),Children Comedy,1.6894756838905776
+1699,5881,Solaris (2002),Drama Romance Sci-Fi,1.6894756838905776
+1700,435,Coneheads (1993),Comedy Sci-Fi,1.6890408645727797
+1701,719,Multiplicity (1996),Comedy,1.687386018237082
+1702,273,Mary Shelley's Frankenstein (Frankenstein) (1994),Drama Horror Sci-Fi,1.6859802431610944
+1703,4232,Spy Kids (2001),Action Adventure Children Comedy,1.6859802431610944
+1704,1792,U.S. Marshals (1998),Action Crime Thriller,1.6856416016915554
+1705,23,Assassins (1995),Action Crime Thriller,1.684080547112462
+1706,9,Sudden Death (1995),Action,1.684080547112462
+1707,4039,Annie (1982),Children Musical,1.684080547112462
+1708,7317,EuroTrip (2004),Adventure Comedy,1.6806484295845998
+1709,2116,"Lord of the Rings, The (1978)",Adventure Animation Children Fantasy,1.6806484295845998
+1710,5541,Hot Shots! (1991),Action Comedy Romance War,1.6806484295845998
+1711,256,Junior (1994),Comedy Sci-Fi,1.680243161094225
+1712,2378,Police Academy (1984),Comedy Crime,1.6785368886432717
+1713,3452,Romeo Must Die (2000),Action Crime Romance Thriller,1.6784447821681865
+1714,65230,Marley & Me (2008),Comedy Drama,1.6778115501519757
+1715,88405,Friends with Benefits (2011),Comedy Romance,1.6769756838905774
+1716,2340,Meet Joe Black (1998),Romance,1.6769756838905774
+1717,1064,Aladdin and the King of Thieves (1996),Animation Children Comedy Fantasy Musical Romance,1.6757072714519523
+1718,3699,Starman (1984),Adventure Drama Romance Sci-Fi,1.6757072714519523
+1719,196,Species (1995),Horror Sci-Fi,1.6752786220871327
+1720,1918,Lethal Weapon 4 (1998),Action Comedy Crime Thriller,1.6750023026618772
+1721,2805,Mickey Blue Eyes (1999),Comedy Romance,1.674772036474164
+1722,2662,"War of the Worlds, The (1953)",Action Drama Sci-Fi,1.6745187436676798
+1723,537,Sirens (1994),Drama,1.6745187436676798
+1724,30816,"Phantom of the Opera, The (2004)",Drama Musical Romance,1.6745187436676798
+1725,3203,Dead Calm (1989),Thriller,1.6745187436676798
+1726,55282,30 Days of Night (2007),Horror Thriller,1.6744957170489083
+1727,3261,Singles (1992),Comedy Drama Romance,1.6744957170489083
+1728,631,All Dogs Go to Heaven 2 (1996),Adventure Animation Children Fantasy Musical Romance,1.6744957170489083
+1729,2346,"Stepford Wives, The (1975)",Mystery Sci-Fi Thriller,1.6744957170489083
+1730,2249,My Blue Heaven (1990),Comedy,1.6744957170489083
+1731,52245,Blades of Glory (2007),Comedy Romance,1.6732969783658145
+1732,3257,"Bodyguard, The (1992)",Drama Romance Thriller,1.672848594224924
+1733,53121,Shrek the Third (2007),Adventure Animation Children Comedy Fantasy,1.6714792299898682
+1734,327,Tank Girl (1995),Action Comedy Sci-Fi,1.6701233684963348
+1735,60950,Vicky Cristina Barcelona (2008),Comedy Drama Romance,1.668455547112462
+1736,42738,Underworld: Evolution (2006),Action Fantasy Horror,1.668455547112462
+1737,6586,American Wedding (American Pie 3) (2003),Comedy,1.668455547112462
+1738,5872,Die Another Day (2002),Action Adventure Thriller,1.6681301362152428
+1739,4728,Rat Race (2001),Comedy,1.6645558932792974
+1740,516,Renaissance Man (1994),Comedy Drama,1.6645558932792974
+1741,8969,Bridget Jones: The Edge of Reason (2004),Comedy Drama Romance,1.6644756838905774
+1742,1616,"Peacemaker, The (1997)",Action Thriller War,1.6644756838905774
+1743,45672,Click (2006),Adventure Comedy Drama Fantasy Romance,1.6639024712567727
+1744,3608,Pee-wee's Big Adventure (1985),Adventure Comedy,1.659969604863222
+1745,1590,Event Horizon (1997),Horror Sci-Fi Thriller,1.659969604863222
+1746,3615,Dinosaur (2000),Adventure Animation Children,1.659954407294833
+1747,81,Things to Do in Denver When You're Dead (1995),Crime Drama Romance,1.659954407294833
+1748,136020,Spectre (2015),Action Adventure Crime,1.6585910960128731
+1749,79695,"Expendables, The (2010)",Action Adventure Thriller,1.6585910960128731
+1750,361,It Could Happen to You (1994),Comedy Drama Romance,1.6585910960128731
+1751,32031,Robots (2005),Adventure Animation Children Comedy Fantasy Sci-Fi IMAX,1.6575347944328906
+1752,103249,World War Z (2013),Action Drama Horror IMAX,1.6575347944328906
+1753,2881,Double Jeopardy (1999),Action Crime Drama Thriller,1.6575347944328906
+1754,1135,Private Benjamin (1980),Comedy,1.6564765022211831
+1755,3701,Alien Nation (1988),Crime Drama Sci-Fi Thriller,1.6564765022211831
+1756,2325,Orgazmo (1997),Comedy,1.6564765022211831
+1757,3483,"Road to El Dorado, The (2000)",Animation Children,1.6564765022211831
+1758,1620,Kiss the Girls (1997),Crime Drama Mystery Thriller,1.6564765022211831
+1759,34150,Fantastic Four (2005),Action Adventure Sci-Fi,1.655500675447484
+1760,4121,Innerspace (1987),Action Adventure Comedy Sci-Fi,1.6536854103343466
+1761,179819,Star Wars: The Last Jedi (2017),Action Adventure Fantasy Sci-Fi,1.6536854103343466
+1762,1885,"Opposite of Sex, The (1998)",Comedy Drama Romance,1.6536854103343466
+1763,85510,Sucker Punch (2011),Action Fantasy Thriller IMAX,1.6536854103343466
+1764,59258,Baby Mama (2008),Comedy,1.6517684443216358
+1765,31433,"Wedding Date, The (2005)",Comedy Romance,1.6517684443216358
+1766,8965,"Polar Express, The (2004)",Adventure Animation Children Fantasy IMAX,1.6517684443216358
+1767,2622,William Shakespeare's A Midsummer Night's Dream (1999),Comedy Fantasy,1.6517684443216358
+1768,4036,Shadow of the Vampire (2000),Drama Horror,1.6517684443216358
+1769,2822,Medicine Man (1992),Adventure Romance,1.6517684443216358
+1770,3259,Far and Away (1992),Adventure Drama Romance,1.6517684443216358
+1771,801,Harriet the Spy (1996),Children Comedy,1.6517684443216358
+1772,1173,"Cook the Thief His Wife & Her Lover, The (1989)",Comedy Drama,1.6517684443216358
+1773,74789,Alice in Wonderland (2010),Adventure Fantasy IMAX,1.6502659574468086
+1774,2826,"13th Warrior, The (1999)",Action Adventure Fantasy,1.6494914659808275
+1775,3978,"Legend of Bagger Vance, The (2000)",Drama Romance,1.6473150962512666
+1776,46,How to Make an American Quilt (1995),Drama Romance,1.6473150962512666
+1777,2485,She's All That (1999),Comedy Romance,1.6427785347447856
+1778,3016,Creepshow (1982),Horror,1.64209726443769
+1779,2060,BASEketball (1998),Comedy,1.64209726443769
+1780,122924,X-Men: Apocalypse (2016),Action Adventure Fantasy Sci-Fi,1.64209726443769
+1781,585,"Brady Bunch Movie, The (1995)",Comedy,1.641611786558595
+1782,2616,Dick Tracy (1990),Action Crime,1.639876081365443
+1783,5065,"Mothman Prophecies, The (2002)",Drama Fantasy Horror Mystery Thriller,1.637245732990414
+1784,2143,Legend (1985),Adventure Fantasy Romance,1.637245732990414
+1785,3173,Any Given Sunday (1999),Drama,1.6367781155015195
+1786,108190,Divergent (2014),Adventure Romance Sci-Fi IMAX,1.6367781155015195
+1787,58025,Jumper (2008),Action Adventure Drama Sci-Fi Thriller,1.6367781155015195
+1788,5151,40 Days and 40 Nights (2002),Comedy Romance,1.6367781155015195
+1789,1457,Fools Rush In (1997),Comedy Drama Romance,1.632852077001013
+1790,2567,EDtv (1999),Comedy,1.6312190049592066
+1791,3269,Forever Young (1992),Drama Romance Sci-Fi,1.6310930991782056
+1792,68319,X-Men Origins: Wolverine (2009),Action Sci-Fi Thriller,1.6302606967500584
+1793,239,"Goofy Movie, A (1995)",Animation Children Comedy Romance,1.6291793313069909
+1794,56941,P.S. I Love You (2007),Comedy Drama Romance,1.6290411715943631
+1795,709,Oliver & Company (1988),Adventure Animation Children Comedy Musical,1.6290411715943631
+1796,1483,Crash (1996),Drama Thriller,1.6290411715943631
+1797,93363,John Carter (2012),Action Adventure Sci-Fi IMAX,1.6290411715943631
+1798,1015,Homeward Bound: The Incredible Journey (1993),Adventure Children Drama,1.6269756838905776
+1799,71530,Surrogates (2009),Action Sci-Fi Thriller,1.624240121580547
+1800,2375,"Money Pit, The (1986)",Comedy,1.6238601823708203
+1801,5449,Mr. Deeds (2002),Comedy Romance,1.6217187068250898
+1802,4069,"Wedding Planner, The (2001)",Comedy Romance,1.6217187068250898
+1803,5283,National Lampoon's Van Wilder (2002),Comedy,1.6217187068250898
+1804,532,Serial Mom (1994),Comedy Crime Horror,1.621580547112462
+1805,1702,Flubber (1997),Children Comedy Fantasy,1.621580547112462
+1806,44,Mortal Kombat (1995),Action Adventure Fantasy,1.621283203383111
+1807,3827,Space Cowboys (2000),Action Adventure Comedy Sci-Fi,1.6204242103872075
+1808,3461,Lord of the Flies (1963),Adventure Drama Thriller,1.6180149637596446
+1809,2802,Tequila Sunrise (1988),Action Drama Romance Thriller,1.6180149637596446
+1810,4677,Turner & Hooch (1989),Comedy Crime,1.6180149637596446
+1811,5400,"Sum of All Fears, The (2002)",Drama Thriller,1.6144734489540498
+1812,4015,"Dude, Where's My Car? (2000)",Comedy Sci-Fi,1.6143962420558164
+1813,2533,Escape from the Planet of the Apes (1971),Action Sci-Fi,1.6139817629179332
+1814,2059,"Parent Trap, The (1998)",Children Comedy Romance,1.6139817629179332
+1815,8781,"Manchurian Candidate, The (2004)",Thriller,1.6120187436676798
+1816,1848,"Borrowers, The (1997)",Adventure Children Comedy Fantasy,1.6120187436676798
+1817,999,2 Days in the Valley (1996),Crime Film-Noir,1.6120187436676798
+1818,3998,Proof of Life (2000),Drama,1.6120187436676798
+1819,3697,Predator 2 (1990),Action Sci-Fi Thriller,1.6119554204660589
+1820,3005,"Bone Collector, The (1999)",Thriller,1.6099696048632215
+1821,2598,Pushing Tin (1999),Comedy,1.6099696048632215
+1822,2840,Stigmata (1999),Drama Thriller,1.6095546451698162
+1823,1385,Under Siege (1992),Action Drama Thriller,1.6094541540020262
+1824,2505,8MM (1999),Drama Mystery Thriller,1.609000337723742
+1825,2384,Babe: Pig in the City (1998),Adventure Children Drama,1.608295776124096
+1826,2722,Deep Blue Sea (1999),Action Horror Sci-Fi Thriller,1.608295776124096
+1827,2421,"Karate Kid, Part II, The (1986)",Action Adventure Drama,1.608295776124096
+1828,2433,"Civil Action, A (1998)",Drama,1.6063138988670904
+1829,48877,Saw III (2006),Crime Horror Thriller,1.6063138988670904
+1830,1665,Bean (1997),Comedy,1.605955547112462
+1831,3882,Bring It On (2000),Comedy,1.6039468979080995
+1832,707,Mulholland Falls (1996),Crime Drama Thriller,1.6000506585612968
+1833,267,Major Payne (1995),Comedy,1.5997675666011086
+1834,5171,"Time Machine, The (2002)",Action Adventure Sci-Fi,1.598991434097817
+1835,227,Drop Zone (1994),Action Thriller,1.598991434097817
+1836,15,Cutthroat Island (1995),Action Adventure Romance,1.5987841945288754
+1837,1833,Mercury Rising (1998),Action Drama Thriller,1.5987841945288754
+1838,79293,Salt (2010),Action Thriller,1.5973150962512666
+1839,1614,In & Out (1997),Comedy,1.59179915828852
+1840,413,Airheads (1994),Comedy,1.59179915828852
+1841,490,Malice (1993),Thriller,1.5911854103343466
+1842,2247,Married to the Mob (1988),Comedy,1.5911854103343466
+1843,445,Fatal Instinct (1993),Comedy,1.5911854103343466
+1844,3825,Coyote Ugly (2000),Comedy Drama Romance,1.5910543968137512
+1845,114180,"Maze Runner, The (2014)",Action Mystery Sci-Fi,1.590330547112462
+1846,60397,Mamma Mia! (2008),Comedy Musical Romance,1.5885258358662615
+1847,204,Under Siege 2: Dark Territory (1995),Action,1.5862968591691995
+1848,7163,Paycheck (2003),Action Sci-Fi Thriller,1.5850616842481673
+1849,1379,Young Guns II (1990),Action Western,1.5835866261398177
+1850,1615,"Edge, The (1997)",Adventure Drama,1.5835866261398177
+1851,83349,"Green Hornet, The (2011)",Action Comedy Crime Fantasy Thriller IMAX,1.5835866261398177
+1852,533,"Shadow, The (1994)",Action Adventure Fantasy Mystery,1.5812225599459642
+1853,3686,Flatliners (1990),Horror Sci-Fi Thriller,1.5806484295845995
+1854,2688,"General's Daughter, The (1999)",Crime Drama Mystery Thriller,1.5806484295845995
+1855,6550,Johnny English (2003),Action Comedy Thriller,1.5795534252981065
+1856,8640,King Arthur (2004),Action Adventure Drama War,1.5795534252981065
+1857,4084,Beverly Hills Cop II (1987),Action Comedy Crime Thriller,1.578587426011838
+1858,880,"Island of Dr. Moreau, The (1996)",Sci-Fi Thriller,1.5755375436226502
+1859,2416,Back to School (1986),Comedy,1.574705547112462
+1860,2411,Rocky IV (1985),Action Drama,1.5738130175034064
+1861,84374,No Strings Attached (2011),Comedy Romance,1.5706686930091185
+1862,1769,"Replacement Killers, The (1998)",Action Crime Thriller,1.5706686930091185
+1863,8861,Resident Evil: Apocalypse (2004),Action Horror Sci-Fi Thriller,1.5706686930091185
+1864,47518,Accepted (2006),Comedy,1.5706686930091185
+1865,51086,"Number 23, The (2007)",Drama Mystery Thriller,1.5706686930091185
+1866,6548,Bad Boys II (2003),Action Comedy Crime Thriller,1.5703558018952262
+1867,7004,Kindergarten Cop (1990),Action Comedy Crime Thriller,1.5703558018952262
+1868,836,Chain Reaction (1996),Action Adventure Thriller,1.5703558018952262
+1869,111743,A Million Ways to Die in the West (2014),Comedy Western,1.570352077001013
+1870,70293,Julie & Julia (2009),Comedy Drama Romance,1.570352077001013
+1871,2672,"Thirteenth Floor, The (1999)",Drama Sci-Fi Thriller,1.570352077001013
+1872,45081,Silent Hill (2006),Fantasy Horror Thriller,1.570352077001013
+1873,1037,"Lawnmower Man, The (1992)",Action Horror Sci-Fi Thriller,1.5677874873353597
+1874,5507,xXx (2002),Action Crime Thriller,1.5677874873353597
+1875,1359,Jingle All the Way (1996),Children Comedy,1.567333671057075
+1876,3157,Stuart Little (1999),Children Comedy Fantasy,1.565429531274996
+1877,338,Virtuosity (1995),Action Sci-Fi Thriller,1.565429531274996
+1878,1586,G.I. Jane (1997),Action Drama,1.564900525006908
+1879,2405,"Jewel of the Nile, The (1985)",Action Adventure Comedy Romance,1.564336372847011
+1880,1373,Star Trek V: The Final Frontier (1989),Action Sci-Fi,1.5612968591691996
+1881,4487,Cocktail (1988),Drama Romance,1.560859353412545
+1882,694,"Substitute, The (1996)",Action Crime Drama,1.560859353412545
+1883,2803,"Pelican Brief, The (1993)",Crime Drama Mystery Romance Thriller,1.5603226560673369
+1884,4020,"Gift, The (2000)",Thriller,1.5603226560673369
+1885,2942,Flashdance (1983),Drama Romance,1.559080547112462
+1886,1974,Friday the 13th (1980),Horror Mystery Thriller,1.559080547112462
+1887,3273,Scream 3 (2000),Comedy Horror Mystery Thriller,1.5565716381930617
+1888,6541,"League of Extraordinary Gentlemen, The (a.k.a. LXG) (2003)",Action Fantasy Sci-Fi,1.555661094224924
+1889,5419,Scooby-Doo (2002),Adventure Children Comedy Fantasy Mystery,1.555649919542285
+1890,1779,Sphere (1998),Sci-Fi Thriller,1.5552068190828596
+1891,2052,Hocus Pocus (1993),Children Comedy Fantasy Horror,1.5552068190828596
+1892,1920,Small Soldiers (1998),Animation Children Fantasy War,1.5534447821681865
+1893,2901,Phantasm (1979),Horror Sci-Fi,1.5528115501519757
+1894,159,Clockers (1995),Crime Drama Mystery,1.5528115501519757
+1895,5308,Three Men and a Baby (1987),Comedy,1.552271636538154
+1896,3986,"6th Day, The (2000)",Action Sci-Fi Thriller,1.5519756838905774
+1897,366,"Wes Craven's New Nightmare (Nightmare on Elm Street Part 7: Freddy's Finale, A) (1994)",Drama Horror Mystery Thriller,1.5495187436676798
+1898,135536,Suicide Squad (2016),Action Crime Sci-Fi,1.5495187436676798
+1899,1970,"Nightmare on Elm Street 3: Dream Warriors, A (1987)",Horror Thriller,1.5495187436676798
+1900,1911,Dr. Dolittle (1998),Comedy,1.547848594224924
+1901,59900,You Don't Mess with the Zohan (2008),Comedy,1.5473150962512665
+1902,3258,Death Becomes Her (1992),Comedy Fantasy,1.5473150962512665
+1903,2410,Rocky III (1982),Action Drama,1.5469541540020262
+1904,1894,Six Days Seven Nights (1998),Adventure Comedy Romance,1.543455547112462
+1905,4054,Save the Last Dance (2001),Drama Romance,1.543455547112462
+1906,4679,Uncle Buck (1989),Comedy,1.5410918868365675
+1907,78105,Prince of Persia: The Sands of Time (2010),Action Adventure Fantasy Romance IMAX,1.5410918868365675
+1908,4214,Revenge of the Nerds (1984),Comedy,1.5410918868365675
+1909,8810,AVP: Alien vs. Predator (2004),Action Horror Sci-Fi Thriller,1.540944037189344
+1910,372,Reality Bites (1994),Comedy Drama Romance,1.5405268490374873
+1911,37386,Aeon Flux (2005),Action Sci-Fi,1.5405268490374873
+1912,761,"Phantom, The (1996)",Action Adventure,1.5391137418013117
+1913,5108,John Q (2002),Crime Drama Thriller,1.5381320806852723
+1914,7454,Van Helsing (2004),Action Adventure Fantasy Horror,1.5365374873353597
+1915,8985,Blade: Trinity (2004),Action Fantasy Horror Thriller,1.534954407294833
+1916,6534,Hulk (2003),Action Adventure Sci-Fi,1.5310629087224832
+1917,1488,"Devil's Own, The (1997)",Action Drama Thriller,1.5306484295846
+1918,839,"Crow: City of Angels, The (1996)",Action Thriller,1.5306484295846
+1919,2530,Beneath the Planet of the Apes (1970),Action Sci-Fi,1.5256670043904086
+1920,2082,"Mighty Ducks, The (1992)",Children Comedy,1.5244914659808275
+1921,4388,Scary Movie 2 (2001),Comedy,1.5244914659808275
+1922,762,Striptease (1996),Comedy Crime,1.5188672251464157
+1923,51412,Next (2007),Action Sci-Fi Thriller,1.51709726443769
+1924,111360,Lucy (2014),Action Sci-Fi,1.51709726443769
+1925,2369,Desperately Seeking Susan (1985),Comedy Drama Romance,1.5157041540020262
+1926,42723,Hostel (2005),Horror,1.5154048079579996
+1927,157,Canadian Bacon (1995),Comedy War,1.5154048079579996
+1928,489,Made in America (1993),Comedy,1.5154048079579996
+1929,37727,Flightplan (2005),Action Drama Thriller,1.5154048079579996
+1930,1591,Spawn (1997),Action Adventure Sci-Fi Thriller,1.514876081365443
+1931,3156,Bicentennial Man (1999),Drama Romance Sci-Fi,1.513981762917933
+1932,79,"Juror, The (1996)",Drama Thriller,1.5115322724834614
+1933,2986,RoboCop 2 (1990),Action Crime Sci-Fi Thriller,1.509969604863222
+1934,332,Village of the Damned (1995),Horror Sci-Fi,1.507852077001013
+1935,2701,Wild Wild West (1999),Action Comedy Sci-Fi Western,1.5065091472156908
+1936,3354,Mission to Mars (2000),Sci-Fi,1.5048125633232017
+1937,39446,Saw II (2005),Horror Thriller,1.5026303483750292
+1938,2334,"Siege, The (1998)",Action Thriller,1.5026303483750292
+1939,65,Bio-Dome (1996),Comedy,1.5016913422884597
+1940,193,Showgirls (1995),Drama,1.5016717325227964
+1941,1100,Days of Thunder (1990),Action Drama Romance,1.4996400575907856
+1942,100,City Hall (1996),Drama Thriller,1.499240121580547
+1943,542,Son in Law (1993),Comedy Drama Romance,1.499240121580547
+1944,5463,Reign of Fire (2002),Action Adventure Fantasy,1.497889226612631
+1945,355,"Flintstones, The (1994)",Children Comedy Fantasy,1.4977203647416415
+1946,1030,Pete's Dragon (1977),Adventure Animation Children Musical,1.4973150962512665
+1947,2126,Snake Eyes (1998),Action Crime Mystery Thriller,1.4973150962512665
+1948,111659,Maleficent (2014),Action Adventure Children IMAX,1.496580547112462
+1949,1438,Dante's Peak (1997),Action Thriller,1.494870820668693
+1950,2953,Home Alone 2: Lost in New York (1992),Children Comedy,1.4936268261594274
+1951,6157,Daredevil (2003),Action Crime,1.493161094224924
+1952,742,Thinner (1996),Horror Thriller,1.4926775352307269
+1953,4386,Cats & Dogs (2001),Children Comedy,1.4926775352307269
+1954,66203,He's Just Not That Into You (2009),Comedy Drama Romance,1.4926775352307269
+1955,419,"Beverly Hillbillies, The (1993)",Comedy,1.4894756838905774
+1956,2532,Conquest of the Planet of the Apes (1972),Action Sci-Fi,1.4870187436676798
+1957,3270,"Cutting Edge, The (1992)",Comedy Drama Romance,1.4870187436676798
+1958,3861,"Replacements, The (2000)",Comedy,1.4864821628539433
+1959,58293,"10,000 BC (2008)",Adventure Romance Thriller,1.4821205077775792
+1960,4887,"One, The (2001)",Action Sci-Fi Thriller,1.4813829787234043
+1961,2735,"Golden Child, The (1986)",Action Adventure Comedy Fantasy Mystery,1.480955547112462
+1962,3591,Mr. Mom (1983),Comedy Drama,1.4806484295846
+1963,743,Spy Hard (1996),Comedy,1.4789854312965098
+1964,455,Free Willy (1993),Adventure Children Drama,1.4771009611435144
+1965,737,Barb Wire (1996),Action Sci-Fi,1.4769756838905774
+1966,2402,Rambo: First Blood Part II (1985),Action Adventure Thriller,1.4733242681171013
+1967,3744,Shaft (2000),Action Crime Thriller,1.4733242681171013
+1968,540,Sliver (1993),Thriller,1.470111448834853
+1969,4149,Saving Silverman (Evil Woman) (2001),Comedy Romance,1.4699502625034542
+1970,44840,"Benchwarmers, The (2006)",Comedy,1.4699502625034542
+1971,72378,2012 (2009),Action Drama Sci-Fi Thriller,1.469098277608916
+1972,36401,"Brothers Grimm, The (2005)",Comedy Fantasy Horror Thriller,1.4644756838905777
+1973,2123,All Dogs Go to Heaven (1989),Animation Children Comedy Drama Fantasy,1.4639817629179332
+1974,3113,End of Days (1999),Action Fantasy Horror Mystery Thriller,1.4639817629179332
+1975,2367,King Kong (1976),Adventure Fantasy Romance Sci-Fi Thriller,1.4635258358662615
+1976,8865,Sky Captain and the World of Tomorrow (2004),Action Adventure Sci-Fi,1.4562225599459642
+1977,6564,Lara Croft Tomb Raider: The Cradle of Life (2003),Action Adventure Comedy Romance Thriller,1.4527087430716967
+1978,122,Boomerang (1992),Comedy Romance,1.449705547112462
+1979,575,"Little Rascals, The (1994)",Children Comedy,1.449705547112462
+1980,4291,Nine to Five (a.k.a. 9 to 5) (1980),Comedy Crime,1.4472229897761812
+1981,5943,Maid in Manhattan (2002),Comedy Romance,1.447008478643417
+1982,6383,"2 Fast 2 Furious (Fast and the Furious 2, The) (2003)",Action Crime Thriller,1.447008478643417
+1983,1991,Child's Play (1988),Horror Thriller,1.445352077001013
+1984,1772,Blues Brothers 2000 (1998),Action Comedy Musical,1.445352077001013
+1985,798,Daylight (1996),Action Adventure Drama Thriller,1.445352077001013
+1986,3439,Teenage Mutant Ninja Turtles II: The Secret of the Ooze (1991),Action Children Fantasy,1.4449380406827217
+1987,1726,"Postman, The (1997)",Action Adventure Drama Sci-Fi,1.4449380406827217
+1988,1831,Lost in Space (1998),Action Adventure Sci-Fi,1.44450267267582
+1989,3826,Hollow Man (2000),Horror Sci-Fi Thriller,1.4437884810225234
+1990,53464,Fantastic Four: Rise of the Silver Surfer (2007),Action Adventure Sci-Fi,1.4394756838905776
+1991,1388,Jaws 2 (1978),Horror Thriller,1.4380028607187556
+1992,1091,Weekend at Bernie's (1989),Comedy,1.43338399189463
+1993,3979,Little Nicky (2000),Comedy,1.432370820668693
+1994,1327,"Amityville Horror, The (1979)",Drama Horror Mystery Thriller,1.4306484295845998
+1995,2794,European Vacation (aka National Lampoon's European Vacation) (1985),Adventure Comedy Romance,1.4306484295845998
+1996,5025,Orange County (2002),Comedy,1.4306484295845998
+1997,4639,America's Sweethearts (2001),Comedy Romance,1.4284447821681865
+1998,46965,Snakes on a Plane (2006),Action Comedy Horror Thriller,1.4278115501519757
+1999,1562,Batman & Robin (1997),Action Adventure Fantasy Thriller,1.42629179331307
+2000,1409,Michael (1996),Comedy Drama Fantasy Romance,1.424772036474164
+2001,2713,Lake Placid (1999),Horror Thriller,1.4245187436676798
+2002,71745,Where the Wild Things Are (2009),Adventure Children Drama Fantasy IMAX,1.4245187436676798
+2003,1459,Absolute Power (1997),Mystery Thriller,1.4245187436676798
+2004,49274,Happy Feet (2006),Adventure Animation Children Comedy IMAX,1.4244957170489083
+2005,640,Diabolique (1996),Drama Thriller,1.4244957170489083
+2006,234,Exit to Eden (1994),Comedy,1.4232969783658145
+2007,2471,Crocodile Dundee II (1988),Action Adventure Comedy,1.4219541540020262
+2008,2428,"Faculty, The (1998)",Horror Sci-Fi,1.4139024712567727
+2009,69644,Ice Age: Dawn of the Dinosaurs (2009),Action Adventure Animation Children Comedy Romance,1.409954407294833
+2010,3999,Vertical Limit (2000),Action Adventure,1.409954407294833
+2011,379,Timecop (1994),Action Sci-Fi Thriller,1.4095744680851063
+2012,3264,Buffy the Vampire Slayer (1992),Action Comedy Horror,1.409106850596212
+2013,7318,"Passion of the Christ, The (2004)",Drama,1.4064765022211831
+2014,111364,Godzilla (2014),Action Adventure Sci-Fi IMAX,1.4064765022211831
+2015,110553,The Amazing Spider-Man 2 (2014),Action Sci-Fi IMAX,1.4017684443216358
+2016,93326,This Means War (2012),Action Comedy Romance,1.4017684443216358
+2017,2606,Idle Hands (1999),Comedy Horror,1.3973150962512666
+2018,4974,Not Another Teen Movie (2001),Comedy,1.39209726443769
+2019,7367,"Ladykillers, The (2004)",Comedy Crime,1.39209726443769
+2020,6503,Charlie's Angels: Full Throttle (2003),Action Adventure Comedy Crime Thriller,1.3903523584374649
+2021,415,Another Stakeout (1993),Comedy Thriller,1.387205547112462
+2022,2088,Popeye (1980),Adventure Comedy Musical,1.3867781155015195
+2023,2796,Funny Farm (1988),Comedy,1.3790411715943631
+2024,3784,"Kid, The (2000)",Comedy Fantasy,1.3790411715943631
+2025,45501,"Break-Up, The (2006)",Comedy Drama Romance,1.3790411715943631
+2026,1021,Angels in the Outfield (1994),Children Comedy,1.3718338399189465
+2027,63992,Twilight (2008),Drama Fantasy Romance Thriller,1.3717187068250898
+2028,53993,Evan Almighty (2007),Comedy Fantasy,1.3680149637596446
+2029,69526,Transformers: Revenge of the Fallen (2009),Action Adventure Sci-Fi IMAX,1.3644756838905774
+2030,2468,Jumpin' Jack Flash (1986),Action Comedy Romance Thriller,1.3639817629179332
+2031,20,Money Train (1995),Action Comedy Crime Drama Thriller,1.3639817629179332
+2032,842,Tales from the Crypt Presents: Bordello of Blood (1996),Comedy Horror,1.3620187436676798
+2033,427,Boxing Helena (1993),Drama Mystery Romance Thriller,1.3620187436676798
+2034,519,RoboCop 3 (1993),Action Crime Drama Sci-Fi Thriller,1.3619554204660589
+2035,3388,Harry and the Hendersons (1987),Children Comedy,1.3563138988670904
+2036,3004,"Bachelor, The (1999)",Comedy Romance,1.3563138988670904
+2037,1431,Beverly Hills Ninja (1997),Action Comedy,1.355955547112462
+2038,12,Dracula: Dead and Loving It (1995),Comedy Horror,1.3549032154855225
+2039,4247,Joe Dirt (2001),Adventure Comedy Mystery Romance,1.3500506585612968
+2040,996,Last Man Standing (1996),Action Crime Drama Thriller,1.3487841945288754
+2041,2253,Toys (1992),Comedy Fantasy,1.3394756838905777
+2042,45666,Nacho Libre (2006),Comedy,1.3385258358662615
+2043,2136,"Nutty Professor, The (1963)",Comedy Sci-Fi,1.3385258358662615
+2044,2950,"Blue Lagoon, The (1980)",Adventure Drama Romance,1.3385258358662615
+2045,4558,Twins (1988),Comedy,1.3385258358662615
+2046,7046,"Witches of Eastwick, The (1987)",Comedy Fantasy Horror Thriller,1.3335866261398177
+2047,1342,Candyman (1992),Horror Thriller,1.3335866261398177
+2048,4621,Look Who's Talking (1989),Comedy Romance,1.3312225599459642
+2049,3316,Reindeer Games (2000),Action Thriller,1.3295534252981065
+2050,1603,Mimic (1997),Horror Sci-Fi Thriller,1.3295534252981065
+2051,2995,House on Haunted Hill (1999),Horror Thriller,1.3206686930091185
+2052,2379,Police Academy 2: Their First Assignment (1985),Comedy Crime,1.320352077001013
+2053,4876,Thirteen Ghosts (a.k.a. Thir13en Ghosts) (2001),Horror Thriller,1.320352077001013
+2054,5313,The Scorpion King (2002),Action Adventure Fantasy Thriller,1.314900525006908
+2055,3243,Encino Man (1992),Comedy,1.3139817629179331
+2056,2122,Children of the Corn (1984),Horror Thriller,1.310859353412545
+2057,4153,Down to Earth (2001),Comedy Fantasy Romance,1.2995187436676798
+2058,405,Highlander III: The Sorcerer (a.k.a. Highlander: The Final Dimension) (1994),Action Fantasy,1.2995187436676798
+2059,1644,I Know What You Did Last Summer (1997),Horror Mystery Thriller,1.297848594224924
+2060,502,"Next Karate Kid, The (1994)",Action Children Romance,1.2973150962512665
+2061,136864,Batman v Superman: Dawn of Justice (2016),Action Adventure Fantasy Sci-Fi,1.293455547112462
+2062,2642,Superman III (1983),Action Adventure Sci-Fi,1.2921732522796352
+2063,3146,Deuce Bigalow: Male Gigolo (1999),Comedy,1.290944037189344
+2064,374,Richie Rich (1994),Children Comedy,1.289969604863222
+2065,6888,Scary Movie 3 (2003),Comedy Horror,1.2894756838905774
+2066,59725,Sex and the City (2008),Comedy Romance,1.2881320806852723
+2067,6535,"Legally Blonde 2: Red, White & Blonde (2003)",Comedy,1.2881320806852723
+2068,6294,Bulletproof Monk (2003),Action Adventure Sci-Fi,1.2881320806852723
+2069,3824,Autumn in New York (2000),Drama Romance,1.2881320806852723
+2070,4040,Don't Tell Mom the Babysitter's Dead (1991),Comedy,1.2718611176057986
+2071,3981,Red Planet (2000),Action Sci-Fi Thriller,1.2718611176057986
+2072,8907,Shark Tale (2004),Animation Children Comedy,1.2718611176057986
+2073,87520,Transformers: Dark of the Moon (2011),Action Adventure Sci-Fi War IMAX,1.2654048079579996
+2074,4368,Dr. Dolittle 2 (2001),Comedy,1.2654048079579996
+2075,5128,Queen of the Damned (2002),Fantasy Horror,1.2654048079579996
+2076,3821,Nutty Professor II: The Klumps (2000),Comedy,1.262205547112462
+2077,181,Mighty Morphin Power Rangers: The Movie (1995),Action Children,1.2615322724834614
+2078,49649,Eragon (2006),Action Adventure Fantasy,1.257852077001013
+2079,76175,Clash of the Titans (2010),Action Adventure Drama Fantasy,1.2526303483750292
+2080,2153,"Avengers, The (1998)",Action Adventure,1.2426775352307269
+2081,33836,Bewitched (2005),Comedy Fantasy Romance,1.23339957914426
+2082,2808,Universal Soldier (1992),Action Sci-Fi,1.2321205077775792
+2083,1882,Godzilla (1998),Action Sci-Fi Thriller,1.2280326056921802
+2084,2827,"Astronaut's Wife, The (1999)",Horror Sci-Fi Thriller,1.2199502625034542
+2085,3646,Big Momma's House (2000),Comedy,1.217414625424638
+2086,44972,Scary Movie 4 (2006),Comedy Horror,1.2161854103343466
+2087,51077,Ghost Rider (2007),Action Fantasy Thriller,1.2161854103343466
+2088,810,Kazaam (1996),Children Comedy Fantasy,1.2161854103343466
+2089,8373,"Stepford Wives, The (2004)",Comedy Fantasy Thriller,1.2161854103343466
+2090,2720,Inspector Gadget (1999),Action Adventure Children Comedy,1.207193515704154
+2091,2450,Howard the Duck (1986),Adventure Comedy Sci-Fi,1.199705547112462
+2092,4254,Crocodile Dundee in Los Angeles (2001),Comedy Drama,1.1949380406827217
+2093,1381,Grease 2 (1982),Comedy Musical Romance,1.183850583906575
+2094,2053,"Honey, I Blew Up the Kid (1992)",Children Comedy Sci-Fi,1.1769756838905774
+2095,42011,Fun with Dick and Jane (2005),Comedy Crime,1.1744957170489083
+2096,1499,Anaconda (1997),Action Adventure Thriller,1.1681301362152423
+2097,2338,I Still Know What You Did Last Summer (1998),Horror Mystery Thriller,1.1645558932792974
+2098,1515,Volcano (1997),Action Drama Thriller,1.1639817629179332
+2099,546,Super Mario Bros. (1993),Action Adventure Children Comedy Fantasy Sci-Fi,1.1595744680851063
+2100,2719,"Haunting, The (1999)",Horror Thriller,1.1564765022211831
+2101,4340,"Animal, The (2001)",Comedy,1.1517684443216358
+2102,1474,Jungle2Jungle (a.k.a. Jungle 2 Jungle) (1997),Children Comedy,1.1517684443216358
+2103,3688,Porky's (1982),Comedy,1.1517684443216358
+2104,3440,Teenage Mutant Ninja Turtles III (1993),Action Adventure Children Comedy Fantasy,1.14209726443769
+2105,34520,"Dukes of Hazzard, The (2005)",Action Adventure Comedy,1.132852077001013
+2106,46335,"Fast and the Furious: Tokyo Drift, The (Fast and the Furious 3, The) (2006)",Action Crime Drama Thriller,1.1290411715943631
+2107,2412,Rocky V (1990),Action Drama,1.0997675666011086
+2108,6482,Dumb and Dumberer: When Harry Met Lloyd (2003),Comedy,1.060859353412545
+2109,43928,Ultraviolet (2006),Action Fantasy Sci-Fi Thriller,1.0603226560673369
+2110,3248,Sister Act 2: Back in the Habit (1993),Comedy,1.0528115501519757
+2111,2404,Rambo III (1988),Action Adventure Thriller War,1.0495187436676798
+2112,3997,Dungeons & Dragons (2000),Action Adventure Comedy Fantasy,1.007852077001013
+2113,2422,"Karate Kid, Part III, The (1989)",Action Adventure Children Drama,0.9813829787234044
+2114,3593,Battlefield Earth (2000),Action Sci-Fi,0.9733242681171012
+2115,3268,Stop! Or My Mom Will Shoot (1992),Action Comedy,0.969950262503454
+2116,6793,Beethoven (1992),Children Comedy Drama,0.969950262503454
+2117,2643,Superman IV: The Quest for Peace (1987),Action Adventure Sci-Fi,0.965330547112462
+2118,1556,Speed 2: Cruise Control (1997),Action Romance Thriller,0.9470084786434172
+2119,3564,"Flintstones in Viva Rock Vegas, The (2000)",Children Comedy,0.9036854103343464
+2120,2798,Problem Child (1990),Children Comedy,0.8828520770010131
