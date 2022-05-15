@@ -8,8 +8,9 @@ from collaborative_filtering import (
     user_user_collaborative_filter,
 )
 
+st.set_page_config(layout="wide")
+
 ##################### Genre based filtering cache ####################
-@st.cache
 def genre_based_rec(genres):
     return st.session_state["basic_recommender"].recommend(genres)
 
@@ -34,6 +35,7 @@ def update_content_model(custom_movie_summary):
     )
 
 
+@st.cache
 def update_features_list(features_to_include):
     st.session_state["content_based_recommender"].update_features_combination(
         features_to_include
@@ -41,6 +43,22 @@ def update_features_list(features_to_include):
 
 
 #################################################################################
+
+####### FUNCTION TO PRINT ALL MOVIES POSTERS IN A GIVEN PANDAS SERIES ##########
+def print_movies_posters(recommendations):
+    if len(recommendations) == 0:
+        st.write("Lookin' kinda empty here. Try another search maybe ?")
+    else:
+        columns = st.columns(4)
+        for movie in range(len(recommendations)):
+            columns[movie % 4].image(
+                "Posters/" + str(recommendations.index[movie]) + ".jpg",
+                caption=recommendations.iloc[movie],
+            )
+
+
+#################################################################################
+
 
 ##################### List of algorithms ##################################
 recommenders = ["Weighted Averages", "Content-Based", "Collaborative"]
@@ -88,7 +106,11 @@ if recommender_type == recommenders[0]:
         ### What the world is watching
     """
     )
-    st.write(genre_based_rec(genres))
+    genre_recommendations = genre_based_rec(genres)
+    print_movies_posters(genre_recommendations)
+    # st.write(genre_recommendations)
+    # st.write(st.session_state["basic_recommender"].get_columns())
+
 #############################################################################
 
 
@@ -129,11 +151,11 @@ elif recommender_type == recommenders[1]:
     """
     )
 
-    st.write(
-        st.session_state["content_based_recommender"].recommend(
-            features_to_include, custom_movie_summary
-        )
+    content_recommendations = st.session_state["content_based_recommender"].recommend(
+        features_to_include, custom_movie_summary
     )
+    print_movies_posters(content_recommendations)
+
 ##########################################################################
 
 
