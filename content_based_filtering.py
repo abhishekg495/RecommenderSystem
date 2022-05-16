@@ -73,20 +73,32 @@ class content_based_filter:
             for feature in features_to_include:
                 self.movies_features.iat[
                     i, self.movies_features.columns.get_loc("features")
-                ] += self.movies_features.iat[
-                    i, self.movies_features.columns.get_loc(feature)
-                ]
+                ] += (
+                    self.movies_features.iat[
+                        i, self.movies_features.columns.get_loc(feature)
+                    ]
+                    + " "
+                )
         self.tfv.fit(self.movies_features["features"])
 
     ###################################################################################
 
-    def update_similarities(self, user_given_summary):
+    def update_similarities(self, user_given_summaries):
         self.movies_features["similarity"] = self.movies_features["features"].apply(
-            lambda x: self.get_similarity(x, user_given_summary)
+            lambda x: sum(
+                [(self.get_similarity(x, summary)) for summary in user_given_summaries]
+            )
         )
 
     def get_movies_list(self):
         return self.movies_features["title"]
+
+    def get_features(self, movies):
+        features_list = []
+        chosen_movies_data = self.movies_features[
+            list(title in movies for title in self.movies_features["title"])
+        ]
+        return list(chosen_movies_data["features"])
 
     def recommend(self, features_to_include, user_given_summary):
 

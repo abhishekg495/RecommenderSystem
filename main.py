@@ -128,22 +128,31 @@ elif recommender_type == recommenders[1]:
         ].get_movies_list()
         st.session_state["recommender_type"] = recommender_type
 
-    custom_movie_summary = st.sidebar.text_input("Enter some keywords")
+    content_based_choices = [
+        "Find movies similar to your favourite",
+        "Use keywords to search for a movie",
+    ]
+    content_choice = st.sidebar.radio(
+        "What would you like to do",
+        content_based_choices,
+    )
     features_to_include = st.sidebar.multiselect(
-        "Keywords include",
+        "Keywords include"
+        if content_choice == content_based_choices[1]
+        else "Match movies by:",
         st.session_state["content_based_recommender"].get_features_list(),
         default=st.session_state["content_based_recommender"].get_features_list(),
     )
-    # st.sidebar.write(
-    #     st.session_state["content_based_recommender"].get_custom_keywords()
-    # )
-    # recommend = st.sidebar.button(
-    #     "Recommend",
-    #     on_click=st.session_state[
-    #         "content_based_recommender"
-    #     ].update_features_combination(features_to_include),
-    # )
-    # st.sidebar.write(st.session_state["content_based_recommender"].)
+    if content_choice == content_based_choices[1]:
+        custom_movie_summary = st.text_input("Enter some keywords")
+    else:
+        custom_movie_titles = st.multiselect(
+            "Select your favourite movie(s)",
+            st.session_state["content_based_recommender"].get_movies_list(),
+        )
+        custom_movie_summary = st.session_state[
+            "content_based_recommender"
+        ].get_features(custom_movie_titles)
 
     st.write(
         """
