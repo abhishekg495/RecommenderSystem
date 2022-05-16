@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import sigmoid_kernel, cosine_similarity
+import streamlit as st
 
 
 class content_based_filter:
@@ -88,6 +89,8 @@ class content_based_filter:
             lambda x: sum(
                 [(self.get_similarity(x, summary)) for summary in user_given_summaries]
             )
+            if isinstance(user_given_summaries, list)
+            else (self.get_similarity(x, user_given_summaries))
         )
 
     def get_movies_list(self):
@@ -100,7 +103,7 @@ class content_based_filter:
         ]
         return list(chosen_movies_data["features"])
 
-    def recommend(self, features_to_include, user_given_summary):
+    def recommend(self, features_to_include, user_given_summary, strictness=0):
 
         self.update_features_combination(features_to_include)
         self.update_similarities(user_given_summary)
@@ -108,4 +111,6 @@ class content_based_filter:
         similarity_scores = self.movies_features[["similarity", "title"]].sort_values(
             "similarity", ascending=False
         )
-        return similarity_scores[similarity_scores["similarity"] > 0]["title"]
+        return similarity_scores[similarity_scores["similarity"] > 0.01 * strictness][
+            "title"
+        ]

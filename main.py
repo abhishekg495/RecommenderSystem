@@ -3,10 +3,7 @@ import pandas as pd
 
 from content_based_filtering import content_based_filter
 from basic_recommender import basic_recommender
-from collaborative_filtering import (
-    item_item_collaborative_filter,
-    user_user_collaborative_filter,
-)
+from collaborative_filtering import user_collaborative_filter
 
 st.set_page_config(layout="wide")
 
@@ -18,23 +15,6 @@ def genre_based_rec(genres):
 ######################################################################
 
 #################### Content based filtering cache ###############################
-@st.cache
-def get_movie_summary(movie_name):
-    return st.session_state["content_based_recommender"].get_overview(movie_name)
-
-
-@st.cache
-def content_based_rec(movie_name="User Movie"):
-    return st.session_state["content_based_recommender"].recommend(movie_name)
-
-
-@st.cache
-def update_content_model(custom_movie_summary):
-    st.session_state["content_based_recommender"].update_similarities(
-        custom_movie_summary
-    )
-
-
 @st.cache
 def update_features_list(features_to_include):
     st.session_state["content_based_recommender"].update_features_combination(
@@ -61,8 +41,7 @@ def print_movies_posters(recommendations):
 
 
 ##################### List of algorithms ##################################
-recommenders = ["Weighted Averages", "Content-Based", "Collaborative"]
-collab_algorithms = ["User-User Collaborative", "Item-Item Collaborative"]
+recommenders = ["Weighted Averages", "Content-Based", "User Collaborative"]
 ###########################################################################
 
 # Initalizing datasets ##################################
@@ -70,6 +49,7 @@ if "datasets" not in st.session_state:
     st.session_state["datasets"] = {
         "movies": pd.read_csv("Datasets/movies.csv"),
         "ratings": pd.read_csv("Datasets/ratings.csv"),
+        "ratings_sorted_movies": pd.read_csv("Datasets/ratings_sorted_movies.csv"),
     }
 if "recommender_type" not in st.session_state:
     st.session_state["recommender_type"] = recommenders[0]
@@ -85,8 +65,7 @@ recommender_type = st.sidebar.selectbox("Choose an algorithm", recommenders)
 if recommender_type == recommenders[0]:
     if "basic_recommender" not in st.session_state:
         st.session_state["basic_recommender"] = basic_recommender(
-            st.session_state["datasets"]["movies"],
-            st.session_state["datasets"]["ratings"],
+            st.session_state["datasets"]["ratings_sorted_movies"],
         )
         st.session_state["genres_list"] = st.session_state[
             "basic_recommender"
@@ -116,6 +95,8 @@ if recommender_type == recommenders[0]:
 
 ############## UI For Content Based Filtering ###############################
 elif recommender_type == recommenders[1]:
+
+    #### INITIALISE A CONTENT-BASED RECOMMMENDER #############################
     if "content_based_recommender" not in st.session_state:
         st.session_state["content_based_recommender"] = content_based_filter()
         st.session_state["movies_list"] = st.session_state[
@@ -148,12 +129,15 @@ elif recommender_type == recommenders[1]:
     else:
         custom_movie_titles = st.multiselect(
             "Select your favourite movie(s)",
-            st.session_state["content_based_recommender"].get_movies_list(),
+            st.session_state["movies_list"],
         )
         custom_movie_summary = st.session_state[
             "content_based_recommender"
         ].get_features(custom_movie_titles)
 
+    recommendation_strictness = st.slider(
+        "How strict do you want the search to be ?", min_value=0, max_value=10
+    )
     st.write(
         """
         ## Personalised Recommendations
@@ -161,7 +145,7 @@ elif recommender_type == recommenders[1]:
     )
 
     content_recommendations = st.session_state["content_based_recommender"].recommend(
-        features_to_include, custom_movie_summary
+        features_to_include, custom_movie_summary, strictness=recommendation_strictness
     )
     print_movies_posters(content_recommendations)
 
@@ -170,101 +154,40 @@ elif recommender_type == recommenders[1]:
 
 ##### UI for Collaborative Filtering #####################################
 elif recommender_type == recommenders[2]:
-    collab_filter_type = st.sidebar.selectbox(
-        "Select the nature of collaborative filter", collab_algorithms
-    )
 
     ###### UI for User-User Collaborative Filtering ###########################
-    if collab_filter_type == collab_algorithms[0]:
-        if "user_collaborative_recommender" not in st.session_state:
-            st.session_state[
-                "user_collaborative_recommender"
-            ] = user_user_collaborative_filter(
-                st.session_state["datasets"]["movies"],
-                st.session_state["datasets"]["ratings"],
-            )
-            st.session_state["user_collaborative_recommender"].fit_knn_model(
-                [
-                    ["101 Dalmatians (One Hundred and One Dalmatians) (1961)", 5],
-                    ["(500) Days of Summer (2009)", 5],
-                ]
-            )
+    if "user_collaborative_recommender" not in st.session_state:
+        st.session_state["user_collaborative_recommender"] = user_collaborative_filter(
+            st.session_state["datasets"]["movies"],
+            st.session_state["datasets"]["ratings"],
+        )
+        st.session_state["user_collaborative_recommender"].fit_knn_model(
+            [
+                ["101 Dalmatians (One Hundred and One Dalmatians) (1961)", 5],
+                ["(500) Days of Summer (2009)", 5],
+            ]
+        )
 
-        if st.session_state["recommender_type"] != collab_filter_type:
-            st.session_state["movies_list"] = st.session_state[
-                "user_collaborative_recommender"
-            ].get_movies_list()
-            st.session_state["recommender_type"] = collab_filter_type
+    if st.session_state["recommender_type"] != recommenders[2]:
+        st.session_state["movies_list"] = st.session_state[
+            "user_collaborative_recommender"
+        ].get_movies_list()
+        st.session_state["recommender_type"] = recommenders[2]
 
-        st.sidebar.write(
-            """
-        #### Tell us more about your taste
+    st.sidebar.write(
         """
-        )
-        collab_filter_movie = st.sidebar.selectbox(
-            "Select movie",
-            st.session_state["movies_list"],
-        )
+    #### Tell us more about your taste
+    """
+    )
+    collab_filter_movie = st.sidebar.selectbox(
+        "Select movie",
+        st.session_state["movies_list"],
+    )
 
-        st.write(
-            """
-        ##### Users with a similar choice love these titles
+    st.write(
         """
-        )
-        st.write(
-            st.session_state["user_collaborative_recommender"].knn_recommendation()
-        )
-    #################################################################################
-
-    ##### UI for Item-Item Collaborative Filtering #################################
-    elif collab_filter_type == collab_algorithms[1]:
-        if "item_collaborative_recommender" not in st.session_state:
-            st.session_state[
-                "item_collaborative_recommender"
-            ] = item_item_collaborative_filter(
-                st.session_state["datasets"]["movies"],
-                st.session_state["datasets"]["ratings"],
-            )
-            st.session_state["item_collaborative_recommender"].fit_knn_model()
-
-        if st.session_state["recommender_type"] != collab_filter_type:
-            st.session_state["movies_list"] = st.session_state[
-                "item_collaborative_recommender"
-            ].get_movies_list()
-            st.session_state["recommender_type"] = collab_filter_type
-
-        collab_filter_movie = st.sidebar.selectbox(
-            "Select movie",
-            st.session_state["movies_list"],
-        )
-
-        st.write(
-            """
-        #### Movies with similar ratings from users
-        """
-        )
-
-        st.write(
-            st.session_state["item_collaborative_recommender"].knn_recommendation(
-                collab_filter_movie
-            )
-        )
-
-        st.write(
-            """
-        #### Based on your ratings
-        """
-        )
-
-        st.write(
-            st.session_state["item_collaborative_recommender"].corr_recommendation(
-                [
-                    ("(500) Days of Summer (2009)", 5),
-                    ("Alice in Wonderland (2010)", 3),
-                    ("Aliens (1986)", 1),
-                    ("2001: A Space Odyssey (1968)", 2),
-                ]
-            )
-        )
-    ###############################################################################
+    ##### Users with a similar choice love these titles
+    """
+    )
+    st.write(st.session_state["user_collaborative_recommender"].knn_recommendation())
 ###################################################################################

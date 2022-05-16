@@ -4,59 +4,7 @@ from scipy.sparse import csr_matrix
 from sklearn.neighbors import NearestNeighbors
 
 
-class item_item_collaborative_filter:
-    def __init__(self, movies, ratings):
-        self.movies = movies
-        self.ratings = ratings
-
-        self.ratings = pd.merge(self.movies, self.ratings).drop(
-            ["genres", "timestamp"], axis=1
-        )
-
-        self.user_ratings = self.ratings.pivot_table(
-            index=["title"], columns=["userId"], values="rating"
-        )
-        self.user_ratings = self.user_ratings.dropna(thresh=10, axis=1).fillna(
-            0, axis=1
-        )
-
-        self.corr_matrix = self.user_ratings.T.corr(method="pearson")
-
-        self.user_ratings_matrix = csr_matrix(self.user_ratings.values)
-        self.model_knn = NearestNeighbors(metric="cosine", algorithm="brute")
-
-    def get_movies_list(self):
-        return self.user_ratings.index
-
-    def fit_knn_model(self):
-        self.model_knn.fit(self.user_ratings_matrix)
-
-    def knn_recommendation(self, movie_name):
-        distances, indices = self.model_knn.kneighbors(
-            self.user_ratings.loc[movie_name, :].values.reshape(1, -1),
-            n_neighbors=10,
-        )
-        recommendations = []
-        for i in range(0, len(distances.flatten())):
-            recommendations.append(self.user_ratings.index[indices.flatten()[i]])
-
-        return recommendations
-
-    def single_movie_correlation(self, movie_name, rating):
-        similar_ratings = self.corr_matrix[movie_name] * (rating - 2.5)
-        similar_ratings = similar_ratings.sort_values(ascending=False)
-        return similar_ratings
-
-    def corr_recommendation(self, movie_ratings):
-        recommendations = pd.DataFrame()
-        for movie, rating in movie_ratings:
-            recommendations = recommendations.append(
-                self.single_movie_correlation(movie, rating), ignore_index=True
-            )
-        return recommendations.sum().sort_values(ascending=False).head(20).index
-
-
-class user_user_collaborative_filter:
+class user_collaborative_filter:
     def __init__(self, movies, ratings):
         self.movies = movies
         self.ratings = ratings
