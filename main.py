@@ -3,7 +3,7 @@ import pandas as pd
 
 from content_based_filtering import content_based_filter
 from basic_recommender import basic_recommender
-from collaborative_filtering import user_collaborative_filter
+from collaborative_filtering import collaborative_filter
 
 st.set_page_config(layout="wide")
 
@@ -35,17 +35,23 @@ def print_movies_posters(recommendations):
     else:
         columns = st.columns(5)
         for movie in range(len(recommendations)):
-            columns[movie % len(columns)].image(
-                "Posters/" + str(recommendations.index[movie]) + ".jpg",
-                caption=recommendations.iloc[movie],
-            )
+            try:
+                columns[movie % len(columns)].image(
+                    "Posters/" + str(recommendations.index[movie]) + ".jpg",
+                    caption=recommendations.iloc[movie],
+                )
+            except:
+                columns[movie % len(columns)].image(
+                    "Posters/unavailable.png",
+                    caption=recommendations.index[movie],
+                )
 
 
 #################################################################################
 
 
 ##################### List of algorithms ##################################
-recommenders = ["Weighted Averages", "Content-Based", "User Collaborative"]
+recommenders = ["Average Ratings", "Content-Based", "User Collaborative"]
 ###########################################################################
 
 # Initalizing datasets ##################################
@@ -174,21 +180,15 @@ elif recommender_type == recommenders[1]:
 elif recommender_type == recommenders[2]:
 
     ###### UI for User-User Collaborative Filtering ###########################
-    if "user_collaborative_recommender" not in st.session_state:
-        st.session_state["user_collaborative_recommender"] = user_collaborative_filter(
+    if "collaborative_recommender" not in st.session_state:
+        st.session_state["collaborative_recommender"] = collaborative_filter(
             st.session_state["datasets"]["movies"],
             st.session_state["datasets"]["ratings"],
-        )
-        st.session_state["user_collaborative_recommender"].fit_knn_model(
-            [
-                ["101 Dalmatians (One Hundred and One Dalmatians) (1961)", 5],
-                ["(500) Days of Summer (2009)", 5],
-            ]
         )
 
     if st.session_state["recommender_type"] != recommenders[2]:
         st.session_state["movies_list"] = st.session_state[
-            "user_collaborative_recommender"
+            "collaborative_recommender"
         ].get_movies_list()
         st.session_state["recommender_type"] = recommenders[2]
 
@@ -197,15 +197,11 @@ elif recommender_type == recommenders[2]:
     #### Tell us more about your taste
     """
     )
-    collab_filter_movie = st.sidebar.selectbox(
-        "Select movie",
-        st.session_state["movies_list"],
+    print_movies_posters(
+        st.session_state["collaborative_recommender"].recommend(
+            [
+                ("Avengers: Age of Ultron (2015)", 5.0),
+            ],
+        )
     )
-
-    st.write(
-        """
-    ##### Users with a similar choice love these titles
-    """
-    )
-    st.write(st.session_state["user_collaborative_recommender"].knn_recommendation())
 ###################################################################################

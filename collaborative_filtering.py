@@ -4,60 +4,47 @@ from scipy.sparse import csr_matrix
 from sklearn.neighbors import NearestNeighbors
 
 
-class user_collaborative_filter:
+class collaborative_filter:
     def __init__(self, movies, ratings):
         self.movies = movies
         self.ratings = ratings
+
+        self.id = movies[["movieId", "title"]].set_index("title")
 
         self.ratings = pd.merge(self.movies, self.ratings).drop(
             ["genres", "timestamp"], axis=1
         )
 
-        self.user_ratings = self.ratings.pivot_table(
+        self.movies_ratings = self.ratings.pivot_table(
             index=["userId"], columns=["title"], values="rating"
         )
-        self.user_ratings = self.user_ratings.dropna(thresh=10, axis=1).fillna(
+        self.movies_ratings = self.movies_ratings.dropna(thresh=10, axis=1).fillna(
             0, axis=1
         )
-
-        self.usable_ratings = self.user_ratings
-        self.usable_movies_list = []
-        self.user_ratings_matrix = csr_matrix(self.user_ratings.values)
-
-        self.movies_count = len(self.user_ratings.columns)
-        self.users_count = len(self.user_ratings.index)
-
-        self.user_ratings = self.user_ratings.append({}, ignore_index=True)
-        self.user_ratings.fillna(0, axis=1, inplace=True)
-
-        self.model_knn = NearestNeighbors(metric="cosine", algorithm="brute")
+        self.movies_ratings.fillna(0, axis=1, inplace=True)
+        self.corr_matrix = self.movies_ratings.corr(method="pearson")
 
     def get_movies_list(self):
-        return self.user_ratings.columns
+        return self.corr_matrix.index
 
-    def fit_knn_model(self, current_user_ratings):
-        self.usable_movies_list = []
-        for i in current_user_ratings:
-            self.usable_movies_list.append(i[0])
-        self.usable_ratings = self.user_ratings[self.usable_movies_list]
-        for i in current_user_ratings:
-            self.usable_ratings.iloc[self.users_count][i[0]] = i[1]
-        self.usable_ratings_matrix = csr_matrix(self.usable_ratings.values)
-        self.model_knn.fit(self.usable_ratings_matrix)
-
-    def knn_recommendation(self):
-        distances, indices = self.model_knn.kneighbors(
-            self.usable_ratings.iloc[self.users_count, :].values.reshape(1, -1),
-            n_neighbors=10,
+    def recommend(self, user_ratings):
+        movies_list = []
+        ratings_list = []
+        for movie, rating in user_ratings:
+            movies_list.append(movie)
+            ratings_list.append(rating)
+        similar_movies = self.corr_matrix[movies_list]
+        for i in range(len(ratings_list)):
+            similar_movies.iloc[
+                :, similar_movies.columns.get_loc(movies_list[i])
+            ] = similar_movies[movies_list[i]] * (ratings_list[i] - 2.5)
+        similar_movies = pd.DataFrame(
+            similar_movies.sum(axis=1).sort_values(ascending=False)
         )
-        similar_users = []
-        for i in range(0, len(distances.flatten())):
-            similar_users.append(self.user_ratings.index[indices.flatten()[i]])
-
-        recommendations = []
-
-        for i in similar_users:
-            for j in self.user_ratings.loc[i].sort_values(ascending=False).index[:4]:
-                if j not in recommendations:
-                    recommendations.append(j)
-        return recommendations
+        similar_movies["movieId"] = [
+            self.id.loc[movie_name]["movieId"] for movie_name in similar_movies.index
+        ]
+        # similar_movies.sum().sort_values(ascending=False).head(20)
+        return pd.Series(
+            similar_movies.head(30).reset_index().set_index("movieId")["title"]
+        )
