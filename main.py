@@ -8,8 +8,10 @@ from collaborative_filtering import user_collaborative_filter
 st.set_page_config(layout="wide")
 
 ##################### Genre based filtering cache ####################
-def genre_based_rec(genres):
-    return st.session_state["basic_recommender"].recommend(genres)
+def genre_based_rec(genres, weightages):
+    return st.session_state["basic_recommender"].recommend(
+        genres, weightages[0], weightages[1]
+    )
 
 
 ######################################################################
@@ -27,11 +29,13 @@ def update_features_list(features_to_include):
 ####### FUNCTION TO PRINT ALL MOVIES POSTERS IN A GIVEN PANDAS SERIES ##########
 def print_movies_posters(recommendations):
     if len(recommendations) == 0:
-        st.write("Lookin' kinda empty here. Try another search maybe ?")
+        st.image(
+            "Posters/empty.png", width=300, caption="Try a different search maybe ?"
+        )
     else:
-        columns = st.columns(4)
+        columns = st.columns(5)
         for movie in range(len(recommendations)):
-            columns[movie % 4].image(
+            columns[movie % len(columns)].image(
                 "Posters/" + str(recommendations.index[movie]) + ".jpg",
                 caption=recommendations.iloc[movie],
             )
@@ -64,9 +68,7 @@ recommender_type = st.sidebar.selectbox("Choose an algorithm", recommenders)
 ############## UI For Basic Recommender (Genre Based) ######################
 if recommender_type == recommenders[0]:
     if "basic_recommender" not in st.session_state:
-        st.session_state["basic_recommender"] = basic_recommender(
-            st.session_state["datasets"]["ratings_sorted_movies"],
-        )
+        st.session_state["basic_recommender"] = basic_recommender()
         st.session_state["genres_list"] = st.session_state[
             "basic_recommender"
         ].get_genres()
@@ -85,7 +87,12 @@ if recommender_type == recommenders[0]:
         ### What the world is watching
     """
     )
-    genre_recommendations = genre_based_rec(genres)
+    st.sidebar.write(" ")
+    with st.sidebar.expander("Sort By"):
+        weightage_columns = st.columns(2)
+        rating_weightage = int(weightage_columns[0].checkbox("Rating", value=True))
+        votes_weightage = int(weightage_columns[1].checkbox("Popularity"))
+    genre_recommendations = genre_based_rec(genres, [rating_weightage, votes_weightage])
     print_movies_posters(genre_recommendations)
     # st.write(genre_recommendations)
     # st.write(st.session_state["basic_recommender"].get_columns())
@@ -117,13 +124,33 @@ elif recommender_type == recommenders[1]:
         "What would you like to do",
         content_based_choices,
     )
-    features_to_include = st.sidebar.multiselect(
+
+    st.sidebar.write(" ")
+    with st.sidebar.expander(
         "Keywords include"
         if content_choice == content_based_choices[1]
-        else "Match movies by:",
-        st.session_state["content_based_recommender"].get_features_list(),
-        default=st.session_state["content_based_recommender"].get_features_list(),
-    )
+        else "Match movies by:"
+    ):
+        features_columns = st.columns(2)
+        title = features_columns[0].checkbox("Title", value=True)
+        synopsis = features_columns[1].checkbox("Synopsis", value=True)
+        genres = features_columns[0].checkbox("Genres", value=True)
+        actors = features_columns[1].checkbox("Actors", value=True)
+        keywords = features_columns[0].checkbox("Tags", value=True)
+        directors = features_columns[1].checkbox("Directors", value=True)
+
+    with st.sidebar.expander("Strictness Level"):
+        recommendation_strictness = st.slider("", min_value=0, max_value=10)
+
+    features_to_include = {
+        "title": title,
+        "synopsis": synopsis,
+        "genres": genres,
+        "keywords": keywords,
+        "actors": actors,
+        "directors": directors,
+    }
+
     if content_choice == content_based_choices[1]:
         custom_movie_summary = st.text_input("Enter some keywords")
     else:
@@ -134,15 +161,6 @@ elif recommender_type == recommenders[1]:
         custom_movie_summary = st.session_state[
             "content_based_recommender"
         ].get_features(custom_movie_titles)
-
-    recommendation_strictness = st.slider(
-        "How strict do you want the search to be ?", min_value=0, max_value=10
-    )
-    st.write(
-        """
-        ## Personalised Recommendations
-    """
-    )
 
     content_recommendations = st.session_state["content_based_recommender"].recommend(
         features_to_include, custom_movie_summary, strictness=recommendation_strictness

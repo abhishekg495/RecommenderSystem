@@ -27,8 +27,17 @@ class content_based_filter:
         )
         ######################################################################
 
-        self.movies_features.set_index("movieId", inplace=True)
+        if ("movieId") in list(self.movies_features.columns):
+            self.movies_features.set_index("movieId", inplace=True)
         self.movies_features = self.movies_features.fillna(" ")
+        self.features_list = [
+            "title",
+            "synopsis",
+            "genres",
+            "keywords",
+            "actors",
+            "directors",
+        ]
 
         ########### INITIALISING TF-IDF MODEL #########################################
         self.tfv = TfidfVectorizer(
@@ -56,11 +65,7 @@ class content_based_filter:
 
     ###### GET A LIST OF THE FEATURES AVAILABLE FOR EACH MOVIE ###############
     def get_features_list(self):
-        features_list = list(self.movies_features.columns)
-        features_list.remove("features")
-        if "similarity" in features_list:
-            features_list.remove("similarity")
-        return features_list
+        return self.features_list
 
     #########################################################################
 
@@ -71,19 +76,22 @@ class content_based_filter:
             self.movies_features.iat[
                 i, self.movies_features.columns.get_loc("features")
             ] = " "
-            for feature in features_to_include:
-                self.movies_features.iat[
-                    i, self.movies_features.columns.get_loc("features")
-                ] += (
+            for j in features_to_include:
+                if features_to_include[j]:
                     self.movies_features.iat[
-                        i, self.movies_features.columns.get_loc(feature)
-                    ]
-                    + " "
-                )
+                        i, self.movies_features.columns.get_loc("features")
+                    ] += (
+                        self.movies_features.iat[
+                            i,
+                            self.movies_features.columns.get_loc(j),
+                        ]
+                        + " "
+                    )
         self.tfv.fit(self.movies_features["features"])
 
     ###################################################################################
 
+    ###### COMPUTE SIMILARITY OF EACH MOVIE'S FEATURES WITH A GIVEN STRING ##############
     def update_similarities(self, user_given_summaries):
         self.movies_features["similarity"] = self.movies_features["features"].apply(
             lambda x: sum(
@@ -93,9 +101,15 @@ class content_based_filter:
             else (self.get_similarity(x, user_given_summaries))
         )
 
+    #####################################################################################
+
+    ######## GET A LIST OF ALL AVAILABLE TITLES #########################################
     def get_movies_list(self):
         return self.movies_features["title"]
 
+    #####################################################################################
+
+    #### EXTRACT THE FEATURES OF ALL MOVIES SELETED BY THE USER IN A LIST ################
     def get_features(self, movies):
         features_list = []
         chosen_movies_data = self.movies_features[
@@ -103,6 +117,9 @@ class content_based_filter:
         ]
         return list(chosen_movies_data["features"])
 
+    ######################################################################################
+
+    ###### RECOMMEND MOVIES BASED ON FEATURE SET, SELECTED MOVIES/KEYWORDS AND STRICTNESS LEVEL #########
     def recommend(self, features_to_include, user_given_summary, strictness=0):
 
         self.update_features_combination(features_to_include)
@@ -114,3 +131,5 @@ class content_based_filter:
         return similarity_scores[similarity_scores["similarity"] > 0.01 * strictness][
             "title"
         ]
+
+    ####################################################################################################
