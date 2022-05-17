@@ -18,7 +18,7 @@ class basic_recommender:
     def get_genres(self):
         return list(self.all_genres_list)
 
-    def recommend(self, fav_genres, rating_weightage, votes_weightage):
+    def recommend(self, rating_weightage, votes_weightage):
         self.average_ratings["weighted_average"] = (
             rating_weightage * self.average_ratings["average_rating"]
             + votes_weightage * self.average_ratings["standardized_vote_count"]
@@ -28,20 +28,20 @@ class basic_recommender:
         )
 
         ##### RETURN A LIST OF TOP 50 MOVIES IF NO GENRE IS SPECIFIED ##############
-        if len(fav_genres) == 0:
-            return pd.Series(
-                self.average_ratings.head(50).set_index("movieId")["title"]
-            )
+        # if len(fav_genres) == 0:
+        return self.average_ratings.head(50).set_index("movieId")[["title", "genres"]]
         ############################################################################
 
         ### RETURN TOP 50 MOVIES HAVING ATLEAST ONE OF THE CHOSEN GENRES #############
-        else:
-            self.average_ratings["genre count"] = self.average_ratings.apply(
-                lambda x: len(set(x["genres"].split(" ")).intersection(fav_genres)),
-                axis=1,
-            )
-            recommendations = self.average_ratings[
-                self.average_ratings["genre count"] > 0
-            ]
-            return pd.Series(recommendations.head(50).set_index("movieId")["title"])
+        # else:
+        #     self.average_ratings["genre count"] = self.average_ratings.apply(
+        #         lambda x: len(set(x["genres"].split(" ")).intersection(fav_genres)),
+        #         axis=1,
+        #     )
+        #     recommendations = self.average_ratings[
+        #         self.average_ratings["genre count"] > 0
+        #     ]
+        #     return pd.Series(
+        #         recommendations.head(50).set_index("movieId")[["title", "genres"]]
+        #     )
         ##############################################################################

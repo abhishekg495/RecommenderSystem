@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+from copy import deepcopy
 from content_based_filtering import content_based_filter
 from basic_recommender import basic_recommender
 from collaborative_filtering import collaborative_filter
@@ -8,10 +8,22 @@ from collaborative_filtering import collaborative_filter
 st.set_page_config(layout="wide")
 
 ##################### Genre based filtering cache ####################
+@st.cache(allow_output_mutation=True)
+def sort_movies(weightages):
+    return st.session_state["basic_recommender"].recommend(weightages[0], weightages[1])
+
+
 def genre_based_rec(genres, weightages):
-    return st.session_state["basic_recommender"].recommend(
-        genres, weightages[0], weightages[1]
+    recommendations = sort_movies(
+        weightages
+    )  ## DO NOT CHANGE recommendations IN THIS FUNCTION
+    if len(genres) == 0:
+        return recommendations.head(50)["title"]
+    genre_count = recommendations.apply(
+        lambda x: len(set(x["genres"].split(" ")).intersection(genres)),
+        axis=1,
     )
+    return pd.Series(recommendations[[i > 0 for i in genre_count]].head(50)["title"])
 
 
 ######################################################################
@@ -110,8 +122,6 @@ if recommender_type == recommenders[0]:
         votes_weightage = int(weightage_columns[1].checkbox("Popularity"))
     genre_recommendations = genre_based_rec(genres, [rating_weightage, votes_weightage])
     print_movies_posters(genre_recommendations)
-    # st.write(genre_recommendations)
-    # st.write(st.session_state["basic_recommender"].get_columns())
 
 #############################################################################
 
