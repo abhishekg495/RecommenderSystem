@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from copy import deepcopy
 from content_based_filtering import content_based_filter
 from basic_recommender import basic_recommender
 from collaborative_filtering import collaborative_filter
