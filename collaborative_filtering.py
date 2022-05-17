@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 from scipy.sparse import csr_matrix
-from sklearn.neighbors import NearestNeighbors
 import streamlit as st
 
 
