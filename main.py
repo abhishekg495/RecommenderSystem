@@ -26,12 +26,22 @@ def update_features_list(features_to_include):
 
 #################################################################################
 
+############# Collaborative Filtering Functions ################################
+def add_preference(movie_name, rating):
+    st.session_state["preferences"].append([movie_name, rating])
+
+
+def drop_preference(movie_name, dummy=0):
+    for i in range(len(st.session_state["preferences"])):
+        if st.session_state["preferences"][i][0] == movie_name:
+            del st.session_state["preferences"][i]
+            return
+
+
 ####### FUNCTION TO PRINT ALL MOVIES POSTERS IN A GIVEN PANDAS SERIES ##########
 def print_movies_posters(recommendations):
     if len(recommendations) == 0:
-        st.image(
-            "Posters/empty.png", width=300, caption="Try a different search maybe ?"
-        )
+        st.image("Posters/empty.png", width=300)
     else:
         columns = st.columns(5)
         for movie in range(len(recommendations)):
@@ -43,7 +53,7 @@ def print_movies_posters(recommendations):
             except:
                 columns[movie % len(columns)].image(
                     "Posters/unavailable.png",
-                    caption=recommendations.index[movie],
+                    caption=recommendations.iloc[movie],
                 )
 
 
@@ -185,11 +195,13 @@ elif recommender_type == recommenders[2]:
             st.session_state["datasets"]["movies"],
             st.session_state["datasets"]["ratings"],
         )
+        st.session_state["preferences"] = list()
 
     if st.session_state["recommender_type"] != recommenders[2]:
         st.session_state["movies_list"] = st.session_state[
             "collaborative_recommender"
         ].get_movies_list()
+        st.session_state["preferences"] = list()
         st.session_state["recommender_type"] = recommenders[2]
 
     st.sidebar.write(
@@ -197,11 +209,40 @@ elif recommender_type == recommenders[2]:
     #### Tell us more about your taste
     """
     )
+
+    movie_name = st.sidebar.selectbox(
+        "Select a movie to add", st.session_state["movies_list"]
+    )
+    rating = st.sidebar.slider("Select a rating", min_value=1, max_value=5)
+    delete_movie_name = st.sidebar.select
+    submit_movie = st.sidebar.button(
+        "Add movie rating", on_click=add_preference, args=(movie_name, rating)
+    )
+
+    st.sidebar.write(" ")
+    st.sidebar.write(" ")
+    if len(st.session_state["preferences"]) > 0:
+        delete_movie_name = st.sidebar.selectbox(
+            "Want to undo a rating ?",
+            pd.DataFrame(st.session_state["preferences"]).rename(
+                columns={0: "Title", 1: "Rating"}
+            )["Title"],
+        )
+        remove_rating = st.sidebar.button(
+            "Remove", on_click=drop_preference, args=((delete_movie_name, 0))
+        )
+
+    if len(st.session_state["preferences"]) > 0:
+        st.write(
+            pd.DataFrame(st.session_state["preferences"]).rename(
+                columns={0: "Title", 1: "Rating"}
+            )
+        )
+    else:
+        st.write("#### Try adding some of your own ratings fom the sidebar")
     print_movies_posters(
         st.session_state["collaborative_recommender"].recommend(
-            [
-                ("Avengers: Age of Ultron (2015)", 5.0),
-            ],
+            st.session_state["preferences"]
         )
     )
 ###################################################################################
