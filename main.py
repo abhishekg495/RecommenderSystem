@@ -288,11 +288,12 @@ elif recommender_type == recommenders[2]:
         )
 
     if len(st.session_state["preferences"]) > 0:
-        st.write(
-            pd.DataFrame(st.session_state["preferences"]).rename(
-                columns={0: "Title", 1: "Rating"}
+        with st.expander("Your ratings"):
+            st.write(
+                pd.DataFrame(st.session_state["preferences"])
+                .rename(columns={0: "Title", 1: "Rating"})
+                .set_index("Title")
             )
-        )
     else:
         st.write("#### Try adding some of your own ratings fom the sidebar")
     print_movies_posters(
