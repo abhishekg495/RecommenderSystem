@@ -6,14 +6,14 @@ import streamlit as st
 
 
 class content_based_filter:
-    def __init__(self):
+    def __init__(self, links):
 
         ### READING MOVIES FEATURES DATASET (SCRAPED FROM IMDB) ###############
         self.movies_features = pd.read_csv(
             "Datasets/movies_features.csv", index_col=[0]
         )
         #######################################################################
-
+        self.links = links.set_index("movieId")["imdb_link"]
         ####### READING TOP RATED MOVIES ######################################
         self.movies_sorted = pd.read_csv("Datasets/ratings_sorted_movies.csv")
         #######################################################################
@@ -128,8 +128,15 @@ class content_based_filter:
         similarity_scores = self.movies_features[["similarity", "title"]].sort_values(
             "similarity", ascending=False
         )
-        return similarity_scores[similarity_scores["similarity"] > 0.01 * strictness][
-            "title"
-        ]
+        return pd.concat(
+            [
+                similarity_scores[similarity_scores["similarity"] > 0.01 * strictness][
+                    "title"
+                ],
+                self.links,
+            ],
+            axis=1,
+            join="inner",
+        )
 
     ####################################################################################################

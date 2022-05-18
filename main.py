@@ -1,10 +1,14 @@
 import streamlit as st
+from streamlit.components.v1 import html
 import pandas as pd
 from content_based_filtering import content_based_filter
 from basic_recommender import basic_recommender
 from collaborative_filtering import collaborative_filter
+import os
+import base64
 
 st.set_page_config(layout="wide")
+
 
 ##################### Genre based filtering cache ####################
 @st.cache(allow_output_mutation=True)
@@ -17,12 +21,12 @@ def genre_based_rec(genres, weightages):
         weightages
     )  ## DO NOT CHANGE recommendations IN THIS FUNCTION
     if len(genres) == 0:
-        return recommendations.head(50)["title"]
+        return recommendations.head(50)
     genre_count = recommendations.apply(
         lambda x: len(set(x["genres"].split(" ")).intersection(genres)),
         axis=1,
     )
-    return pd.Series(recommendations[[i > 0 for i in genre_count]].head(50)["title"])
+    return recommendations[[i > 0 for i in genre_count]].head(50)
 
 
 ######################################################################
@@ -50,6 +54,32 @@ def drop_preference(movie_name, dummy=0):
 
 
 ####### FUNCTION TO PRINT ALL MOVIES POSTERS IN A GIVEN PANDAS SERIES ##########
+@st.cache(allow_output_mutation=True)
+def get_base64_of_bin_file(bin_file):
+    with open(bin_file, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+
+
+@st.cache(allow_output_mutation=True)
+def get_img_with_href(local_img_path, image_caption, target_url):
+    img_format = os.path.splitext(local_img_path)[-1].replace(".", "")
+    bin_str = get_base64_of_bin_file(local_img_path)
+    html_code = (
+        f"""
+        <div style="display:float;justify-content:center;text-align:center;">
+            <a href="{target_url}">
+                <img src="data:image/{img_format};base64,{bin_str}" style="width:100%;" />
+            </a>
+            <p style="display:inline-block;font-size:1vw;font-weight:100;width:100%">"""
+        + image_caption
+        + f"""
+            </p>
+        </div>"""
+    )
+    return html_code
+
+
 def print_movies_posters(recommendations):
     if len(recommendations) == 0:
         st.image("Posters/empty.png", width=300)
@@ -57,15 +87,21 @@ def print_movies_posters(recommendations):
         columns = st.columns(5)
         for movie in range(len(recommendations)):
             try:
-                columns[movie % len(columns)].image(
-                    "Posters/" + str(recommendations.index[movie]) + ".jpg",
-                    caption=recommendations.iloc[movie],
+                img_src = "Posters/" + str(recommendations.index[movie]) + ".jpg"
+                img_html = get_img_with_href(
+                    img_src,
+                    recommendations.iloc[movie]["title"],
+                    recommendations.iloc[movie]["imdb_link"],
                 )
+                columns[movie % len(columns)].markdown(img_html, unsafe_allow_html=True)
             except:
-                columns[movie % len(columns)].image(
-                    "Posters/unavailable.png",
-                    caption=recommendations.iloc[movie],
+                img_src = "Posters/unavailable.png"
+                img_html = get_img_with_href(
+                    img_src,
+                    recommendations.iloc[movie]["title"],
+                    recommendations.iloc[movie]["imdb_link"],
                 )
+                columns[movie % len(columns)].markdown(img_html, unsafe_allow_html=True)
 
 
 #################################################################################
@@ -81,6 +117,11 @@ if "datasets" not in st.session_state:
         "movies": pd.read_csv("Datasets/movies.csv"),
         "ratings": pd.read_csv("Datasets/ratings.csv"),
         "ratings_sorted_movies": pd.read_csv("Datasets/ratings_sorted_movies.csv"),
+        "links": pd.read_csv(
+            "Datasets/links.csv",
+            index_col=[0],
+            dtype={"movieId": int, "imdbId": str, "tmdbId": str, "imdb_link": str},
+        ),
     }
 if "recommender_type" not in st.session_state:
     st.session_state["recommender_type"] = recommenders[0]
@@ -95,7 +136,9 @@ recommender_type = st.sidebar.selectbox("Choose an algorithm", recommenders)
 ############## UI For Basic Recommender (Genre Based) ######################
 if recommender_type == recommenders[0]:
     if "basic_recommender" not in st.session_state:
-        st.session_state["basic_recommender"] = basic_recommender()
+        st.session_state["basic_recommender"] = basic_recommender(
+            st.session_state["datasets"]["links"]
+        )
         st.session_state["genres_list"] = st.session_state[
             "basic_recommender"
         ].get_genres()
@@ -130,7 +173,9 @@ elif recommender_type == recommenders[1]:
 
     #### INITIALISE A CONTENT-BASED RECOMMMENDER #############################
     if "content_based_recommender" not in st.session_state:
-        st.session_state["content_based_recommender"] = content_based_filter()
+        st.session_state["content_based_recommender"] = content_based_filter(
+            st.session_state["datasets"]["links"]
+        )
         st.session_state["movies_list"] = st.session_state[
             "content_based_recommender"
         ].get_movies_list()
@@ -203,6 +248,7 @@ elif recommender_type == recommenders[2]:
         st.session_state["collaborative_recommender"] = collaborative_filter(
             st.session_state["datasets"]["movies"],
             st.session_state["datasets"]["ratings"],
+            st.session_state["datasets"]["links"],
         )
         st.session_state["preferences"] = list()
 

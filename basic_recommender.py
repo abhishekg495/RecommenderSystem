@@ -1,12 +1,16 @@
 import numpy as np
 import pandas as pd
+import streamlit as st
+
+IMDB_BASE_URL = "https://www.imdb.com/title/tt"
 
 
 class basic_recommender:
-    def __init__(self):
+    def __init__(self, links):
         self.average_ratings = pd.read_csv(
             "Datasets/average_ratings.csv", index_col=[0]
         )
+        self.links = links.set_index("movieId")["imdb_link"]
 
         self.all_genres_list = []
         for i in range(len(self.average_ratings)):
@@ -27,21 +31,11 @@ class basic_recommender:
             "weighted_average", ascending=False
         )
 
-        ##### RETURN A LIST OF TOP 50 MOVIES IF NO GENRE IS SPECIFIED ##############
-        # if len(fav_genres) == 0:
-        return self.average_ratings.head(50).set_index("movieId")[["title", "genres"]]
-        ############################################################################
-
-        ### RETURN TOP 50 MOVIES HAVING ATLEAST ONE OF THE CHOSEN GENRES #############
-        # else:
-        #     self.average_ratings["genre count"] = self.average_ratings.apply(
-        #         lambda x: len(set(x["genres"].split(" ")).intersection(fav_genres)),
-        #         axis=1,
-        #     )
-        #     recommendations = self.average_ratings[
-        #         self.average_ratings["genre count"] > 0
-        #     ]
-        #     return pd.Series(
-        #         recommendations.head(50).set_index("movieId")[["title", "genres"]]
-        #     )
-        ##############################################################################
+        return pd.concat(
+            [
+                self.average_ratings.head(50).set_index("movieId")[["title", "genres"]],
+                self.links["imdb_link"],
+            ],
+            axis=1,
+            join="inner",
+        )

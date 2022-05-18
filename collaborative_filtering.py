@@ -3,12 +3,15 @@ import pandas as pd
 from scipy.sparse import csr_matrix
 import streamlit as st
 
+IMDB_BASE_URL = "https://www.imdb.com/title/tt"
+
 
 class collaborative_filter:
-    def __init__(self, movies, ratings):
+    def __init__(self, movies, ratings, links):
         self.movies = movies
         self.ratings = ratings
-
+        self.links = links.set_index("movieId")["imdb_link"]
+        st.write(self.links["imdb_link"])
         self.id = movies[["movieId", "title"]].set_index("title")
 
         self.ratings = pd.merge(self.movies, self.ratings).drop(
@@ -47,6 +50,11 @@ class collaborative_filter:
             self.id.loc[movie_name]["movieId"] for movie_name in similar_movies.index
         ]
         # similar_movies.sum().sort_values(ascending=False).head(20)
-        return pd.Series(
-            similar_movies.head(30).reset_index().set_index("movieId")["title"]
+        return pd.concat(
+            [
+                similar_movies.head(30).reset_index().set_index("movieId")["title"],
+                self.links["imdb_link"],
+            ],
+            axis=1,
+            join="inner",
         )
