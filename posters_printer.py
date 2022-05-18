@@ -1,10 +1,12 @@
 import streamlit as st
 import os
 import base64
+from screeninfo import get_monitors
 
 
 class posters_grid:
     def __init__(self):
+        self.width = get_monitors()[0].width
         pass
 
     @st.cache(allow_output_mutation=True)
@@ -23,7 +25,7 @@ class posters_grid:
                 <a href="{target_url}">
                     <img src="data:image/{img_format};base64,{bin_str}" style="width:100%;" />
                 </a>
-                <p style="display:inline-block;font-size:1vw;font-weight:100;width:100%">"""
+                <p style="display:inline-block;font-size:100%;font-weight:100;width:100%">"""
             + image_caption
             + f"""
                 </p>
@@ -36,6 +38,8 @@ class posters_grid:
             st.image("Posters/empty.png", width=300)
         else:
             columns = st.columns(5)
+            if self.width < 500:
+                columns = st.columns(2)
             for movie in range(len(rec)):
                 try:
                     img_src = "Posters/" + str(rec.index[movie]) + ".jpg"
