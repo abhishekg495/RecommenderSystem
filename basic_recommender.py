@@ -34,7 +34,7 @@ class basic_recommender:
         return pd.concat(
             [
                 self.average_ratings.head(50).set_index("movieId")[["title", "genres"]],
-                self.links["imdb_link"],
+                self.links,
             ],
             axis=1,
             join="inner",

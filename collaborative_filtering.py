@@ -53,7 +53,7 @@ class collaborative_filter:
         return pd.concat(
             [
                 similar_movies.head(30).reset_index().set_index("movieId")["title"],
-                self.links["imdb_link"],
+                self.links,
             ],
             axis=1,
             join="inner",
