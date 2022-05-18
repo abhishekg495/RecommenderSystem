@@ -7,11 +7,11 @@ IMDB_BASE_URL = "https://www.imdb.com/title/tt"
 
 
 class collaborative_filter:
-    def __init__(self, movies, ratings, links):
-        self.movies = movies
-        self.ratings = ratings
+    def __init__(self, links):
+        self.movies = pd.read_csv("Datasets/movies.csv")
+        self.ratings = pd.read_csv("Datasets/ratings.csv")
         self.links = links.set_index("movieId")["imdb_link"]
-        self.id = movies[["movieId", "title"]].set_index("title")
+        self.id = self.movies[["movieId", "title"]].set_index("title")
 
         self.ratings = pd.merge(self.movies, self.ratings).drop(
             ["genres", "timestamp"], axis=1
