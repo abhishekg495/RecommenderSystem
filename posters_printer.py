@@ -5,7 +5,6 @@ import base64
 
 class posters_grid:
     def __init__(self):
-        self.width = get_monitors()[0].width
         pass
 
     @st.cache(allow_output_mutation=True)
