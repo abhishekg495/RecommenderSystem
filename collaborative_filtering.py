@@ -11,7 +11,6 @@ class collaborative_filter:
         self.movies = movies
         self.ratings = ratings
         self.links = links.set_index("movieId")["imdb_link"]
-        st.write(self.links["imdb_link"])
         self.id = movies[["movieId", "title"]].set_index("title")
 
         self.ratings = pd.merge(self.movies, self.ratings).drop(
