@@ -1,7 +1,6 @@
 import streamlit as st
 import os
 import base64
-from screeninfo import get_monitors
 
 
 class posters_grid:
@@ -38,8 +37,6 @@ class posters_grid:
             st.image("Posters/empty.png", width=300)
         else:
             columns = st.columns(5)
-            if self.width < 500:
-                columns = st.columns(2)
             for movie in range(len(rec)):
                 try:
                     img_src = "Posters/" + str(rec.index[movie]) + ".jpg"
