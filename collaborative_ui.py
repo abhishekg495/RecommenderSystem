@@ -15,7 +15,7 @@ class collaborative_ui:
     def add_preference(self, movie_name, rating):
         self.user_ratings.append([movie_name, rating])
 
-    def drop_preference(movie_name, dummy=0):
+    def drop_preference(self, movie_name, dummy=0):
         for i in range(len(self.user_ratings)):
             if self.user_ratings[i][0] == movie_name:
                 del self.user_ratings[i]
