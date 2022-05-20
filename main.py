@@ -3,6 +3,7 @@ import pandas as pd
 from content_based_ui import content_based_ui
 from basic_ui import basic_recommender_ui
 from collaborative_ui import collaborative_ui
+from watchlist import watchlist
 
 st.set_page_config(
     layout="wide", page_title="Rec-It Ralph", page_icon="Posters/favicon.png"
@@ -11,8 +12,8 @@ st.set_page_config(
 style = f"""
 <style>
 .appview-container .main .block-container{{
-        padding-top: 0rem;    }}
-footer{{
+        padding-top: 1rem;    }}
+footer, header{{
     visibility: hidden;
 }}
 </style>"""
@@ -22,7 +23,7 @@ st.markdown(style, unsafe_allow_html=True)
 recommenders = ["Average Ratings", "Content-Based", "User Collaborative"]
 ###########################################################################
 
-# Initalizing datasets ##################################
+# Initalizing datasets #############################################################
 if "datasets" not in st.session_state:
     st.session_state["datasets"] = {
         "movies": pd.read_csv("Datasets/movies.csv"),
@@ -34,9 +35,13 @@ if "datasets" not in st.session_state:
             dtype={"movieId": int, "imdbId": str, "tmdbId": str, "imdb_link": str},
         ),
     }
-#########################################################
+if "watchlist" not in st.session_state:
+    st.session_state["watchlist"] = watchlist()
+#####################################################################################
 
-
+if len(st.session_state["watchlist"].movies_list) > 0:
+    with st.sidebar.expander("My Watchlist"):
+        st.write(pd.Series(st.session_state["watchlist"].movies_list, name="Title"))
 st.title("Looking for something to watch ?")
 st.sidebar.title("Select a recommendation algorithm")
 recommender_type = st.sidebar.selectbox("Choose an algorithm", recommenders)

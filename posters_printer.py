@@ -47,6 +47,9 @@ class posters_printer:
         else:
             columns = st.columns(5)  ## no. of columns to split posters into
             for movie in range(len(rec)):
+                movie_name = rec.iloc[movie]["title"]
+                movie_link = rec.iloc[movie]["imdb_link"]
+                col = columns[movie % len(columns)]
                 try:
                     img_src = (
                         "Posters/" + str(rec.index[movie]) + ".jpg"
@@ -56,7 +59,22 @@ class posters_printer:
 
                 img_html = self.get_img_with_href(
                     img_src,
-                    rec.iloc[movie]["title"],
-                    rec.iloc[movie]["imdb_link"],
+                    movie_name,
+                    movie_link,
                 )
-                columns[movie % len(columns)].markdown(img_html, unsafe_allow_html=True)
+                col.markdown(img_html, unsafe_allow_html=True)
+
+                if (movie_name) not in st.session_state["watchlist"].movies_list:
+                    add_movie = col.button(
+                        "Add to watchlist",
+                        on_click=st.session_state["watchlist"].add,
+                        args=[(movie_name)],
+                        key=movie,
+                    )
+                else:
+                    remove_movie = col.button(
+                        "Remove",
+                        on_click=st.session_state["watchlist"].remove,
+                        args=[(movie_name)],
+                        key=movie,
+                    )
