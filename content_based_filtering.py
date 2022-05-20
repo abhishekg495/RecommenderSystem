@@ -120,7 +120,7 @@ class content_based_filter:
     ######################################################################################
 
     ###### RECOMMEND MOVIES BASED ON FEATURE SET, SELECTED MOVIES/KEYWORDS AND STRICTNESS LEVEL #########
-    def recommend(self, features_to_include, user_given_summary, strictness=0):
+    def recommend(self, features_to_include, user_given_summary):
 
         self.update_features_combination(features_to_include)
         self.update_similarities(user_given_summary)
@@ -130,9 +130,7 @@ class content_based_filter:
         )
         return pd.concat(
             [
-                similarity_scores[similarity_scores["similarity"] > 0.01 * strictness][
-                    "title"
-                ],
+                similarity_scores[similarity_scores["similarity"] > 0.01]["title"],
                 self.links,
             ],
             axis=1,

@@ -4,8 +4,19 @@ from content_based_ui import content_based_ui
 from basic_ui import basic_recommender_ui
 from collaborative_ui import collaborative_ui
 
-st.set_page_config(layout="wide")
+st.set_page_config(
+    layout="wide", page_title="Rec-It Ralph", page_icon="Posters/favicon.png"
+)
 
+style = f"""
+<style>
+.appview-container .main .block-container{{
+        padding-top: 0rem;    }}
+footer{{
+    visibility: hidden;
+}}
+</style>"""
+st.markdown(style, unsafe_allow_html=True)
 
 ##################### List of algorithms ##################################
 recommenders = ["Average Ratings", "Content-Based", "User Collaborative"]
