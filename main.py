@@ -16,6 +16,10 @@ style = f"""
 footer, header{{
     visibility: hidden;
 }}
+.movie-poster + div > .stButton, .stButton>button{{
+    width: 100% !important;
+    margin-top:2px;
+}}
 </style>"""
 st.markdown(style, unsafe_allow_html=True)
 

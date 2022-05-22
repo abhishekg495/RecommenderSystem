@@ -20,15 +20,17 @@ class posters_printer:
         bin_str = self.get_base64_of_bin_file(local_img_path)
         html_code = (
             f"""
-            <div style="display:float;justify-content:center;text-align:center;">
+            <div style="display:flex;justify-content:center;text-align:center;" class="movie-poster">
                 <a href="{target_url}">
-                    <img src="data:image/{img_format};base64,{bin_str}" style="width:100%;" />
-                </a>
-                <p style="display:inline-block;font-size:15px;font-weight:100;width:100%">"""
-            + image_caption
-            + f"""
-                </p>
-            </div>"""
+                    <img src="data:image/{img_format};base64,{bin_str}" style="width:100%;"/>
+                </a>"""
+            # +f"""
+            #  <p style="display:inline-block;font-size:15px;font-weight:100;width:100%">"""
+            # + image_caption
+            # + f"""
+            #     </p>"""
+            # + f"""
+            # </div>"""
         )
         return html_code
 
@@ -45,7 +47,9 @@ class posters_printer:
                 caption="Ralph couldn't find anything for your current search. Try another search maybe ?",
             )
         else:
-            columns = st.columns(5)  ## no. of columns to split posters into
+            columns = st.columns(
+                [1, 1, 1, 1, 1]
+            )  ## no. of columns to split posters into
             for movie in range(len(rec)):
                 movie_name = rec.iloc[movie]["title"]
                 movie_link = rec.iloc[movie]["imdb_link"]
@@ -78,3 +82,9 @@ class posters_printer:
                         args=[(movie_name)],
                         key=movie,
                     )
+
+                col.markdown(
+                    f"""
+            </div>""",
+                    unsafe_allow_html=True,
+                )
