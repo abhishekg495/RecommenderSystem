@@ -1,2 +1,59 @@
-# RecommenderSystem
-This project has been built as a part of Microsoft Intern Engage '22 mentorship program. Starting from scratch, I shall be studying different algorithms and techniques used in a movie recommender system by companies such as Netflix and Prime Video. I aim to implement the most optimized version of my recommender system via a web app. Each improvement shall be added as a new commit to this repo so as to facilitate easier tracking of the progress of this project.
+
+# Rec-It Ralph
+
+A one-stop shop for movie recommendation, 
+integrating multiple recommendation algorithms 
+tested and verified on real users for optimised 
+results.
+## Tech Stack
+
+**Client:** Streamlit
+
+**Server:** Numpy, Pandas, Scikit-Learn
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone git@github.com:abhishekg495/RecommenderSystem.git
+```
+
+Go to the project directory
+
+```bash
+  cd RecommenderSystem
+```
+
+Install dependencies
+
+```bash
+  pip install -r requirements.txt
+```
+
+Start the server
+
+```bash
+  streamlit run main.py
+```
+
+
+## Features
+
+- Automatic light/dark mode toggle based on device theme
+- Easy-to-use and smooth UI
+- Fully responsive UI
+- Cross platform
+- Multiple recommendation algorithms for different use cases
+- Add movies to your watchlist
+- Accurate recommendations
+
+
+## Development Timeline
+
+- Week 1 - Ideation and Initial Documentation
+- Week 2 - Backend Development
+- Week 3 - Frontend Development
+- Week 4 - Final Touches, Integration and Submission
+
