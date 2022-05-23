@@ -40,7 +40,7 @@ class collaborative_ui:
         """
         )
 
-        ###### ADD A RATING SECTION ###################################################
+        ###### "ADD A RATING" SECTION ###################################################
         movie_name = st.sidebar.selectbox("Select a movie to add", self.movies_list)
         rating = st.sidebar.slider("Select a rating", min_value=1, max_value=5)
         submit_movie = st.sidebar.button(
@@ -51,7 +51,7 @@ class collaborative_ui:
         st.sidebar.write(" ")
         st.sidebar.write(" ")
 
-        ###### REMOVE A RATING SECTION ###################################################
+        ###### "REMOVE A RATING" SECTION ###################################################
         if len(self.user_ratings) > 0:
             delete_movie_name = st.sidebar.selectbox(
                 "Want to undo a rating ?",

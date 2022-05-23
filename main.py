@@ -9,6 +9,7 @@ st.set_page_config(
     layout="wide", page_title="Rec-It Ralph", page_icon="Posters/favicon.png"
 )
 
+#### CUSTOM CSS STYLING #####################################################################
 style = f"""
 <style>
 .appview-container .main .block-container{{
@@ -22,17 +23,15 @@ footer, header{{
 }}
 </style>"""
 st.markdown(style, unsafe_allow_html=True)
+##############################################################################################
 
-##################### List of algorithms ##################################
+##################### LIST OF RECOMMENATION ALGORITHMS #######################################
 recommenders = ["Average Ratings", "Content-Based", "User Collaborative"]
-###########################################################################
+##############################################################################################
 
-# Initalizing datasets #############################################################
+# INITIALIZING DATASETS ######################################################################
 if "datasets" not in st.session_state:
     st.session_state["datasets"] = {
-        "movies": pd.read_csv("Datasets/movies.csv"),
-        "ratings": pd.read_csv("Datasets/ratings.csv"),
-        "ratings_sorted_movies": pd.read_csv("Datasets/ratings_sorted_movies.csv"),
         "links": pd.read_csv(
             "Datasets/links.csv",
             index_col=[0],
@@ -41,48 +40,54 @@ if "datasets" not in st.session_state:
     }
 if "watchlist" not in st.session_state:
     st.session_state["watchlist"] = watchlist()
-#####################################################################################
+################################################################################################
 
+####### SETTING UP THE COMMON UI ELEMENTS ######################################################
 if len(st.session_state["watchlist"].movies_list) > 0:
     with st.sidebar.expander("My Watchlist"):
         st.write(pd.Series(st.session_state["watchlist"].movies_list, name="Title"))
 st.title("Looking for something to watch ?")
 st.sidebar.title("Select a recommendation algorithm")
 recommender_type = st.sidebar.selectbox("Choose an algorithm", recommenders)
+#################################################################################################
 
-############## UI For Basic Recommender (Genre Based) ######################
+############## UI FOR BASIC RECOMMENDER (Genre Based) ###########################################
 if recommender_type == recommenders[0]:
+
+    ### INITIALISE A BASIC RECOMMENDER UI RENDERING OBJECT ################
     if "basic_recommender_ui" not in st.session_state:
         st.session_state["basic_recommender_ui"] = basic_recommender_ui(
             st.session_state["datasets"]["links"]
         )
+    #######################################################################
 
     st.session_state["basic_recommender_ui"].render()
-#############################################################################
+##################################################################################################
 
 
-############## UI For Content Based Filtering ###############################
+############## UI FOR CONTENT BASED FILTERING ####################################################
 elif recommender_type == recommenders[1]:
 
-    #### INITIALISE A CONTENT-BASED UI RENDERING OBECT #############################
+    #### INITIALISE A CONTENT-BASED UI RENDERING OBECT ############
     if "content_based_ui" not in st.session_state:
         st.session_state["content_based_ui"] = content_based_ui(
             st.session_state["datasets"]["links"]
         )
-
+    ###############################################################
     st.session_state["content_based_ui"].render()
 
-###################################################################################
+###################################################################################################
 
 
-##### UI for Collaborative Filtering #####################################
+##### UI for Collaborative Filtering ##############################################################
 elif recommender_type == recommenders[2]:
 
-    ###### UI for User-User Collaborative Filtering ###########################
+    ### INITIALISE A COLLABORATIVE FILTERING UI RENDERING OBJECT ##########
     if "collaborative_ui" not in st.session_state:
         st.session_state["collaborative_ui"] = collaborative_ui(
             st.session_state["datasets"]["links"]
         )
+    #######################################################################
 
     st.session_state["collaborative_ui"].render()
-###################################################################################
+#####################################################################################################

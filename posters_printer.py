@@ -18,20 +18,12 @@ class posters_printer:
     def get_img_with_href(self, local_img_path, image_caption, target_url):
         img_format = os.path.splitext(local_img_path)[-1].replace(".", "")
         bin_str = self.get_base64_of_bin_file(local_img_path)
-        html_code = (
-            f"""
-            <div style="display:flex;justify-content:center;text-align:center;" class="movie-poster">
+        html_code = f"""
+            <div class="movie-poster">
                 <a href="{target_url}">
                     <img src="data:image/{img_format};base64,{bin_str}" style="width:100%;"/>
-                </a>"""
-            # +f"""
-            #  <p style="display:inline-block;font-size:15px;font-weight:100;width:100%">"""
-            # + image_caption
-            # + f"""
-            #     </p>"""
-            # + f"""
-            # </div>"""
-        )
+                </a>
+            </div>"""
         return html_code
 
     ##############################################################################################
@@ -68,6 +60,7 @@ class posters_printer:
                 )
                 col.markdown(img_html, unsafe_allow_html=True)
 
+                ### ADD/REMOVE OPTIONS FOR WATCHLIST #####################################
                 if (movie_name) not in st.session_state["watchlist"].movies_list:
                     add_movie = col.button(
                         "Add to watchlist",
@@ -82,9 +75,4 @@ class posters_printer:
                         args=[(movie_name)],
                         key=movie,
                     )
-
-                col.markdown(
-                    f"""
-            </div>""",
-                    unsafe_allow_html=True,
-                )
+                ################################################################################

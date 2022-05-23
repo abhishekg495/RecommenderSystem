@@ -14,9 +14,10 @@ class content_based_filter:
         )
         #######################################################################
         self.links = links.set_index("movieId")["imdb_link"]
-        ####### READING TOP RATED MOVIES ######################################
-        self.movies_sorted = pd.read_csv("Datasets/ratings_sorted_movies.csv")
-        #######################################################################
+
+        self.movies_sorted = pd.read_csv(
+            "Datasets/ratings_sorted_movies.csv"
+        )  ## READING TOP RATED MOVIES
 
         ### LIMITING DATASET TO TOP 500 MOVIES TO IMPROVE SPEED ###############
         self.movies_features = self.movies_features.merge(
