@@ -26,7 +26,11 @@ st.markdown(style, unsafe_allow_html=True)
 ##############################################################################################
 
 ##################### LIST OF RECOMMENATION ALGORITHMS #######################################
-recommenders = ["Average Ratings", "Content-Based", "User Collaborative"]
+recommenders = [
+    "Sort by Ratings/Popularity",
+    "Content-Based Search",
+    "User Ratings-Based Recommendations",
+]
 ##############################################################################################
 
 # INITIALIZING DATASETS ######################################################################
