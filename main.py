@@ -17,7 +17,7 @@ style = f"""
 footer, header{{
     visibility: hidden;
 }}
-.movie-poster + div > .stButton, .stButton>button{{
+.movie-poster + div > .stButton, .movie-poster + div>.stButton>button{{
     font-size: 15px;
     width:100% !important;
     border-top:none;
@@ -25,6 +25,9 @@ footer, header{{
     border-right:none;
     border-radius: 0px;
     background-color: transparent;
+}}
+.stButton, .stButton>button{{
+    width: 100% !important;
 }}
 .movie-poster{{
     tranform: translateZ(10px);

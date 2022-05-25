@@ -21,9 +21,14 @@ class collaborative_ui:
     ################################################################
 
     def add_preference(self, movie_name, rating):
-        self.user_ratings.append(
-            [movie_name, rating]
-        )  ### append a user inputted rating to the existing list
+        exists = False
+        for i in self.user_ratings:
+            if i[0] == movie_name:
+                exists = True
+        if not exists:
+            self.user_ratings.append(
+                [movie_name, rating]
+            )  ### append a user inputted rating to the existing list
 
     def drop_preference(self, movie_name, dummy=0):
         for i in range(len(self.user_ratings)):
