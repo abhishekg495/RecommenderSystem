@@ -18,8 +18,19 @@ footer, header{{
     visibility: hidden;
 }}
 .movie-poster + div > .stButton, .stButton>button{{
-    width: 100% !important;
-    margin-top:2px;
+    font-size: 15px;
+    width:100% !important;
+    border-top:none;
+    border-left: none;
+    border-right:none;
+    border-radius: 0px;
+    background-color: transparent;
+}}
+.movie-poster{{
+    tranform: translateZ(10px);
+}}
+.movie-poster:hover{{
+    transform: scale(1.03);
 }}
 </style>"""
 st.markdown(style, unsafe_allow_html=True)
