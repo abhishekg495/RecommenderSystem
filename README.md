@@ -1,5 +1,5 @@
 
-# <img src ="https://github.com/abhishekg495/RecommenderSystem/blob/master/Posters/favicon.png?raw=true" width=20px> [Rec-It Ralph](https://share.streamlit.io/abhishekg495/recommendersystem/main.py)
+# <img src ="https://github.com/abhishekg495/RecommenderSystem/blob/master/Posters/favicon.png?raw=true" width=30px> [Rec-It Ralph](https://share.streamlit.io/abhishekg495/recommendersystem/main.py)
 
 A one-stop shop for movie recommendation, 
 integrating multiple recommendation algorithms 
