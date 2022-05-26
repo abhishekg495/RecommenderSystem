@@ -1,5 +1,5 @@
 
-# Rec-It Ralph
+# <img src ="https://github.com/abhishekg495/RecommenderSystem/blob/master/Posters/favicon.png?raw=true" width=20px> [Rec-It Ralph](https://share.streamlit.io/abhishekg495/recommendersystem/main.py)
 
 A one-stop shop for movie recommendation, 
 integrating multiple recommendation algorithms 
@@ -58,6 +58,11 @@ Start the server
 - Cross platform
 - Add movies to your watchlist
 - Accurate recommendations
+
+
+## Demo
+
+#### [Click here for the video demo](https://drive.google.com/file/d/12PXyHQ6lLVX45cxmZLl-42jd8pXvV2dh/view?usp=sharing)
 
 
 ## Screenshots
