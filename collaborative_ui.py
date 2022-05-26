@@ -41,7 +41,6 @@ class collaborative_ui:
     def render(self):
         st.sidebar.write(
             """
-        #### Tell us more about your taste 
         #### Rate a few movies
         """
         )
