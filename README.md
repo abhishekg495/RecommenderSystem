@@ -46,6 +46,42 @@ Start the server
   streamlit run main.py
 ```
 
+## Folder Structure
+
+-   `Datasets` - contains all the required data in csv format.
+
+    Webscraping and data processing has been used to produce required information from exisiting datasets on Kaggle.
+
+    -   _average_ratings.csv_
+    -   _links.csv_
+    -   _movies_features.csv_
+    -   _ratings_sorted_movies.csv_
+    -   _ratings.csv_
+
+-   `JupyterNotebooks` - contains Python code in Jupyter notebooks format.
+
+    These notebooks are not required for the app to run, but are made available for reference as all the data processing and webscraping was done using Jupyter notebook environment.
+
+    -   BasicRecommender
+    -   CollaborativeFiltering
+    -   ContentBasedFiltering
+
+-   `Posters` - contains posters for all movies, along with website favicon and other required images.
+
+    Movies' posters have been web scraped from IMDB using Python.
+
+-   `Screenshots` - contains screenshots and demo of the deployed project webpage.
+
+-   `basic_recommender.py` `collaborative_filtering.py` `content_based_filtering.py` - contain Python classes for different recommendation algorithms.
+
+-   `basic_ui.py` `collaborative_ui.py` `content_based_ui.py` - contain Python classes for frontend elements for different recommendation algorithms.
+
+-   `main.py` - driver script to run the application.
+
+-   `posters_printer.py` - contains Python class to render posters for a given list of movies, along with their IMDB lnks.
+
+-   `watchlist.py` - contains Python class to mantain a watchlist of the user's chosen movies.
+
 
 ## Features
 
