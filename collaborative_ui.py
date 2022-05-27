@@ -56,27 +56,31 @@ class collaborative_ui:
         st.sidebar.write(" ")
         st.sidebar.write(" ")
 
-        ###### "REMOVE A RATING" SECTION ###################################################
-        if len(self.user_ratings) > 0:
-            delete_movie_name = st.sidebar.selectbox(
-                "Want to undo a rating ?",
-                pd.DataFrame(self.user_ratings).rename(
-                    columns={0: "Title", 1: "Rating"}
-                )["Title"],
-            )
-            remove_rating = st.sidebar.button(
-                "Remove", on_click=self.drop_preference, args=((delete_movie_name, 0))
-            )
-        ##################################################################################
-
         ######### MAIN UI ################################################################
         if len(self.user_ratings) > 0:
-            with st.expander("Your ratings"):
+            cols = st.columns([2, 1])
+            with cols[0].expander("Your ratings"):
                 st.write(
                     pd.DataFrame(self.user_ratings)
                     .rename(columns={0: "Title", 1: "Rating"})
                     .set_index("Title")
                 )
+
+            ##### "REMOVE A RATING" SECTION ########################
+            with cols[1].expander("Want to undo a rating ?"):
+                delete_movie_name = st.selectbox(
+                    "",
+                    pd.DataFrame(self.user_ratings).rename(
+                        columns={0: "Title", 1: "Rating"}
+                    )["Title"],
+                )
+                remove_rating = st.button(
+                    "Remove",
+                    on_click=self.drop_preference,
+                    args=((delete_movie_name, 0)),
+                )
+            #########################################################
+
         else:
             st.write("#### Try adding some of your own ratings fom the sidebar")
 

@@ -14,7 +14,7 @@ style = f"""
 <style>
 .appview-container .main .block-container{{
         padding-top: 1rem;    }}
-footer{{
+footer, header{{
     visibility: hidden;
 }}
 .movie-poster + div > .stButton, .movie-poster + div>.stButton>button{{
