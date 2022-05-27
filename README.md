@@ -46,6 +46,8 @@ Start the server
   streamlit run main.py
 ```
 
+
+
 ## Folder Structure
 
 -   `Datasets` - contains all the required data in csv format.
