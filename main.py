@@ -14,7 +14,7 @@ style = f"""
 <style>
 .appview-container .main .block-container{{
         padding-top: 1rem;    }}
-footer, header{{
+footer{{
     visibility: hidden;
 }}
 .movie-poster + div > .stButton, .movie-poster + div>.stButton>button{{
@@ -64,6 +64,15 @@ if "watchlist" not in st.session_state:
 if len(st.session_state["watchlist"].movies_list) > 0:
     with st.sidebar.expander("My Watchlist"):
         st.write(pd.Series(st.session_state["watchlist"].movies_list, name="Title"))
+    with st.sidebar.expander("Want to drop a movie ?"):
+        movie_to_remove = st.selectbox(
+            "Select a movie to drop", st.session_state["watchlist"].movies_list
+        )
+        remove_movie = st.button(
+            "Drop",
+            on_click=st.session_state["watchlist"].remove,
+            args=[(movie_to_remove)],
+        )
 st.title("Looking for something to watch ?")
 st.sidebar.title("Select a recommendation algorithm")
 recommender_type = st.sidebar.selectbox("Choose an algorithm", recommenders)
