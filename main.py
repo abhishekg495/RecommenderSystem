@@ -13,7 +13,8 @@ st.set_page_config(
 style = f"""
 <style>
 .appview-container .main .block-container{{
-        padding-top: 1rem;    }}
+        padding-top: 1rem;
+}}
 footer, header{{
     visibility: hidden;
 }}
